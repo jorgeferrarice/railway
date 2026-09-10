@@ -130,7 +130,9 @@ def test_publish_sends_the_marketplace_metadata(recorded, capsys):
     assert "templatePublish" in query
     assert variables["id"] == "tpl_123"
     assert variables["input"]["category"] == "Analytics"
-    assert variables["input"]["readme"].startswith("# Aptabase")
+    assert variables["input"]["readme"].startswith(
+        "# Deploy and Host Aptabase with Railway"
+    )
 
 
 def test_publish_requires_a_template_id(recorded):

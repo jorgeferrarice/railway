@@ -3,6 +3,7 @@ from pathlib import Path
 import pytest
 
 import rt_lint
+import rt_payload
 import rt_schema
 
 TEMPLATE_PATH = Path(__file__).resolve().parent.parent / "templates" / "aptabase" / "template.json"
@@ -139,3 +140,42 @@ def test_generated_secrets_use_the_alphanumeric_alphabet(services):
         for variable in service["variables"].values():
             if "secret(" in variable["value"]:
                 assert rt_lint.SECRET_ALPHABET in variable["value"]
+
+
+class TestMarketplaceOverview:
+    """Railway's template best practices mandate the overview's skeleton:
+    https://docs.railway.com/templates/best-practices#overview
+
+    A published readme missing one of these headings is rejected as an
+    incomplete overview, so the shape is asserted rather than trusted.
+    """
+
+    REQUIRED = [
+        "# Deploy and Host Aptabase with Railway",
+        "## About Hosting Aptabase",
+        "## Common Use Cases",
+        "## Dependencies for Aptabase Hosting",
+        "### Deployment Dependencies",
+        "### Why Deploy Aptabase on Railway?",
+    ]
+
+    @pytest.fixture
+    def readme(self, template):
+        return rt_payload.build_publish_input(
+            template, readme_root="templates/aptabase"
+        )["readme"]
+
+    def test_every_required_heading_is_present(self, readme):
+        headings = [line.rstrip() for line in readme.splitlines() if line.startswith("#")]
+        assert [h for h in self.REQUIRED if h not in headings] == []
+
+    def test_the_headings_appear_in_the_order_railway_documents(self, readme):
+        positions = [readme.index(heading) for heading in self.REQUIRED]
+        assert positions == sorted(positions)
+
+    def test_the_overview_opens_with_the_h1(self, readme):
+        assert readme.startswith("# Deploy and Host Aptabase with Railway\n")
+
+    def test_maintainer_notes_are_not_published(self, readme):
+        assert "## Marketplace listing" not in readme
+        assert "Publishing is not a one-command step" not in readme

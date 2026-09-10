@@ -46,6 +46,30 @@ Silence means the template no longer demands anything the deployer cannot supply
 deploy page itself is the other check: every service should read **Ready to be deployed**
 before you press Deploy.
 
+## The overview's shape is mandated
+
+Railway's [template best practices](https://docs.railway.com/templates/best-practices#overview)
+prescribe the readme's skeleton, and a template published without it reads as
+incomplete:
+
+```
+# Deploy and Host [X] with Railway        ~50 words on what X is
+## About Hosting [X]                      ~100 words on what hosting it involves
+## Common Use Cases                       3-5 bullets
+## Dependencies for [X] Hosting           what else the template runs
+### Deployment Dependencies               external links
+### Implementation Details                optional
+### Why Deploy [X] on Railway?            Railway's own closing copy
+```
+
+`tests/test_aptabase_template.py::TestMarketplaceOverview` asserts these headings
+are present, in that order, in the readme `build_publish_input` actually sends.
+
+The same page carries the rest of the checklist worth reading before publishing
+anything: 1:1 transparent icons, brand-accurate service names, private networking,
+a description on every variable, generated rather than hardcoded secrets, health
+checks, and volumes on every stateful service.
+
 ## Aptabase
 
 Repaired and verified on 2026-09-10. Template `4123115a-b717-4b69-90c9-8de4a1471cbc`,
@@ -71,6 +95,16 @@ That is an account restriction, and it needs Railway support to lift. The templa
 fully usable in the meantime through its deploy link — publishing adds the marketplace
 listing (discovery, description, readme, icon, usage kickback), not the ability to deploy.
 
+Two best-practice gaps are outstanding, both cosmetic and both needing a decision:
+
+- **Service names are lowercase** — `postgres`, `clickhouse`, `aptabase`. Railway asks
+  for brand-accurate names (`PostgreSQL`, `ClickHouse`, `Aptabase`). Renaming means
+  editing the two connection strings as well, since reference variables address services
+  by name, and re-verifying a deploy.
+- **No icons.** The template and each service want a 1:1 logo with a transparent
+  background, added through the editor. Aptabase's marks are not vendored into this
+  repository.
+
 Once it is lifted:
 
 ```bash
@@ -78,6 +112,12 @@ Once it is lifted:
     --template-id 4123115a-b717-4b69-90c9-8de4a1471cbc
 ```
 
-then add the icon and banner in the editor. `build_publish_input` already rewrites the
+Railway's CLI can do the same thing — `railway templates publish <id> --category
+Analytics --description "..." --readme-file README.md`, with `railway templates update`
+as the alias for replacing that metadata afterwards. Note that `update` replaces the
+listing metadata only; neither the CLI nor the API can change a stored template's
+`serializedConfig`.
+
+Then add the icon and banner in the editor. `build_publish_input` already rewrites the
 readme's relative links against `repository` and cuts it at `<!-- marketplace:end -->`,
 so the marketplace page gets a readme that stands on its own.
