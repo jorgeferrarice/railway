@@ -1,16 +1,16 @@
 # Graph Report - railway  (2026-09-10)
 
 ## Corpus Check
-- 30 files · ~19,148 words
+- 31 files · ~19,899 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 431 nodes · 540 edges · 27 communities
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.85)
+- 459 nodes · 577 edges · 28 communities
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d5634571`
+- Built from commit: `0ddb46e6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,18 +37,19 @@
 - Railway templates
 - railway.json
 - rt_payload.py
+- test_railway_template_cli.py
 
 ## God Nodes (most connected - your core abstractions)
 1. `template_with()` - 21 edges
 2. `Aptabase Railway Template Implementation Plan` - 18 edges
 3. `only_service()` - 14 edges
 4. `Aptabase Railway Template — Design` - 14 edges
-5. `Aptabase` - 11 edges
-6. `fake_transport()` - 10 edges
-7. `template_with()` - 10 edges
-8. `minimal_template()` - 9 edges
-9. `fake_registry()` - 8 edges
-10. `build_parser()` - 7 edges
+5. `build_parser()` - 11 edges
+6. `Aptabase` - 11 edges
+7. `fake_transport()` - 10 edges
+8. `template_with()` - 10 edges
+9. `minimal_template()` - 9 edges
+10. `fake_registry()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -56,23 +57,23 @@
 ## Import Cycles
 - None detected.
 
-## Communities (27 total, 0 thin omitted)
+## Communities (28 total, 0 thin omitted)
 
 ### Community 0 - "properties"
-Cohesion: 0.08
-Nodes (26): minLength, type, variable, minLength, type, type, $ref, type (+18 more)
+Cohesion: 0.07
+Nodes (30): minLength, type, variable, minLength, type, type, $ref, type (+22 more)
 
 ### Community 1 - "template.schema.json"
 Cohesion: 0.06
-Nodes (35): additionalProperties, minLength, type, $defs, imageSource, repoSource, service, $id (+27 more)
+Nodes (31): additionalProperties, minLength, type, $defs, imageSource, repoSource, $id, minLength (+23 more)
 
 ### Community 2 - "properties"
 Cohesion: 0.05
-Nodes (39): $ref, additionalProperties, properties, type, pattern, type, minimum, type (+31 more)
+Nodes (39): $ref, service, additionalProperties, properties, type, pattern, type, minimum (+31 more)
 
 ### Community 3 - "bump_digest.py"
-Cohesion: 0.10
-Nodes (18): bump(), current_image(), DigestResolutionError, _HeadRequest, Path, RuntimeError, Re-resolve a digest-pinned image to the current digest behind its tag., Raised when a digest cannot be resolved or applied. (+10 more)
+Cohesion: 0.18
+Nodes (12): bump(), current_image(), DigestResolutionError, _HeadRequest, Path, RuntimeError, Re-resolve a digest-pinned image to the current digest behind its tag., Raised when a digest cannot be resolved or applied. (+4 more)
 
 ### Community 4 - "Aptabase Railway Template — Design"
 Cohesion: 0.09
@@ -83,8 +84,8 @@ Cohesion: 0.09
 Nodes (5): fixture, Railway health-checks the port named by PORT, not the target port. Kestrel is…, services(), template(), test_port_is_pinned_so_health_checks_probe_the_right_port()
 
 ### Community 6 - "railway_template.py"
-Cohesion: 0.14
-Nodes (18): ArgumentParser, build_parser(), cmd_bump(), cmd_introspect(), cmd_lint(), cmd_validate(), main(), Schema-validate a template definition. (+10 more)
+Cohesion: 0.13
+Nodes (22): ArgumentParser, build_parser(), cmd_bump(), cmd_deploy(), cmd_generate(), cmd_introspect(), cmd_lint(), cmd_publish() (+14 more)
 
 ### Community 7 - "Aptabase Railway Template Implementation Plan"
 Cohesion: 0.10
@@ -95,8 +96,8 @@ Cohesion: 0.15
 Nodes (12): fake_transport(), FakeResponse, Cloudflare fronts the Railway API and answers urllib's default User-Agent with…, test_a_project_token_uses_the_project_access_token_header(), test_describe_type_raises_for_an_unknown_type(), test_describe_type_returns_the_input_fields(), test_find_mutations_filters_case_insensitively(), test_graphql_identifies_this_client_by_user_agent() (+4 more)
 
 ### Community 9 - "rt_api.py"
-Cohesion: 0.15
-Nodes (17): HTTPError, describe_type(), _error_body(), find_mutations(), get_token(), graphql(), MissingTokenError, RuntimeError (+9 more)
+Cohesion: 0.09
+Nodes (23): HTTPError, describe_type(), _error_body(), find_mutations(), get_token(), graphql(), MissingTokenError, RuntimeError (+15 more)
 
 ### Community 10 - "test_bump_digest.py"
 Cohesion: 0.21
@@ -131,8 +132,8 @@ Cohesion: 0.18
 Nodes (10): `deploy`, `networking`, Railway template API, Reading a published template's config, `serializedConfig`, `source`, There is no `templateCreate`, Transport (+2 more)
 
 ### Community 18 - "test_rt_lint.py"
-Cohesion: 0.35
-Nodes (10): template_with(), test_a_clean_template_reports_nothing(), test_a_service_with_a_volume_and_no_mount_path_conflict_is_clean(), test_floating_tag_on_a_digest_pinned_registry_is_reported(), test_railway_provided_variables_are_not_treated_as_unknown(), test_reference_to_an_unknown_service_is_reported(), test_reference_to_an_unknown_variable_is_reported(), test_secret_alphabet_with_delimiters_is_reported() (+2 more)
+Cohesion: 0.19
+Nodes (16): _lint_image(), _lint_references(), _lint_secrets(), lint_template(), Checks on template definitions that the JSON Schema cannot express., Return every problem found in the template. Empty list means clean., template_with(), test_a_clean_template_reports_nothing() (+8 more)
 
 ### Community 19 - "Railway templates"
 Cohesion: 0.20
@@ -146,24 +147,28 @@ Nodes (7): build, builder, dockerfilePath, deploy, restartPolicyMaxRetries, rest
 Cohesion: 0.17
 Nodes (17): build_deploy_input(), build_publish_input(), build_serialized_config(), _deploy(), _networking(), Translate a template.json into Railway's serializedConfig payload.…, Build the TemplateDeployV2Input for this template., Build the TemplatePublishInput carrying the marketplace metadata. (+9 more)
 
+### Community 27 - "test_railway_template_cli.py"
+Cohesion: 0.11
+Nodes (3): fixture, Record GraphQL calls and answer them, so no test reaches the network., recorded()
+
 ## Knowledge Gaps
 - **130 isolated node(s):** `$schema`, `$id`, `title`, `type`, `required` (+125 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 235 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 256 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `properties` connect `properties` to `properties`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **Why does `$defs` connect `template.schema.json` to `properties`, `properties`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Why does `properties` connect `properties` to `template.schema.json`?**
-  _High betweenness centrality (0.037) - this node is a cross-community bridge._
-- **Why does `$defs` connect `template.schema.json` to `properties`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **Why does `properties` connect `properties` to `template.schema.json`, `properties`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **Are the 8 inferred relationships involving `build_parser()` (e.g. with `cmd_bump()` and `cmd_deploy()`) actually correct?**
+  _`build_parser()` has 8 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `$id`, `title` to the rest of the system?**
   _130 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `properties` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `template.schema.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
-- **Should `properties` be split into smaller, more focused modules?**
-  _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._

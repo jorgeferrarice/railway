@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "scripts/railway_template.py": {
-    "mtime": 1789045410.4062438,
-    "seen": 1789045910.407609,
-    "ast_hash": "394c09ae0092b926aea2f16d03f11df7",
+    "mtime": 1789046249.304168,
+    "seen": 1789046282.050687,
+    "ast_hash": "f932f8c865a21fe5cf51bc58e84e2111",
     "semantic_hash": ""
   },
   "scripts/rt_api.py": {
@@ -177,6 +177,12 @@
     "mtime": 1789046136.5298874,
     "seen": 1789046189.691725,
     "ast_hash": "08db3ebbef705537ad7725a896baa9ae",
+    "semantic_hash": ""
+  },
+  "tests/test_railway_template_cli.py": {
+    "mtime": 1789046219.1318521,
+    "seen": 1789046282.050865,
+    "ast_hash": "00587db79c7b9c12532749b745a0d129",
     "semantic_hash": ""
   }
 }

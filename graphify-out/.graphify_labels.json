@@ -25,5 +25,6 @@
   "23": "copilot-instructions.md",
   "24": ".opencode/AGENTS.md",
   "25": "rules/caveman.md",
-  "26": "rt_payload.py"
+  "26": "rt_payload.py",
+  "27": "test_railway_template_cli.py"
 }

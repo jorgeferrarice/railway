@@ -1,6 +1,6 @@
 {
-  "0": "template.schema.json",
-  "1": "$defs",
+  "0": "properties",
+  "1": "template.schema.json",
   "2": "properties",
   "3": "bump_digest.py",
   "4": "Aptabase Railway Template — Design",
@@ -13,7 +13,7 @@
   "11": "rt_schema.py",
   "12": "test_clickhouse_image.py",
   "13": "properties",
-  "14": "properties",
+  "14": "test_rt_payload.py",
   "15": "Aptabase",
   "16": "test_rt_schema.py",
   "17": "`serializedConfig`",
@@ -25,5 +25,5 @@
   "23": "copilot-instructions.md",
   "24": ".opencode/AGENTS.md",
   "25": "rules/caveman.md",
-  "26": "variable"
+  "26": "rt_payload.py"
 }

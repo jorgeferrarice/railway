@@ -269,19 +269,39 @@ Subcommands:
 | Command | Behaviour |
 | --- | --- |
 | `validate` | Check a `template.json` against the JSON Schema. No network access. |
-| `introspect` | Dump the GraphQL input types for template creation/update to stdout. |
-| `create` | Create the template on the workspace from `template.json`. |
-| `update` | Update an existing template in place. |
-| `publish` | Publish the template to the marketplace. |
-| `deploy` | Deploy the template into a project, for end-to-end verification. |
+| `lint` | Check cross-service references, secret alphabets and image pinning. No network access. |
+| `render` | Print the `serializedConfig` this template would send. No network access. |
+| `introspect` | Dump GraphQL types from the live schema. |
+| `bump` | Re-resolve a digest-pinned image. |
+| `deploy` | Deploy the definition into a project via `templateDeployV2`. |
+| `generate` | Turn a deployed project into a stored template via `templateGenerate`. |
+| `publish` | Publish a stored template to the marketplace via `templatePublish`. |
 
-`templateCreate` and its input types are not part of Railway's documented public API, and
-the schema could not be introspected during design. Implementation therefore proceeds in
-two stages:
+#### Correction: there is no `templateCreate`
 
-1. Ship `validate`, `introspect`, and the `template.json` → payload builder.
-2. Run `introspect` against a real token, read the actual input types, and implement
-   `create`, `update`, `publish` and `deploy` against them.
+This section originally specified `create` and `update` subcommands backed by
+`templateCreate` / `templateUpdate`, on the assumption that a template could be
+registered from a definition. Introspection of the live schema on 2026-09-10 showed
+neither mutation exists. `templateGenerate` takes only `{projectId, environmentId}` — a
+template is generated *from a deployed project*.
+
+The workflow is therefore:
+
+1. `templateDeployV2` with an inline `serializedConfig` deploys the definition into a
+   project. No stored template is needed for this step.
+2. `templateGenerate` turns that project into a stored `Template`.
+3. `templatePublish` publishes it with the marketplace metadata.
+
+**Consequence, accepted by the user on 2026-09-10:** creating the template is not an
+offline operation. Step 1 provisions real, billable infrastructure, so what the original
+plan separated into an ungated "create" and a gated "deploy" is a single gated action.
+
+`SerializedTemplateConfig` is an opaque custom scalar whose shape cannot be introspected.
+It was reverse-engineered from the `serializedConfig` of 37 services across published
+templates, and recorded in `docs/railway-template-api.md`. Notably `serializedConfig` has
+no `healthcheckTimeout` field; the timeout is carried as the
+`RAILWAY_HEALTHCHECK_TIMEOUT_SEC` service variable instead, which is also Railway's
+documented mechanism. Railway's default is already 300 seconds.
 
 No GraphQL mutation is written from guesswork.
 
@@ -331,20 +351,23 @@ reasonably conclude the template is broken.
 
 The work is done when all of the following hold:
 
-1. `scripts/railway_template.py validate templates/aptabase/template.json` passes.
-2. `scripts/railway_template.py introspect` runs against a real token and returns the
-   template input types.
-3. `create` produces the template on the workspace, and the template editor shows three
-   services with the variables, volumes, domain and health check described above.
-4. A deploy of the template reaches a state where the Aptabase signup page loads over the
-   generated public domain.
-5. Registering an account produces an activation link retrievable from the `aptabase`
+1. `railway_template.py validate` and `lint` both pass on
+   `templates/aptabase/template.json`.
+2. `railway_template.py render` emits a `serializedConfig` with all three services, and
+   the whole test suite passes.
+3. `railway_template.py deploy` reaches a state where the Aptabase signup page loads over
+   the generated public domain.
+4. Registering an account produces an activation link retrievable from the `aptabase`
    deploy logs, and completing activation lands on the Aptabase dashboard.
-6. `bump-digest.sh` re-resolves the digest and produces a clean one-line diff.
-7. The repository baseline is satisfied: caveman rule files present, `RTK.md` at the
+5. An event sent with an app key appears in the dashboard, proving the ClickHouse
+   connection and its migrations work.
+6. `railway_template.py generate` produces a stored template, and `publish` puts it on
+   the marketplace.
+7. `railway_template.py bump` re-resolves the digest and produces a clean one-line diff.
+8. The repository baseline is satisfied: caveman rule files present, `RTK.md` at the
    repository root, and `graphify-out/graph.json` built.
 
-Criteria 3 through 5 require deploying to a real Railway workspace, which is a billable,
+Criteria 3 through 6 require deploying to a real Railway workspace, which is a billable,
 outward-facing action. It happens only on explicit instruction.
 
 ## Decisions recorded
@@ -356,5 +379,9 @@ outward-facing action. It happens only on explicit instruction.
 | ClickHouse | Custom image over `23.8.4.69-alpine` | Stock image (no memory or system-log tuning) |
 | App image pin | Digest | `:main` (non-reproducible); mirroring with semver tags (needs CI + registry) |
 | GraphQL mutations | Introspect first, then implement | Writing them from guesswork |
+| Template creation | `templateDeployV2` → `templateGenerate` → `templatePublish` | `templateCreate` (does not exist) |
+| Health check timeout | `RAILWAY_HEALTHCHECK_TIMEOUT_SEC` variable | A `serializedConfig` field (none exists) |
+| ClickHouse `listen_host` | Declared in our own config | Inherited from upstream's `docker_related_config.xml` |
+| HTTPS trust store | certifi, pinned | The interpreter's own CA bundle (broken on this machine) |
 | SMTP | Optional, blank by default | Required at deploy time; omitted entirely |
 | Marketplace | Publish | Private-by-URL |

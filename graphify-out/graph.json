@@ -947,6 +947,54 @@
       "source_location": "L54"
     },
     {
+      "id": "scripts_rt_lint_lint_image",
+      "label": "_lint_image()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "code",
+      "norm_label": "_lint_image()",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L56"
+    },
+    {
+      "id": "scripts_rt_lint_lint_references",
+      "label": "_lint_references()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "code",
+      "norm_label": "_lint_references()",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L70"
+    },
+    {
+      "id": "scripts_rt_lint_lint_secrets",
+      "label": "_lint_secrets()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "code",
+      "norm_label": "_lint_secrets()",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L86"
+    },
+    {
+      "id": "scripts_rt_lint_lint_template",
+      "label": "lint_template()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "code",
+      "norm_label": "lint_template()",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L36"
+    },
+    {
       "id": "tests_test_rt_lint_template_with",
       "label": "template_with()",
       "_callable": true,
@@ -1199,6 +1247,186 @@
       "source_location": "L118"
     },
     {
+      "id": "tests_test_railway_template_cli_recorded",
+      "label": "recorded()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "recorded()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_a_missing_token_is_reported_clearly",
+      "label": "test_a_missing_token_is_reported_clearly()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_a_missing_token_is_reported_clearly()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L151"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_api_errors_become_exit_code_one",
+      "label": "test_api_errors_become_exit_code_one()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_api_errors_become_exit_code_one()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L141"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_deploy_accepts_a_workspace_instead_of_a_project",
+      "label": "test_deploy_accepts_a_workspace_instead_of_a_project()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_deploy_accepts_a_workspace_instead_of_a_project()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L74"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_deploy_can_stage_without_applying",
+      "label": "test_deploy_can_stage_without_applying()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_deploy_can_stage_without_applying()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L86"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_deploy_refuses_a_template_that_fails_lint",
+      "label": "test_deploy_refuses_a_template_that_fails_lint()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_deploy_refuses_a_template_that_fails_lint()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L92"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_deploy_requires_a_target",
+      "label": "test_deploy_requires_a_target()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_deploy_requires_a_target()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L81"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_deploy_sends_the_serialized_config",
+      "label": "test_deploy_sends_the_serialized_config()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_deploy_sends_the_serialized_config()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L65"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_generate_requires_a_project",
+      "label": "test_generate_requires_a_project()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_generate_requires_a_project()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L122"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_generate_turns_a_project_into_a_template",
+      "label": "test_generate_turns_a_project_into_a_template()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_generate_turns_a_project_into_a_template()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L114"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_publish_requires_a_template_id",
+      "label": "test_publish_requires_a_template_id()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_publish_requires_a_template_id()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L136"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_publish_sends_the_marketplace_metadata",
+      "label": "test_publish_sends_the_marketplace_metadata()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_publish_sends_the_marketplace_metadata()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L127"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_render_needs_no_token",
+      "label": "test_render_needs_no_token()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_render_needs_no_token()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L38"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_render_prints_the_serialized_config",
+      "label": "test_render_prints_the_serialized_config()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_render_prints_the_serialized_config()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "tests_test_railway_template_cli_test_render_refuses_a_template_that_fails_lint",
+      "label": "test_render_refuses_a_template_that_fails_lint()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_render_refuses_a_template_that_fails_lint()",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L43"
+    },
+    {
       "id": "scripts_bump_digest_bump",
       "label": "bump()",
       "_callable": true,
@@ -1257,54 +1485,6 @@
       "norm_label": "resolve_digest()",
       "source_file": "scripts/bump_digest.py",
       "source_location": "L36"
-    },
-    {
-      "id": "scripts_rt_http_ssl_context",
-      "label": "ssl_context()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "ssl_context()",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "tests_test_rt_http_test_ssl_context_has_a_usable_trust_store",
-      "label": "test_ssl_context_has_a_usable_trust_store()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "test_ssl_context_has_a_usable_trust_store()",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L12"
-    },
-    {
-      "id": "tests_test_rt_http_test_ssl_context_is_cached",
-      "label": "test_ssl_context_is_cached()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "test_ssl_context_is_cached()",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L22"
-    },
-    {
-      "id": "tests_test_rt_http_test_ssl_context_verifies_certificates",
-      "label": "test_ssl_context_verifies_certificates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "test_ssl_context_verifies_certificates()",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L6"
     },
     {
       "id": "tests_test_aptabase_template_services",
@@ -1568,7 +1748,7 @@
       "file_type": "code",
       "norm_label": "build_parser()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L62"
+      "source_location": "L156"
     },
     {
       "id": "scripts_railway_template_cmd_bump",
@@ -1580,7 +1760,31 @@
       "file_type": "code",
       "norm_label": "cmd_bump()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L52"
+      "source_location": "L85"
+    },
+    {
+      "id": "scripts_railway_template_cmd_deploy",
+      "label": "cmd_deploy()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "code",
+      "norm_label": "cmd_deploy()",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L104"
+    },
+    {
+      "id": "scripts_railway_template_cmd_generate",
+      "label": "cmd_generate()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "code",
+      "norm_label": "cmd_generate()",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L128"
     },
     {
       "id": "scripts_railway_template_cmd_introspect",
@@ -1592,7 +1796,7 @@
       "file_type": "code",
       "norm_label": "cmd_introspect()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L41"
+      "source_location": "L74"
     },
     {
       "id": "scripts_railway_template_cmd_lint",
@@ -1604,7 +1808,31 @@
       "file_type": "code",
       "norm_label": "cmd_lint()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L29"
+      "source_location": "L62"
+    },
+    {
+      "id": "scripts_railway_template_cmd_publish",
+      "label": "cmd_publish()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "code",
+      "norm_label": "cmd_publish()",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L143"
+    },
+    {
+      "id": "scripts_railway_template_cmd_render",
+      "label": "cmd_render()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "code",
+      "norm_label": "cmd_render()",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L95"
     },
     {
       "id": "scripts_railway_template_cmd_validate",
@@ -1616,7 +1844,19 @@
       "file_type": "code",
       "norm_label": "cmd_validate()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L17"
+      "source_location": "L50"
+    },
+    {
+      "id": "scripts_railway_template_load_checked",
+      "label": "_load_checked()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "code",
+      "norm_label": "_load_checked()",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L36"
     },
     {
       "id": "scripts_railway_template_main",
@@ -1628,55 +1868,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L88"
-    },
-    {
-      "id": "scripts_rt_lint_lint_image",
-      "label": "_lint_image()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "railway_template.py",
-      "file_type": "code",
-      "norm_label": "_lint_image()",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L56"
-    },
-    {
-      "id": "scripts_rt_lint_lint_references",
-      "label": "_lint_references()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "railway_template.py",
-      "file_type": "code",
-      "norm_label": "_lint_references()",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L70"
-    },
-    {
-      "id": "scripts_rt_lint_lint_secrets",
-      "label": "_lint_secrets()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "railway_template.py",
-      "file_type": "code",
-      "norm_label": "_lint_secrets()",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L86"
-    },
-    {
-      "id": "scripts_rt_lint_lint_template",
-      "label": "lint_template()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "railway_template.py",
-      "file_type": "code",
-      "norm_label": "lint_template()",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L36"
+      "source_location": "L211"
     },
     {
       "id": "tests_test_rt_api_fake_transport",
@@ -1955,6 +2147,54 @@
       "source_location": "L73"
     },
     {
+      "id": "scripts_rt_http_ssl_context",
+      "label": "ssl_context()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "ssl_context()",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tests_test_rt_http_test_ssl_context_has_a_usable_trust_store",
+      "label": "test_ssl_context_has_a_usable_trust_store()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "test_ssl_context_has_a_usable_trust_store()",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "tests_test_rt_http_test_ssl_context_is_cached",
+      "label": "test_ssl_context_is_cached()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "test_ssl_context_is_cached()",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L22"
+    },
+    {
+      "id": "tests_test_rt_http_test_ssl_context_verifies_certificates",
+      "label": "test_ssl_context_verifies_certificates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "test_ssl_context_verifies_certificates()",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L6"
+    },
+    {
       "id": "schema_template_schema_category_minlength",
       "label": "minLength",
       "_origin": "ast",
@@ -2043,6 +2283,39 @@
       "source_location": "L14"
     },
     {
+      "id": "schema_template_schema_name_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "schema_template_schema_name_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "schema_template_schema_name_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
+    },
+    {
       "id": "schema_template_schema_properties",
       "label": "properties",
       "_origin": "ast",
@@ -2096,6 +2369,17 @@
       "norm_label": "links",
       "source_file": "schema/template.schema.json",
       "source_location": "L13"
+    },
+    {
+      "id": "schema_template_schema_properties_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
     },
     {
       "id": "schema_template_schema_properties_readme",
@@ -2316,17 +2600,6 @@
       "norm_label": "reposource",
       "source_file": "schema/template.schema.json",
       "source_location": "L95"
-    },
-    {
-      "id": "schema_template_schema_defs_service",
-      "label": "service",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "service",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L32"
     },
     {
       "id": "schema_template_schema_id",
@@ -2569,39 +2842,6 @@
       "norm_label": "$schema",
       "source_file": "schema/template.schema.json",
       "source_location": "L2"
-    },
-    {
-      "id": "schema_template_schema_service_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L35"
-    },
-    {
-      "id": "schema_template_schema_service_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L34"
-    },
-    {
-      "id": "schema_template_schema_service_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L33"
     },
     {
       "id": "schema_template_schema_title",
@@ -3265,6 +3505,17 @@
       "source_location": "L150"
     },
     {
+      "id": "scripts_rt_lint",
+      "label": "rt_lint.py",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "code",
+      "norm_label": "rt_lint.py",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L1"
+    },
+    {
       "id": "tests_test_rt_lint",
       "label": "test_rt_lint.py",
       "_origin": "ast",
@@ -3274,6 +3525,28 @@
       "norm_label": "test_rt_lint.py",
       "source_file": "tests/test_rt_lint.py",
       "source_location": "L1"
+    },
+    {
+      "id": "scripts_rt_lint_rationale_1",
+      "label": "Checks on template definitions that the JSON Schema cannot express.",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "rationale",
+      "norm_label": "checks on template definitions that the json schema cannot express.",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_rt_lint_rationale_37",
+      "label": "Return every problem found in the template. Empty list means clean.",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "test_rt_lint.py",
+      "file_type": "rationale",
+      "norm_label": "return every problem found in the template. empty list means clean.",
+      "source_file": "scripts/rt_lint.py",
+      "source_location": "L37"
     },
     {
       "id": "readme",
@@ -3407,6 +3680,17 @@
       "source_location": "L46"
     },
     {
+      "id": "schema_template_schema_defs_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L32"
+    },
+    {
       "id": "schema_template_schema_deploy_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -3528,39 +3812,6 @@
       "source_location": "L65"
     },
     {
-      "id": "schema_template_schema_name_minlength",
-      "label": "minLength",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "schema_template_schema_name_pattern",
-      "label": "pattern",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L37"
-    },
-    {
-      "id": "schema_template_schema_name_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L9"
-    },
-    {
       "id": "schema_template_schema_networking_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -3636,17 +3887,6 @@
       "norm_label": "http",
       "source_file": "schema/template.schema.json",
       "source_location": "L64"
-    },
-    {
-      "id": "schema_template_schema_properties_name",
-      "label": "name",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "name",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L9"
     },
     {
       "id": "schema_template_schema_properties_networking",
@@ -3759,6 +3999,17 @@
       "source_location": "L80"
     },
     {
+      "id": "schema_template_schema_service_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L35"
+    },
+    {
       "id": "schema_template_schema_service_properties",
       "label": "properties",
       "_origin": "ast",
@@ -3768,6 +4019,28 @@
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
       "source_location": "L36"
+    },
+    {
+      "id": "schema_template_schema_service_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "schema_template_schema_service_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L33"
     },
     {
       "id": "schema_template_schema_source_oneof",
@@ -4053,6 +4326,39 @@
       "source_location": "L42"
     },
     {
+      "id": "tests_test_railway_template_cli",
+      "label": "test_railway_template_cli.py",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "test_railway_template_cli.py",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_railway_template_cli_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_railway_template_cli_rationale_13",
+      "label": "Record GraphQL calls and answer them, so no test reaches the network.",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "test_railway_template_cli.py",
+      "file_type": "rationale",
+      "norm_label": "record graphql calls and answer them, so no test reaches the network.",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L13"
+    },
+    {
       "id": "scripts_bump_digest",
       "label": "bump_digest.py",
       "_origin": "ast",
@@ -4084,39 +4390,6 @@
       "norm_label": "runtimeerror",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "scripts_rt_http",
-      "label": "rt_http.py",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "rt_http.py",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "sslcontext",
-      "label": "SSLContext",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "sslcontext",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_rt_http",
-      "label": "test_rt_http.py",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "code",
-      "norm_label": "test_rt_http.py",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L1"
     },
     {
       "id": "scripts_bump_digest_rationale_1",
@@ -4172,39 +4445,6 @@
       "norm_label": "re-resolve the service's digest and rewrite the template file in place. returns...",
       "source_file": "scripts/bump_digest.py",
       "source_location": "L68"
-    },
-    {
-      "id": "scripts_rt_http_rationale_1",
-      "label": "Shared HTTPS trust configuration. Python's default SSL context trusts whatever\u2026",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "rationale",
-      "norm_label": "shared https trust configuration. python's default ssl context trusts whatever...",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_rt_http_rationale_24",
-      "label": "Return a verifying SSL context backed by certifi's CA bundle.",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "rationale",
-      "norm_label": "return a verifying ssl context backed by certifi's ca bundle.",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L24"
-    },
-    {
-      "id": "tests_test_rt_http_rationale_13",
-      "label": "The interpreter's own store is not trusted to exist. PlatformIO's portable\u2026",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "bump_digest.py",
-      "file_type": "rationale",
-      "norm_label": "the interpreter's own store is not trusted to exist. platformio's portable...",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L13"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design",
@@ -4526,26 +4766,37 @@
       "source_location": "L1"
     },
     {
-      "id": "scripts_rt_lint",
-      "label": "rt_lint.py",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "railway_template.py",
-      "file_type": "code",
-      "norm_label": "rt_lint.py",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_railway_template_rationale_18",
-      "label": "Schema-validate a template definition.",
+      "id": "scripts_railway_template_rationale_105",
+      "label": "Deploy the template definition into a project.",
       "_origin": "ast",
       "community": 6,
       "community_name": "railway_template.py",
       "file_type": "rationale",
-      "norm_label": "schema-validate a template definition.",
+      "norm_label": "deploy the template definition into a project.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L18"
+      "source_location": "L105"
+    },
+    {
+      "id": "scripts_railway_template_rationale_129",
+      "label": "Turn a deployed project into a stored template. Railway has no mutation that\u2026",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "rationale",
+      "norm_label": "turn a deployed project into a stored template. railway has no mutation that...",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L129"
+    },
+    {
+      "id": "scripts_railway_template_rationale_144",
+      "label": "Publish a stored template to the marketplace.",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "rationale",
+      "norm_label": "publish a stored template to the marketplace.",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L144"
     },
     {
       "id": "scripts_railway_template_rationale_2",
@@ -4559,7 +4810,29 @@
       "source_location": "L2"
     },
     {
-      "id": "scripts_railway_template_rationale_30",
+      "id": "scripts_railway_template_rationale_37",
+      "label": "Load a template and refuse it if the linter objects. A definition that fails\u2026",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "rationale",
+      "norm_label": "load a template and refuse it if the linter objects. a definition that fails...",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L37"
+    },
+    {
+      "id": "scripts_railway_template_rationale_51",
+      "label": "Schema-validate a template definition.",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "rationale",
+      "norm_label": "schema-validate a template definition.",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "scripts_railway_template_rationale_63",
       "label": "Check cross-service references and repository invariants.",
       "_origin": "ast",
       "community": 6,
@@ -4567,10 +4840,10 @@
       "file_type": "rationale",
       "norm_label": "check cross-service references and repository invariants.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L30"
+      "source_location": "L63"
     },
     {
-      "id": "scripts_railway_template_rationale_42",
+      "id": "scripts_railway_template_rationale_75",
       "label": "Print the GraphQL types needed to build template payloads.",
       "_origin": "ast",
       "community": 6,
@@ -4578,10 +4851,10 @@
       "file_type": "rationale",
       "norm_label": "print the graphql types needed to build template payloads.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L42"
+      "source_location": "L75"
     },
     {
-      "id": "scripts_railway_template_rationale_53",
+      "id": "scripts_railway_template_rationale_86",
       "label": "Re-resolve a digest-pinned image and rewrite the template.",
       "_origin": "ast",
       "community": 6,
@@ -4589,29 +4862,18 @@
       "file_type": "rationale",
       "norm_label": "re-resolve a digest-pinned image and rewrite the template.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L53"
+      "source_location": "L86"
     },
     {
-      "id": "scripts_rt_lint_rationale_1",
-      "label": "Checks on template definitions that the JSON Schema cannot express.",
+      "id": "scripts_railway_template_rationale_96",
+      "label": "Print the serializedConfig this template would send to Railway.",
       "_origin": "ast",
       "community": 6,
       "community_name": "railway_template.py",
       "file_type": "rationale",
-      "norm_label": "checks on template definitions that the json schema cannot express.",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_rt_lint_rationale_37",
-      "label": "Return every problem found in the template. Empty list means clean.",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "railway_template.py",
-      "file_type": "rationale",
-      "norm_label": "return every problem found in the template. empty list means clean.",
-      "source_file": "scripts/rt_lint.py",
-      "source_location": "L37"
+      "norm_label": "print the serializedconfig this template would send to railway.",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L96"
     },
     {
       "id": "docs_superpowers_plans_2026_09_10_aptabase_railway_template",
@@ -4909,6 +5171,39 @@
       "source_location": ""
     },
     {
+      "id": "scripts_rt_http",
+      "label": "rt_http.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "rt_http.py",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "sslcontext",
+      "label": "SSLContext",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "sslcontext",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_rt_http",
+      "label": "test_rt_http.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "test_rt_http.py",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L1"
+    },
+    {
       "id": "scripts_rt_api_rationale_1",
       "label": "Minimal Railway GraphQL client. The token comes from the RAILWAY_API_TOKEN\u2026",
       "_origin": "ast",
@@ -4995,6 +5290,39 @@
       "norm_label": "execute a graphql document and return its data object. railway authenticates...",
       "source_file": "scripts/rt_api.py",
       "source_location": "L81"
+    },
+    {
+      "id": "scripts_rt_http_rationale_1",
+      "label": "Shared HTTPS trust configuration. Python's default SSL context trusts whatever\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "rationale",
+      "norm_label": "shared https trust configuration. python's default ssl context trusts whatever...",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_rt_http_rationale_24",
+      "label": "Return a verifying SSL context backed by certifi's CA bundle.",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "rationale",
+      "norm_label": "return a verifying ssl context backed by certifi's ca bundle.",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "tests_test_rt_http_rationale_13",
+      "label": "The interpreter's own store is not trusted to exist. PlatformIO's portable\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "rationale",
+      "norm_label": "the interpreter's own store is not trusted to exist. platformio's portable...",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L13"
     }
   ],
   "links": [
@@ -5071,6 +5399,42 @@
       "weight": 1.0
     },
     {
+      "source": "scripts_railway_template_cmd_deploy",
+      "target": "scripts_railway_template_load_checked",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_cmd_publish",
+      "target": "scripts_railway_template_load_checked",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_cmd_render",
+      "target": "scripts_railway_template_load_checked",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_railway_template_main",
       "target": "scripts_railway_template_build_parser",
       "relation": "calls",
@@ -5079,7 +5443,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L89",
+      "source_location": "L212",
       "weight": 1.0
     },
     {
@@ -6343,6 +6707,18 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_railway_template_cli_recorded",
+      "target": "tests_test_railway_template_cli_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_rt_payload_aptabase_config",
       "target": "tests_test_rt_payload_py_fixture",
       "relation": "references",
@@ -6404,7 +6780,7 @@
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_rt_schema",
+      "target": "scripts_rt_payload",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6412,6 +6788,18 @@
       "context": "import",
       "source_file": "scripts/railway_template.py",
       "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_rt_schema",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -6459,6 +6847,30 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "tests/test_bump_digest.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "scripts_railway_template",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "scripts_rt_api",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_railway_template_cli.py",
       "source_location": "L6",
       "weight": 1.0
     },
@@ -6567,7 +6979,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L62",
+      "source_location": "L156",
       "weight": 1.0
     },
     {
@@ -8608,46 +9020,35 @@
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_railway_template_cmd_validate",
+      "target": "scripts_railway_template_cmd_deploy",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L17",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_railway_template_cmd_lint",
+      "target": "scripts_railway_template_cmd_generate",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L29",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_railway_template_cmd_introspect",
+      "target": "scripts_railway_template_cmd_publish",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L41",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_railway_template",
-      "target": "scripts_railway_template_cmd_bump",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/railway_template.py",
-      "source_location": "L52",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -8658,7 +9059,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L62",
+      "source_location": "L156",
       "weight": 1.0
     },
     {
@@ -8669,7 +9070,73 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L88",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_load_checked",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_cmd_validate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_cmd_lint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_cmd_introspect",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_cmd_bump",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_cmd_render",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -9685,6 +10152,171 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_generate_turns_a_project_into_a_template",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_recorded",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_generate_requires_a_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_publish_sends_the_marketplace_metadata",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_publish_requires_a_template_id",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_api_errors_become_exit_code_one",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_a_missing_token_is_reported_clearly",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_render_prints_the_serialized_config",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_render_needs_no_token",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_render_refuses_a_template_that_fails_lint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_deploy_sends_the_serialized_config",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_deploy_accepts_a_workspace_instead_of_a_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_deploy_requires_a_target",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_deploy_can_stage_without_applying",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_railway_template_cli",
+      "target": "tests_test_railway_template_cli_test_deploy_refuses_a_template_that_fails_lint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_rt_api",
       "target": "tests_test_rt_api_fakeresponse",
       "relation": "contains",
@@ -10620,14 +11252,36 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_18",
-      "target": "scripts_railway_template_cmd_validate",
+      "source": "scripts_railway_template_rationale_105",
+      "target": "scripts_railway_template_cmd_deploy",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L18",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_rationale_129",
+      "target": "scripts_railway_template_cmd_generate",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_rationale_144",
+      "target": "scripts_railway_template_cmd_publish",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L144",
       "weight": 1.0
     },
     {
@@ -10642,36 +11296,69 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_30",
+      "source": "scripts_railway_template_rationale_37",
+      "target": "scripts_railway_template_load_checked",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_rationale_51",
+      "target": "scripts_railway_template_cmd_validate",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_rationale_63",
       "target": "scripts_railway_template_cmd_lint",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L30",
+      "source_location": "L63",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_42",
+      "source": "scripts_railway_template_rationale_75",
       "target": "scripts_railway_template_cmd_introspect",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L42",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_53",
+      "source": "scripts_railway_template_rationale_86",
       "target": "scripts_railway_template_cmd_bump",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L53",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_rationale_96",
+      "target": "scripts_railway_template_cmd_render",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -10972,6 +11659,17 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_railway_template_cli_rationale_13",
+      "target": "tests_test_railway_template_cli_recorded",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_railway_template_cli.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_rt_api_rationale_58",
       "target": "tests_test_rt_api_test_graphql_identifies_this_client_by_user_agent",
       "relation": "rationale_for",
@@ -11035,7 +11733,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L68",
+      "source_location": "L162",
       "weight": 1.0
     },
     {
@@ -11047,7 +11745,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L72",
+      "source_location": "L166",
       "weight": 1.0
     },
     {
@@ -11059,7 +11757,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L77",
+      "source_location": "L171",
       "weight": 1.0
     },
     {
@@ -11071,10 +11769,58 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L83",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_build_parser",
+      "target": "scripts_railway_template_cmd_render",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_build_parser",
+      "target": "scripts_railway_template_cmd_deploy",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_build_parser",
+      "target": "scripts_railway_template_cmd_generate",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_build_parser",
+      "target": "scripts_railway_template_cmd_publish",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L206",
       "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d5634571d22db34dc4f55b5b6edda24dc748eebc"
+  "built_at_commit": "0ddb46e64db1cbde8ddf976ba73fee067753b175"
 }
