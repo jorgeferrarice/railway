@@ -1,5 +1,6 @@
 import io
 import json
+import urllib.error
 
 import pytest
 
@@ -53,6 +54,17 @@ def test_graphql_posts_to_the_railway_endpoint_with_bearer_auth():
     assert json.loads(request.data)["query"] == "query { me { id } }"
 
 
+def test_graphql_identifies_this_client_by_user_agent():
+    """Cloudflare fronts the Railway API and answers urllib's default
+    User-Agent with a 403 (error code 1010), so the client names itself.
+    """
+    calls = []
+    opener = fake_transport({"data": {}}, calls=calls)
+    rt_api.graphql("query { me { id } }", token="tok", opener=opener)
+    assert calls[0].headers["User-agent"] == rt_api.USER_AGENT
+    assert "urllib" not in rt_api.USER_AGENT
+
+
 def test_graphql_sends_variables():
     calls = []
     opener = fake_transport({"data": {}}, calls=calls)
@@ -65,6 +77,37 @@ def test_graphql_raises_on_graphql_errors():
     with pytest.raises(rt_api.RailwayAPIError) as excinfo:
         rt_api.graphql("query { me { id } }", token="tok", opener=opener)
     assert "Not authorized" in str(excinfo.value)
+
+
+def test_an_http_error_becomes_a_railway_api_error_carrying_the_body():
+    def opener(request):
+        raise urllib.error.HTTPError(
+            rt_api.API_URL, 403, "Forbidden", {}, io.BytesIO(b'{"message":"Not Authorized"}')
+        )
+
+    with pytest.raises(rt_api.RailwayAPIError) as excinfo:
+        rt_api.graphql("query { me { id } }", token="tok", opener=opener)
+    message = str(excinfo.value)
+    assert "403" in message
+    assert "Not Authorized" in message
+
+
+def test_an_http_error_with_an_unreadable_body_still_reports_the_status():
+    def opener(request):
+        raise urllib.error.HTTPError(rt_api.API_URL, 500, "Server Error", {}, None)
+
+    with pytest.raises(rt_api.RailwayAPIError) as excinfo:
+        rt_api.graphql("query { me { id } }", token="tok", opener=opener)
+    assert "500" in str(excinfo.value)
+
+
+def test_a_project_token_uses_the_project_access_token_header():
+    calls = []
+    opener = fake_transport({"data": {}}, calls=calls)
+    rt_api.graphql("query { me { id } }", token="tok", project_token=True, opener=opener)
+    headers = calls[0].headers
+    assert headers.get("Project-access-token") == "tok"
+    assert "Authorization" not in headers
 
 
 def test_describe_type_returns_the_input_fields():

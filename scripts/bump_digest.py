@@ -7,6 +7,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+import rt_http
+
 REGISTRY = "ghcr.io"
 TOKEN_URL = "https://ghcr.io/token"
 MANIFEST_ACCEPT = ", ".join(
@@ -28,7 +30,7 @@ class _HeadRequest(urllib.request.Request):
 
 
 def _default_opener(request):
-    return urllib.request.urlopen(request, timeout=30)
+    return urllib.request.urlopen(request, timeout=30, context=rt_http.ssl_context())
 
 
 def resolve_digest(repository: str, tag: str, *, opener=None) -> str:

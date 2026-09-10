@@ -8,9 +8,16 @@ from __future__ import annotations
 
 import json
 import os
+import urllib.error
 import urllib.request
 
+import rt_http
+
 API_URL = "https://backboard.railway.com/graphql/v2"
+
+# Cloudflare fronts the Railway API and refuses urllib's default User-Agent
+# with a 403 carrying "error code: 1010". Name the client instead.
+USER_AGENT = "railway-templates/1.0 (+https://github.com/jorgeferrarice/railway)"
 
 TYPE_QUERY = """
 query DescribeType($name: String!) {
@@ -51,8 +58,16 @@ def get_token(env: dict | None = None) -> str:
     return token
 
 
+def _error_body(error: urllib.error.HTTPError) -> str:
+    """Read an HTTPError's body, which is where Railway explains the refusal."""
+    try:
+        return error.read().decode(errors="replace").strip() or "<empty body>"
+    except Exception:
+        return "<unreadable body>"
+
+
 def _default_opener(request):
-    return urllib.request.urlopen(request, timeout=60)
+    return urllib.request.urlopen(request, timeout=60, context=rt_http.ssl_context())
 
 
 def graphql(
@@ -60,22 +75,30 @@ def graphql(
     variables: dict | None = None,
     *,
     token: str | None = None,
+    project_token: bool = False,
     opener=None,
 ) -> dict:
-    """Execute a GraphQL document and return its data object."""
+    """Execute a GraphQL document and return its data object.
+
+    Railway authenticates account and team tokens with a Bearer header, and
+    project tokens with a Project-Access-Token header. Sending the wrong one
+    yields a bare 403, so which token is in hand has to be stated.
+    """
     opener = opener or _default_opener
+    token = token or get_token()
     body = json.dumps({"query": query, "variables": variables or {}}).encode()
+    auth = {"Project-Access-Token": token} if project_token else {"Authorization": f"Bearer {token}"}
     request = urllib.request.Request(
         API_URL,
         data=body,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {token or get_token()}",
-        },
+        headers={"Content-Type": "application/json", "User-Agent": USER_AGENT, **auth},
         method="POST",
     )
-    with opener(request) as response:
-        payload = json.loads(response.read().decode())
+    try:
+        with opener(request) as response:
+            payload = json.loads(response.read().decode())
+    except urllib.error.HTTPError as error:
+        raise RailwayAPIError(f"HTTP {error.code} {error.reason}: {_error_body(error)}") from error
 
     if payload.get("errors"):
         messages = "; ".join(error.get("message", str(error)) for error in payload["errors"])
