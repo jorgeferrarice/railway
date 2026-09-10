@@ -1,8 +1,8 @@
 {
   "schema/template.schema.json": {
-    "mtime": 1789046383.3771179,
-    "seen": 1789046720.423077,
-    "ast_hash": "d82b70cd91e99b7b926c0e2139df0ff2",
+    "mtime": 1789053576.089785,
+    "seen": 1789053699.5044081,
+    "ast_hash": "ef6fe3269bc924c15fd9b175ff2e282c",
     "semantic_hash": ""
   },
   "scripts/bump_digest.py": {
@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "scripts/railway_template.py": {
-    "mtime": 1789046695.5882843,
-    "seen": 1789046720.423079,
-    "ast_hash": "18afd8230b08d7206693c8f465a49dbd",
+    "mtime": 1789053612.612361,
+    "seen": 1789053699.5044549,
+    "ast_hash": "88edfe44d4aff7f0ce3ae6a78a61586e",
     "semantic_hash": ""
   },
   "scripts/rt_api.py": {
@@ -48,9 +48,9 @@
     "semantic_hash": ""
   },
   "templates/aptabase/template.json": {
-    "mtime": 1789048196.1813571,
-    "seen": 1789048245.891785,
-    "ast_hash": "aa1da70d6fd34f7d9802a49b188fe652",
+    "mtime": 1789053612.5835474,
+    "seen": 1789053699.5045629,
+    "ast_hash": "523e83d4a8a044180f1c15d7ee8d49ea",
     "semantic_hash": ""
   },
   "tests/test_aptabase_template.py": {
@@ -162,21 +162,21 @@
     "semantic_hash": ""
   },
   "templates/aptabase/README.md": {
-    "mtime": 1789048167.946358,
-    "seen": 1789048245.89209,
-    "ast_hash": "a3e6bec947d57fcca472728c8349688c",
+    "mtime": 1789053673.8966537,
+    "seen": 1789053699.504898,
+    "ast_hash": "0f86fac5cb27f14f85879dacbd24a0e8",
     "semantic_hash": ""
   },
   "scripts/rt_payload.py": {
-    "mtime": 1789046383.3949652,
-    "seen": 1789046720.4230819,
-    "ast_hash": "e9aadd909ce2e387b68ee848bfb69f98",
+    "mtime": 1789053667.8533998,
+    "seen": 1789053699.504525,
+    "ast_hash": "e388736b8fd0499cc5a54fe33780cca1",
     "semantic_hash": ""
   },
   "tests/test_rt_payload.py": {
-    "mtime": 1789046383.4276438,
-    "seen": 1789046720.4230871,
-    "ast_hash": "08db3ebbef705537ad7725a896baa9ae",
+    "mtime": 1789053667.8336122,
+    "seen": 1789053699.504692,
+    "ast_hash": "bd5540db70c141cfe95cbf90218dab6b",
     "semantic_hash": ""
   },
   "tests/test_railway_template_cli.py": {

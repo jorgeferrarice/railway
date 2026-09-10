@@ -405,9 +405,14 @@ The work is done when all of the following hold:
 Criteria 3 through 6 require deploying to a real Railway workspace, which is a billable,
 outward-facing action. It happens only on explicit instruction.
 
-**Status on 2026-09-10:** 1, 2, 3, 4, 5, 7 and 8 hold. Criterion 6 is half-met — a stored
-template exists (`4123115a-b717-4b69-90c9-8de4a1471cbc`, code `Cg5if6`, name "Aptabase")
-but is deliberately left `UNPUBLISHED` because generation damaged its variables.
+**Status on 2026-09-10:** 1, 2, 3, 4, 5, 7 and 8 hold. Criterion 6 holds as far as this
+account allows: the stored template `4123115a-b717-4b69-90c9-8de4a1471cbc` (code
+`Cg5if6`) has been repaired in the template editor and verified by deploying it —
+<https://railway.com/deploy/Cg5if6> shows all three services "Ready to be deployed", and
+a deployment from it came up healthy, ran all thirteen PostgreSQL migrations, accepted a
+registration, and ingested events into ClickHouse. **`templatePublish` is refused**:
+"You have been blocked from publishing templates." That is an account restriction needing
+Railway support, and it costs the marketplace listing, not the template's usability.
 
 ## Decisions recorded
 

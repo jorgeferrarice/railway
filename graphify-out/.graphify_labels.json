@@ -12,7 +12,7 @@
   "10": "test_bump_digest.py",
   "11": "rt_schema.py",
   "12": "test_clickhouse_image.py",
-  "13": "Railway template API",
+  "13": "TestReadmeLinkRewriting",
   "14": "test_rt_payload.py",
   "15": "Aptabase",
   "16": "test_rt_apply.py",
@@ -26,5 +26,6 @@
   "24": ".opencode/AGENTS.md",
   "25": "rules/caveman.md",
   "26": "rt_payload.py",
-  "27": "test_railway_template_cli.py"
+  "27": "test_railway_template_cli.py",
+  "28": "properties"
 }

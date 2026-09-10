@@ -80,6 +80,25 @@ mutation itself is not available.
 `scripts/rt_apply.py` therefore builds services with the ordinary service mutations, and
 the template is produced from the finished project with `templateGenerate`.
 
+## Publishing is blocked on this account
+
+`templatePublish` returns:
+
+> You have been blocked from publishing templates. Please reach out to the team for
+> more information.
+
+This is an account-level restriction, not a problem with the payload — and it is very
+likely the same restriction behind `templateDeployV2`'s opaque 400, since both are the
+operations that put a template in front of other people. Lifting it needs Railway
+support.
+
+**A template does not have to be published to be usable.** An unpublished template still
+has a code, and `https://railway.com/deploy/<code>` renders the ordinary deploy page and
+deploys it. What publishing adds is the marketplace listing: discovery, the description,
+the readme, the icon, and the usage kickback. Everything `templatePublish` carries
+(`category`, `description`, `readme`, `image`) is listing metadata, so a blocked account
+loses the listing, not the template.
+
 ## What `templateGenerate` drops
 
 **A generated template is not a faithful copy of the project it came from.** Verified on

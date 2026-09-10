@@ -123,6 +123,11 @@ To grow a volume, open the service in Railway, select the volume and increase it
   report unhealthy. Check the `aptabase` deploy logs rather than waiting.
 - `postgres-ssl` is Railway's image, not the plain `postgres:15-alpine` upstream's compose
   file uses. The major version matches; the TLS layer does not.
+- Two warnings in the `aptabase` logs on every boot are expected and harmless.
+  `Cannot load library libgssapi_krb5.so.2` is Npgsql probing for Kerberos, which the
+  image does not ship and this template does not use. The ASP.NET data-protection warning
+  about `/root/.aspnet/DataProtection-Keys` means those keys are not persisted, so a
+  redeploy signs existing sessions out; nothing else depends on them.
 
 <!-- marketplace:end -->
 

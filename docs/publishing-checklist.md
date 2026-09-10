@@ -1,62 +1,83 @@
 # Publishing checklist
 
-`templateGenerate` damages the template it produces (see
-[railway-template-api.md](railway-template-api.md)). A generated template must be
-repaired in Railway's template editor before it is published. There is no
-`templateUpdate` mutation, so this cannot be scripted.
+Railway has no mutation that registers a template from a definition. A stored template is
+always produced by `templateGenerate` from a project that already exists, and generation
+is lossy. This is the list of what has to be repaired afterwards, and where.
+
+## What generation loses
+
+See [railway-template-api.md](railway-template-api.md) for the evidence. In short:
+
+- **plain literal variable values.** `defaultValue` survives only for `${{...}}`
+  expressions — references and functions. A literal comes back with no value at all.
+- **`isOptional`.** Every variable comes back required.
+- **descriptions.** Every variable comes back with none.
+
+Cross-service references, `${{secret(...)}}` calls, image digests, repository sources and
+root directories, health-check paths, restart policies, volumes and the generated domain
+all survive intact.
+
+None of this can be repaired through the API — there is no `templateUpdate` mutation. It
+is fixed in Railway's template editor, at
+`https://railway.com/workspace/templates/<template id>`, one variable at a time through
+each row's ⋮ → Edit. That form carries the value, the description and a "Mark as optional"
+checkbox, which is the whole repair. Edits stage until you press Apply.
+
+`templates/<name>/template.json` is the source of truth for what every field should be.
+
+## Verifying the repair
+
+```bash
+export RAILWAY_API_TOKEN=...
+.venv/bin/python - <<'PY'
+import json, sys
+sys.path.insert(0, "scripts")
+import rt_api
+q = "query($id: String!) { template(id: $id) { serializedConfig } }"
+cfg = rt_api.graphql(q, {"id": "<template id>"})["template"]["serializedConfig"]
+for service in cfg["services"].values():
+    for name, v in (service.get("variables") or {}).items():
+        if v.get("defaultValue") is None and not v.get("isOptional"):
+            print("blank and required:", service["name"], name)
+PY
+```
+
+Silence means the template no longer demands anything the deployer cannot supply. The
+deploy page itself is the other check: every service should read **Ready to be deployed**
+before you press Deploy.
 
 ## Aptabase
 
-Stored template: `4123115a-b717-4b69-90c9-8de4a1471cbc`, code `Cg5if6`, name "Aptabase",
-generated 2026-09-10 from project `80ff3381-2e5c-48b6-8416-38782d1e61f5`.
+Repaired and verified on 2026-09-10. Template `4123115a-b717-4b69-90c9-8de4a1471cbc`,
+code `Cg5if6`, deploy page <https://railway.com/deploy/Cg5if6>.
 
-Sixteen variables came back with no value, and every variable came back required.
-`templates/aptabase/template.json` is the source of truth for what they should be.
+Sixteen variables were repaired: `POSTGRES_USER`, `POSTGRES_DB`, `PGDATA`,
+`CLICKHOUSE_USER`, `PORT`, `REGION` and `ASPNETCORE_HTTP_PORTS` had their values
+restored; the five `SMTP_*` and four `OAUTH_*` variables were marked optional. All
+twenty-two carry their descriptions again.
 
-| Service | Variable | Value to restore | Optional? |
-| --- | --- | --- | --- |
-| postgres | `POSTGRES_USER` | `aptabase` | no |
-| postgres | `POSTGRES_DB` | `aptabase` | no |
-| postgres | `PGDATA` | `/var/lib/postgresql/data/pgdata` | no |
-| clickhouse | `CLICKHOUSE_USER` | `aptabase` | no |
-| aptabase | `ASPNETCORE_HTTP_PORTS` | `8080` | no |
-| aptabase | `PORT` | `8080` | no |
-| aptabase | `REGION` | `SH` | no |
-| aptabase | `SMTP_HOST` | *(blank)* | yes |
-| aptabase | `SMTP_PORT` | *(blank)* | yes |
-| aptabase | `SMTP_USERNAME` | *(blank)* | yes |
-| aptabase | `SMTP_PASSWORD` | *(blank)* | yes |
-| aptabase | `SMTP_FROM_ADDRESS` | *(blank)* | yes |
-| aptabase | `OAUTH_GITHUB_CLIENT_ID` | *(blank)* | yes |
-| aptabase | `OAUTH_GITHUB_CLIENT_SECRET` | *(blank)* | yes |
-| aptabase | `OAUTH_GOOGLE_CLIENT_ID` | *(blank)* | yes |
-| aptabase | `OAUTH_GOOGLE_CLIENT_SECRET` | *(blank)* | yes |
+`POSTGRES_USER` and `POSTGRES_DB` were the two that mattered most: `DATABASE_URL`
+hard-codes `User Id=aptabase;Database=aptabase`, so a deployer who accepted the blank
+prompt and typed anything else would have got an app that could not reach its database.
 
-`POSTGRES_USER` and `POSTGRES_DB` are the two that make this a correctness problem rather
-than an inconvenience: `DATABASE_URL` hard-codes `User Id=aptabase;Database=aptabase`, so
-a deployer who accepts the blank prompt and types anything else gets an app that cannot
-reach its database.
+### Marketplace listing
 
-The variables that survived generation intact — every `${{...}}` expression, including
-both `${{secret(32, "...")}}` calls and every cross-service reference — need no attention.
+Blocked. `templatePublish` answers:
 
-## Then
+> You have been blocked from publishing templates. Please reach out to the team for
+> more information.
 
-1. Re-read the config and confirm the sixteen rows above are fixed:
+That is an account restriction, and it needs Railway support to lift. The template is
+fully usable in the meantime through its deploy link — publishing adds the marketplace
+listing (discovery, description, readme, icon, usage kickback), not the ability to deploy.
 
-```bash
-.venv/bin/python scripts/railway_template.py render templates/aptabase/template.json
-```
-
-   and compare against the stored template's `serializedConfig`.
-2. Publish with the marketplace metadata from
-   [../templates/aptabase/README.md](../templates/aptabase/README.md):
+Once it is lifted:
 
 ```bash
 .venv/bin/python scripts/railway_template.py publish templates/aptabase/template.json \
     --template-id 4123115a-b717-4b69-90c9-8de4a1471cbc
 ```
 
-3. Add the icon and banner in the editor.
-4. Delete the source project once the template no longer needs regenerating. It runs three
-   services and two volumes, and bills until it is gone.
+then add the icon and banner in the editor. `build_publish_input` already rewrites the
+readme's relative links against `repository` and cuts it at `<!-- marketplace:end -->`,
+so the marketplace page gets a readme that stands on its own.
