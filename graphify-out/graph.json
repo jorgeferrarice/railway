@@ -23,7 +23,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "templatevalidationerror",
       "source_file": "scripts/rt_schema.py",
@@ -293,7 +293,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "_duplicate_service_errors()",
       "source_file": "scripts/rt_schema.py",
@@ -305,7 +305,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "load_schema()",
       "source_file": "scripts/rt_schema.py",
@@ -317,7 +317,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "load_template()",
       "source_file": "scripts/rt_schema.py",
@@ -329,7 +329,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "scripts/rt_schema.py",
@@ -341,143 +341,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "validate_template()",
       "source_file": "scripts/rt_schema.py",
       "source_location": "L28"
-    },
-    {
-      "id": "tests_test_rt_schema_minimal_template",
-      "label": "minimal_template()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "minimal_template()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L8"
-    },
-    {
-      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
-      "label": "test_all_errors_are_reported_not_just_the_first()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L69"
-    },
-    {
-      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
-      "label": "test_duplicate_service_names_are_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_duplicate_service_names_are_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L61"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
-      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
-      "label": "test_load_template_raises_on_an_invalid_file()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_raises_on_an_invalid_file()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L84"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
-      "label": "test_load_template_reads_and_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_reads_and_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L78"
-    },
-    {
-      "id": "tests_test_rt_schema_test_minimal_template_validates",
-      "label": "test_minimal_template_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_minimal_template_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L28"
-    },
-    {
-      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
-      "label": "test_missing_name_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_missing_name_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
-      "label": "test_repo_source_requires_a_root_directory()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_repo_source_requires_a_root_directory()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L47"
-    },
-    {
-      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
-      "label": "test_unknown_source_type_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_unknown_source_type_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
-      "label": "test_variable_value_must_be_a_string()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_variable_value_must_be_a_string()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L54"
     },
     {
       "id": "tests_test_clickhouse_image_docker_available",
@@ -1354,6 +1222,138 @@
       "norm_label": "test_unqualified_reference_to_an_own_variable_is_allowed()",
       "source_file": "tests/test_rt_lint.py",
       "source_location": "L87"
+    },
+    {
+      "id": "tests_test_rt_schema_minimal_template",
+      "label": "minimal_template()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "minimal_template()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
+      "label": "test_all_errors_are_reported_not_just_the_first()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
+      "label": "test_duplicate_service_names_are_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_duplicate_service_names_are_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
+      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
+      "label": "test_load_template_raises_on_an_invalid_file()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_raises_on_an_invalid_file()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L84"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
+      "label": "test_load_template_reads_and_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_reads_and_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L78"
+    },
+    {
+      "id": "tests_test_rt_schema_test_minimal_template_validates",
+      "label": "test_minimal_template_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_minimal_template_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
+      "label": "test_missing_name_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_missing_name_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
+      "label": "test_repo_source_requires_a_root_directory()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_repo_source_requires_a_root_directory()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
+      "label": "test_unknown_source_type_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_unknown_source_type_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
+      "label": "test_variable_value_must_be_a_string()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_variable_value_must_be_a_string()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L54"
     },
     {
       "id": "scripts_rt_payload_build_deploy_input",
@@ -2542,26 +2542,48 @@
       "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_items_additionalproperties",
-      "label": "additionalProperties",
+      "id": "schema_template_schema_defs_variable",
+      "label": "variable",
       "_origin": "ast",
       "community": 0,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "additionalproperties",
+      "norm_label": "variable",
       "source_file": "schema/template.schema.json",
-      "source_location": "L18"
+      "source_location": "L106"
     },
     {
-      "id": "schema_template_schema_items_properties",
-      "label": "properties",
+      "id": "schema_template_schema_description_minlength",
+      "label": "minLength",
       "_origin": "ast",
       "community": 0,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "properties",
+      "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
-      "source_location": "L19"
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_description_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_isoptional_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
     },
     {
       "id": "schema_template_schema_items_ref",
@@ -2575,61 +2597,6 @@
       "source_location": "L28"
     },
     {
-      "id": "schema_template_schema_items_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "schema_template_schema_items_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "schema_template_schema_label_minlength",
-      "label": "minLength",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "schema_template_schema_label_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "schema_template_schema_links_items",
-      "label": "items",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "items",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L15"
-    },
-    {
       "id": "schema_template_schema_links_type",
       "label": "type",
       "_origin": "ast",
@@ -2639,6 +2606,39 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L14"
+    },
+    {
+      "id": "schema_template_schema_name_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "schema_template_schema_name_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "schema_template_schema_name_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
     },
     {
       "id": "schema_template_schema_properties",
@@ -2663,15 +2663,26 @@
       "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_properties_label",
-      "label": "label",
+      "id": "schema_template_schema_properties_description",
+      "label": "description",
       "_origin": "ast",
       "community": 0,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "label",
+      "norm_label": "description",
       "source_file": "schema/template.schema.json",
-      "source_location": "L20"
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_properties_isoptional",
+      "label": "isOptional",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "isoptional",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
     },
     {
       "id": "schema_template_schema_properties_links",
@@ -2685,15 +2696,15 @@
       "source_location": "L13"
     },
     {
-      "id": "schema_template_schema_properties_mountpath",
-      "label": "mountPath",
+      "id": "schema_template_schema_properties_name",
+      "label": "name",
       "_origin": "ast",
       "community": 0,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "mountpath",
+      "norm_label": "name",
       "source_file": "schema/template.schema.json",
-      "source_location": "L56"
+      "source_location": "L9"
     },
     {
       "id": "schema_template_schema_properties_readme",
@@ -2718,15 +2729,15 @@
       "source_location": "L25"
     },
     {
-      "id": "schema_template_schema_properties_url",
-      "label": "url",
+      "id": "schema_template_schema_properties_value",
+      "label": "value",
       "_origin": "ast",
       "community": 0,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "url",
+      "norm_label": "value",
       "source_file": "schema/template.schema.json",
-      "source_location": "L21"
+      "source_location": "L111"
     },
     {
       "id": "schema_template_schema_readme_minlength",
@@ -2784,18 +2795,7 @@
       "source_location": "L26"
     },
     {
-      "id": "schema_template_schema_url_format",
-      "label": "format",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "format",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L21"
-    },
-    {
-      "id": "schema_template_schema_url_type",
+      "id": "schema_template_schema_value_type",
       "label": "type",
       "_origin": "ast",
       "community": 0,
@@ -2803,18 +2803,51 @@
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L21"
+      "source_location": "L111"
     },
     {
-      "id": "schema_template_schema_volumes_items",
-      "label": "items",
+      "id": "schema_template_schema_variable_additionalproperties",
+      "label": "additionalProperties",
       "_origin": "ast",
       "community": 0,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "items",
+      "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L51"
+      "source_location": "L109"
+    },
+    {
+      "id": "schema_template_schema_variable_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L110"
+    },
+    {
+      "id": "schema_template_schema_variable_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L108"
+    },
+    {
+      "id": "schema_template_schema_variable_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L107"
     },
     {
       "id": "schema_template_schema",
@@ -2892,17 +2925,6 @@
       "norm_label": "reposource",
       "source_file": "schema/template.schema.json",
       "source_location": "L95"
-    },
-    {
-      "id": "schema_template_schema_defs_service",
-      "label": "service",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "service",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L32"
     },
     {
       "id": "schema_template_schema_id",
@@ -3147,39 +3169,6 @@
       "source_location": "L2"
     },
     {
-      "id": "schema_template_schema_service_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L35"
-    },
-    {
-      "id": "schema_template_schema_service_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L34"
-    },
-    {
-      "id": "schema_template_schema_service_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L33"
-    },
-    {
       "id": "schema_template_schema_title",
       "label": "title",
       "_origin": "ast",
@@ -3228,7 +3217,7 @@
       "label": "rt_schema.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "rt_schema.py",
       "source_file": "scripts/rt_schema.py",
@@ -3239,29 +3228,18 @@
       "label": "Path",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "tests_test_rt_schema",
-      "label": "test_rt_schema.py",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_rt_schema.py",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L1"
-    },
-    {
       "id": "valueerror",
       "label": "ValueError",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "valueerror",
       "source_file": "",
@@ -3272,7 +3250,7 @@
       "label": "Load and validate Railway template definitions.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "load and validate railway template definitions.",
       "source_file": "scripts/rt_schema.py",
@@ -3283,7 +3261,7 @@
       "label": "Raised when a template definition does not match the schema.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raised when a template definition does not match the schema.",
       "source_file": "scripts/rt_schema.py",
@@ -3294,7 +3272,7 @@
       "label": "Read the template JSON Schema from disk.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read the template json schema from disk.",
       "source_file": "scripts/rt_schema.py",
@@ -3305,7 +3283,7 @@
       "label": "Raise TemplateValidationError if the template does not match the schema.\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raise templatevalidationerror if the template does not match the schema....",
       "source_file": "scripts/rt_schema.py",
@@ -3316,7 +3294,7 @@
       "label": "Service names address variable references, so they must be unique. JSON Schema\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "service names address variable references, so they must be unique. json schema...",
       "source_file": "scripts/rt_schema.py",
@@ -3327,7 +3305,7 @@
       "label": "Read a template definition from disk and validate it.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read a template definition from disk and validate it.",
       "source_file": "scripts/rt_schema.py",
@@ -3378,136 +3356,148 @@
       "source_location": "L97"
     },
     {
-      "id": "schema_template_schema_defs_variable",
-      "label": "variable",
+      "id": "docs_railway_template_api_deploy",
+      "label": "`deploy`",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "variable",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L106"
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`deploy`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L172"
     },
     {
-      "id": "schema_template_schema_description_minlength",
-      "label": "minLength",
+      "id": "docs_railway_template_api_networking",
+      "label": "`networking`",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`networking`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L189"
     },
     {
-      "id": "schema_template_schema_description_type",
-      "label": "type",
+      "id": "docs_railway_template_api_railway_template_api",
+      "label": "Railway template API",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "railway template api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L1"
     },
     {
-      "id": "schema_template_schema_isoptional_type",
-      "label": "type",
+      "id": "docs_railway_template_api_reading_a_published_template_s_config",
+      "label": "Reading a published template's config",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reading a published template's config",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L206"
+    },
+    {
+      "id": "docs_railway_template_api_serializedconfig",
+      "label": "`serializedConfig`",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`serializedconfig`",
+      "source_file": "docs/railway-template-api.md",
       "source_location": "L113"
     },
     {
-      "id": "schema_template_schema_properties_description",
-      "label": "description",
+      "id": "docs_railway_template_api_source",
+      "label": "`source`",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "description",
-      "source_file": "schema/template.schema.json",
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`source`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L148"
+    },
+    {
+      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
+      "label": "`templateDeployV2` is refused from the public API",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`templatedeployv2` is refused from the public api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "docs_railway_template_api_there_is_no_templatecreate",
+      "label": "There is no `templateCreate`",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "there is no `templatecreate`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "docs_railway_template_api_transport",
+      "label": "Transport",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "transport",
+      "source_file": "docs/railway-template-api.md",
       "source_location": "L10"
     },
     {
-      "id": "schema_template_schema_properties_isoptional",
-      "label": "isOptional",
+      "id": "docs_railway_template_api_variables",
+      "label": "`variables`",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "isoptional",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`variables`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L160"
     },
     {
-      "id": "schema_template_schema_properties_value",
-      "label": "value",
+      "id": "docs_railway_template_api_volumemounts",
+      "label": "`volumeMounts`",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "value",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L111"
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`volumemounts`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L201"
     },
     {
-      "id": "schema_template_schema_value_type",
-      "label": "type",
+      "id": "docs_railway_template_api_what_templategenerate_drops",
+      "label": "What `templateGenerate` drops",
       "_origin": "ast",
       "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L111"
-    },
-    {
-      "id": "schema_template_schema_variable_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L109"
-    },
-    {
-      "id": "schema_template_schema_variable_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L110"
-    },
-    {
-      "id": "schema_template_schema_variable_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L108"
-    },
-    {
-      "id": "schema_template_schema_variable_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "variable",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L107"
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what `templategenerate` drops",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L83"
     },
     {
       "id": "tests_test_rt_payload",
@@ -3554,6 +3544,54 @@
       "source_location": "L54"
     },
     {
+      "id": "docs_publishing_checklist",
+      "label": "publishing-checklist.md",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "publishing-checklist.md",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_publishing_checklist_aptabase",
+      "label": "Aptabase",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "aptabase",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "docs_publishing_checklist_publishing_checklist",
+      "label": "Publishing checklist",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "publishing checklist",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_publishing_checklist_then",
+      "label": "Then",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "then",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L43"
+    },
+    {
       "id": "docs_railway_template_api",
       "label": "railway-template-api.md",
       "_origin": "ast",
@@ -3566,148 +3604,124 @@
       "source_location": "L1"
     },
     {
-      "id": "docs_railway_template_api_deploy",
-      "label": "`deploy`",
+      "id": "readme",
+      "label": "README.md",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`deploy`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L172"
-    },
-    {
-      "id": "docs_railway_template_api_networking",
-      "label": "`networking`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`networking`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L189"
-    },
-    {
-      "id": "docs_railway_template_api_railway_template_api",
-      "label": "Railway template API",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "railway template api",
-      "source_file": "docs/railway-template-api.md",
+      "node_kind": "page",
+      "norm_label": "readme.md",
+      "source_file": "README.md",
       "source_location": "L1"
     },
     {
-      "id": "docs_railway_template_api_reading_a_published_template_s_config",
-      "label": "Reading a published template's config",
+      "id": "readme_development",
+      "label": "Development",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "reading a published template's config",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L206"
+      "norm_label": "development",
+      "source_file": "README.md",
+      "source_location": "L15"
     },
     {
-      "id": "docs_railway_template_api_serializedconfig",
-      "label": "`serializedConfig`",
+      "id": "readme_documentation",
+      "label": "Documentation",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`serializedconfig`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L113"
+      "norm_label": "documentation",
+      "source_file": "README.md",
+      "source_location": "L23"
     },
     {
-      "id": "docs_railway_template_api_source",
-      "label": "`source`",
+      "id": "readme_railway_templates",
+      "label": "Railway templates",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`source`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L148"
+      "norm_label": "railway templates",
+      "source_file": "README.md",
+      "source_location": "L1"
     },
     {
-      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
-      "label": "`templateDeployV2` is refused from the public API",
+      "id": "readme_templates",
+      "label": "Templates",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`templatedeployv2` is refused from the public api",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L62"
+      "norm_label": "templates",
+      "source_file": "README.md",
+      "source_location": "L9"
     },
     {
-      "id": "docs_railway_template_api_there_is_no_templatecreate",
-      "label": "There is no `templateCreate`",
+      "id": "rtk",
+      "label": "RTK.md",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "there is no `templatecreate`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L21"
+      "node_kind": "page",
+      "norm_label": "rtk.md",
+      "source_file": "RTK.md",
+      "source_location": "L1"
     },
     {
-      "id": "docs_railway_template_api_transport",
-      "label": "Transport",
+      "id": "rtk_hook_based_usage",
+      "label": "Hook-Based Usage",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "transport",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L10"
+      "norm_label": "hook-based usage",
+      "source_file": "RTK.md",
+      "source_location": "L24"
     },
     {
-      "id": "docs_railway_template_api_variables",
-      "label": "`variables`",
+      "id": "rtk_installation_verification",
+      "label": "Installation Verification",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`variables`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L160"
+      "norm_label": "installation verification",
+      "source_file": "RTK.md",
+      "source_location": "L14"
     },
     {
-      "id": "docs_railway_template_api_volumemounts",
-      "label": "`volumeMounts`",
+      "id": "rtk_meta_commands_always_use_rtk_directly",
+      "label": "Meta Commands (always use rtk directly)",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "`volumemounts`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L201"
+      "norm_label": "meta commands (always use rtk directly)",
+      "source_file": "RTK.md",
+      "source_location": "L5"
     },
     {
-      "id": "docs_railway_template_api_what_templategenerate_drops",
-      "label": "What `templateGenerate` drops",
+      "id": "rtk_rtk_rust_token_killer",
+      "label": "RTK - Rust Token Killer",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "what `templategenerate` drops",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L83"
+      "norm_label": "rtk - rust token killer",
+      "source_file": "RTK.md",
+      "source_location": "L1"
     },
     {
       "id": "templates_aptabase_readme",
@@ -3910,6 +3924,138 @@
       "source_location": "L73"
     },
     {
+      "id": "schema_template_schema_deploy_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L77"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_properties_healthcheckpath",
+      "label": "healthcheckPath",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthcheckpath",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_properties_healthchecktimeout",
+      "label": "healthcheckTimeout",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthchecktimeout",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicymaxretries",
+      "label": "restartPolicyMaxRetries",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicymaxretries",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicytype",
+      "label": "restartPolicyType",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicytype",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L80"
+    },
+    {
+      "id": "schema_template_schema_restartpolicymaxretries_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_restartpolicymaxretries_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_restartpolicytype_enum",
+      "label": "enum",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "enum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L80"
+    },
+    {
       "id": "scripts_rt_lint",
       "label": "rt_lint.py",
       "_origin": "ast",
@@ -3954,123 +4100,14 @@
       "source_location": "L37"
     },
     {
-      "id": "readme",
-      "label": "README.md",
+      "id": "tests_test_rt_schema",
+      "label": "test_rt_schema.py",
       "_origin": "ast",
       "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "readme.md",
-      "source_file": "README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "readme_development",
-      "label": "Development",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "development",
-      "source_file": "README.md",
-      "source_location": "L15"
-    },
-    {
-      "id": "readme_documentation",
-      "label": "Documentation",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "documentation",
-      "source_file": "README.md",
-      "source_location": "L23"
-    },
-    {
-      "id": "readme_railway_templates",
-      "label": "Railway templates",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "railway templates",
-      "source_file": "README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "readme_templates",
-      "label": "Templates",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "templates",
-      "source_file": "README.md",
-      "source_location": "L9"
-    },
-    {
-      "id": "rtk",
-      "label": "RTK.md",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "rtk.md",
-      "source_file": "RTK.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "rtk_hook_based_usage",
-      "label": "Hook-Based Usage",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "hook-based usage",
-      "source_file": "RTK.md",
-      "source_location": "L24"
-    },
-    {
-      "id": "rtk_installation_verification",
-      "label": "Installation Verification",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "installation verification",
-      "source_file": "RTK.md",
-      "source_location": "L14"
-    },
-    {
-      "id": "rtk_meta_commands_always_use_rtk_directly",
-      "label": "Meta Commands (always use rtk directly)",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "meta commands (always use rtk directly)",
-      "source_file": "RTK.md",
-      "source_location": "L5"
-    },
-    {
-      "id": "rtk_rtk_rust_token_killer",
-      "label": "RTK - Rust Token Killer",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "Railway templates",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "rtk - rust token killer",
-      "source_file": "RTK.md",
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_rt_schema.py",
+      "source_file": "tests/test_rt_schema.py",
       "source_location": "L1"
     },
     {
@@ -4085,6 +4122,17 @@
       "source_location": "L46"
     },
     {
+      "id": "schema_template_schema_defs_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L32"
+    },
+    {
       "id": "schema_template_schema_deploy_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -4096,17 +4144,6 @@
       "source_location": "L76"
     },
     {
-      "id": "schema_template_schema_deploy_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L77"
-    },
-    {
       "id": "schema_template_schema_deploy_type",
       "label": "type",
       "_origin": "ast",
@@ -4116,50 +4153,6 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L75"
-    },
-    {
-      "id": "schema_template_schema_healthcheckpath_pattern",
-      "label": "pattern",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_healthcheckpath_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_healthchecktimeout_minimum",
-      "label": "minimum",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
-      "id": "schema_template_schema_healthchecktimeout_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
     },
     {
       "id": "schema_template_schema_http_additionalproperties",
@@ -4206,29 +4199,40 @@
       "source_location": "L65"
     },
     {
-      "id": "schema_template_schema_name_minlength",
-      "label": "minLength",
+      "id": "schema_template_schema_items_additionalproperties",
+      "label": "additionalProperties",
       "_origin": "ast",
       "community": 2,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "minlength",
+      "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L9"
+      "source_location": "L18"
     },
     {
-      "id": "schema_template_schema_name_pattern",
-      "label": "pattern",
+      "id": "schema_template_schema_items_properties",
+      "label": "properties",
       "_origin": "ast",
       "community": 2,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "pattern",
+      "norm_label": "properties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L37"
+      "source_location": "L19"
     },
     {
-      "id": "schema_template_schema_name_type",
+      "id": "schema_template_schema_items_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "schema_template_schema_items_type",
       "label": "type",
       "_origin": "ast",
       "community": 2,
@@ -4236,7 +4240,40 @@
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L9"
+      "source_location": "L16"
+    },
+    {
+      "id": "schema_template_schema_label_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "schema_template_schema_label_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "schema_template_schema_links_items",
+      "label": "items",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "items",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L15"
     },
     {
       "id": "schema_template_schema_networking_additionalproperties",
@@ -4283,28 +4320,6 @@
       "source_location": "L74"
     },
     {
-      "id": "schema_template_schema_properties_healthcheckpath",
-      "label": "healthcheckPath",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthcheckpath",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_properties_healthchecktimeout",
-      "label": "healthcheckTimeout",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthchecktimeout",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
       "id": "schema_template_schema_properties_http",
       "label": "http",
       "_origin": "ast",
@@ -4316,15 +4331,26 @@
       "source_location": "L64"
     },
     {
-      "id": "schema_template_schema_properties_name",
-      "label": "name",
+      "id": "schema_template_schema_properties_label",
+      "label": "label",
       "_origin": "ast",
       "community": 2,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "name",
+      "norm_label": "label",
       "source_file": "schema/template.schema.json",
-      "source_location": "L9"
+      "source_location": "L20"
+    },
+    {
+      "id": "schema_template_schema_properties_mountpath",
+      "label": "mountPath",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "mountpath",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L56"
     },
     {
       "id": "schema_template_schema_properties_networking",
@@ -4338,28 +4364,6 @@
       "source_location": "L60"
     },
     {
-      "id": "schema_template_schema_properties_restartpolicymaxretries",
-      "label": "restartPolicyMaxRetries",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicymaxretries",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_properties_restartpolicytype",
-      "label": "restartPolicyType",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicytype",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L80"
-    },
-    {
       "id": "schema_template_schema_properties_source",
       "label": "source",
       "_origin": "ast",
@@ -4369,6 +4373,17 @@
       "norm_label": "source",
       "source_file": "schema/template.schema.json",
       "source_location": "L38"
+    },
+    {
+      "id": "schema_template_schema_properties_url",
+      "label": "url",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "url",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L21"
     },
     {
       "id": "schema_template_schema_properties_variables",
@@ -4404,37 +4419,15 @@
       "source_location": "L47"
     },
     {
-      "id": "schema_template_schema_restartpolicymaxretries_minimum",
-      "label": "minimum",
+      "id": "schema_template_schema_service_additionalproperties",
+      "label": "additionalProperties",
       "_origin": "ast",
       "community": 2,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "minimum",
+      "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_restartpolicymaxretries_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_restartpolicytype_enum",
-      "label": "enum",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "enum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L80"
+      "source_location": "L35"
     },
     {
       "id": "schema_template_schema_service_properties",
@@ -4448,6 +4441,28 @@
       "source_location": "L36"
     },
     {
+      "id": "schema_template_schema_service_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "schema_template_schema_service_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L33"
+    },
+    {
       "id": "schema_template_schema_source_oneof",
       "label": "oneOf",
       "_origin": "ast",
@@ -4457,6 +4472,28 @@
       "norm_label": "oneof",
       "source_file": "schema/template.schema.json",
       "source_location": "L39"
+    },
+    {
+      "id": "schema_template_schema_url_format",
+      "label": "format",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "format",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "schema_template_schema_url_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L21"
     },
     {
       "id": "schema_template_schema_variables_additionalproperties",
@@ -4490,6 +4527,17 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L45"
+    },
+    {
+      "id": "schema_template_schema_volumes_items",
+      "label": "items",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "items",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L51"
     },
     {
       "id": "schema_template_schema_volumes_type",
@@ -7897,6 +7945,39 @@
       "context": "return_type",
       "source_file": "scripts/rt_http.py",
       "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist",
+      "target": "docs_publishing_checklist_publishing_checklist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist_publishing_checklist",
+      "target": "docs_publishing_checklist_then",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist_publishing_checklist",
+      "target": "docs_publishing_checklist_aptabase",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -13037,6 +13118,28 @@
       "weight": 1.0
     },
     {
+      "source": "docs_publishing_checklist",
+      "target": "docs_railway_template_api",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist",
+      "target": "templates_aptabase_readme",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
       "source": "readme",
       "target": "rtk",
       "relation": "references",
@@ -13045,6 +13148,28 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_railway_template_api",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_publishing_checklist",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -13228,5 +13353,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9f991d77aaa64951884b4b034f68e10e26b1ceb7"
+  "built_at_commit": "da4eb2dc694484e5ecb8ec362947d65297dd0af2"
 }

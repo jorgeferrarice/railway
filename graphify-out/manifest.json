@@ -126,9 +126,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1789046383.3264515,
-    "seen": 1789046720.423091,
-    "ast_hash": "ce532f3fbce886c672c30fb177cb5bad",
+    "mtime": 1789048348.5566633,
+    "seen": 1789048354.322983,
+    "ast_hash": "eb3bcb70a5d3d133d5c9df3e1bf5e6f6",
     "semantic_hash": ""
   },
   "RTK.md": {
@@ -195,6 +195,12 @@
     "mtime": 1789046655.7966099,
     "seen": 1789046720.4230862,
     "ast_hash": "276c068e6a64177ccb48755968b15631",
+    "semantic_hash": ""
+  },
+  "docs/publishing-checklist.md": {
+    "mtime": 1789048348.5534,
+    "seen": 1789048354.3230011,
+    "ast_hash": "54b8d539628f6da566be417a989deaf5",
     "semantic_hash": ""
   }
 }
