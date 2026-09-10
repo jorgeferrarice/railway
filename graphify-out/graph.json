@@ -23,7 +23,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "templatevalidationerror",
       "source_file": "scripts/rt_schema.py",
@@ -293,7 +293,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "_duplicate_service_errors()",
       "source_file": "scripts/rt_schema.py",
@@ -305,7 +305,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "load_schema()",
       "source_file": "scripts/rt_schema.py",
@@ -317,7 +317,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "load_template()",
       "source_file": "scripts/rt_schema.py",
@@ -329,7 +329,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "scripts/rt_schema.py",
@@ -341,11 +341,143 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "validate_template()",
       "source_file": "scripts/rt_schema.py",
       "source_location": "L28"
+    },
+    {
+      "id": "tests_test_rt_schema_minimal_template",
+      "label": "minimal_template()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "minimal_template()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
+      "label": "test_all_errors_are_reported_not_just_the_first()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
+      "label": "test_duplicate_service_names_are_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_duplicate_service_names_are_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
+      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
+      "label": "test_load_template_raises_on_an_invalid_file()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_raises_on_an_invalid_file()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L84"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
+      "label": "test_load_template_reads_and_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_reads_and_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L78"
+    },
+    {
+      "id": "tests_test_rt_schema_test_minimal_template_validates",
+      "label": "test_minimal_template_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_minimal_template_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
+      "label": "test_missing_name_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_missing_name_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
+      "label": "test_repo_source_requires_a_root_directory()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_repo_source_requires_a_root_directory()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
+      "label": "test_unknown_source_type_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_unknown_source_type_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
+      "label": "test_variable_value_must_be_a_string()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_variable_value_must_be_a_string()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L54"
     },
     {
       "id": "tests_test_clickhouse_image_docker_available",
@@ -1536,138 +1668,6 @@
       "source_location": "L43"
     },
     {
-      "id": "tests_test_rt_schema_minimal_template",
-      "label": "minimal_template()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "minimal_template()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L8"
-    },
-    {
-      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
-      "label": "test_all_errors_are_reported_not_just_the_first()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L69"
-    },
-    {
-      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
-      "label": "test_duplicate_service_names_are_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_duplicate_service_names_are_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L61"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
-      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
-      "label": "test_load_template_raises_on_an_invalid_file()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_raises_on_an_invalid_file()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L84"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
-      "label": "test_load_template_reads_and_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_reads_and_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L78"
-    },
-    {
-      "id": "tests_test_rt_schema_test_minimal_template_validates",
-      "label": "test_minimal_template_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_minimal_template_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L28"
-    },
-    {
-      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
-      "label": "test_missing_name_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_missing_name_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
-      "label": "test_repo_source_requires_a_root_directory()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_repo_source_requires_a_root_directory()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L47"
-    },
-    {
-      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
-      "label": "test_unknown_source_type_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_unknown_source_type_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
-      "label": "test_variable_value_must_be_a_string()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_variable_value_must_be_a_string()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L54"
-    },
-    {
       "id": "scripts_bump_digest_bump",
       "label": "bump()",
       "_callable": true,
@@ -2520,33 +2520,11 @@
       "source_location": "L123"
     },
     {
-      "id": "schema_template_schema",
-      "label": "template.schema.json",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "template.schema.json",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "schema_template_schema_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L7"
-    },
-    {
       "id": "schema_template_schema_category_minlength",
       "label": "minLength",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
@@ -2557,84 +2535,106 @@
       "label": "type",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_defs_variable",
-      "label": "variable",
+      "id": "schema_template_schema_items_additionalproperties",
+      "label": "additionalProperties",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "variable",
+      "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L106"
+      "source_location": "L18"
     },
     {
-      "id": "schema_template_schema_description_minlength",
-      "label": "minLength",
+      "id": "schema_template_schema_items_properties",
+      "label": "properties",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "minlength",
+      "norm_label": "properties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "schema_template_schema_description_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "schema_template_schema_id",
-      "label": "$id",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "$id",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "schema_template_schema_isoptional_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
+      "source_location": "L19"
     },
     {
       "id": "schema_template_schema_items_ref",
       "label": "$ref",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "$ref",
       "source_file": "schema/template.schema.json",
       "source_location": "L28"
     },
     {
+      "id": "schema_template_schema_items_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "schema_template_schema_items_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "schema_template_schema_label_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "schema_template_schema_label_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "schema_template_schema_links_items",
+      "label": "items",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "items",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L15"
+    },
+    {
       "id": "schema_template_schema_links_type",
       "label": "type",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
@@ -2645,7 +2645,7 @@
       "label": "properties",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
@@ -2656,51 +2656,51 @@
       "label": "category",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "category",
       "source_file": "schema/template.schema.json",
       "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_properties_description",
-      "label": "description",
+      "id": "schema_template_schema_properties_label",
+      "label": "label",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "description",
+      "norm_label": "label",
       "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "schema_template_schema_properties_isoptional",
-      "label": "isOptional",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "isoptional",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
+      "source_location": "L20"
     },
     {
       "id": "schema_template_schema_properties_links",
       "label": "links",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "links",
       "source_file": "schema/template.schema.json",
       "source_location": "L13"
     },
     {
+      "id": "schema_template_schema_properties_mountpath",
+      "label": "mountPath",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "mountpath",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L56"
+    },
+    {
       "id": "schema_template_schema_properties_readme",
       "label": "readme",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "readme",
       "source_file": "schema/template.schema.json",
@@ -2711,29 +2711,29 @@
       "label": "services",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "services",
       "source_file": "schema/template.schema.json",
       "source_location": "L25"
     },
     {
-      "id": "schema_template_schema_properties_value",
-      "label": "value",
+      "id": "schema_template_schema_properties_url",
+      "label": "url",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "value",
+      "norm_label": "url",
       "source_file": "schema/template.schema.json",
-      "source_location": "L111"
+      "source_location": "L21"
     },
     {
       "id": "schema_template_schema_readme_minlength",
       "label": "minLength",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
@@ -2744,40 +2744,18 @@
       "label": "type",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L12"
     },
     {
-      "id": "schema_template_schema_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "schema_template_schema_schema",
-      "label": "$schema",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "$schema",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L2"
-    },
-    {
       "id": "schema_template_schema_services_items",
       "label": "items",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "items",
       "source_file": "schema/template.schema.json",
@@ -2788,7 +2766,7 @@
       "label": "minItems",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "minitems",
       "source_file": "schema/template.schema.json",
@@ -2799,95 +2777,73 @@
       "label": "type",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L26"
     },
     {
-      "id": "schema_template_schema_title",
-      "label": "title",
+      "id": "schema_template_schema_url_format",
+      "label": "format",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "title",
+      "norm_label": "format",
       "source_file": "schema/template.schema.json",
-      "source_location": "L4"
+      "source_location": "L21"
     },
     {
-      "id": "schema_template_schema_type",
+      "id": "schema_template_schema_url_type",
       "label": "type",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L5"
+      "source_location": "L21"
     },
     {
-      "id": "schema_template_schema_value_type",
-      "label": "type",
+      "id": "schema_template_schema_volumes_items",
+      "label": "items",
       "_origin": "ast",
       "community": 0,
-      "community_name": "template.schema.json",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "type",
+      "norm_label": "items",
       "source_file": "schema/template.schema.json",
-      "source_location": "L111"
+      "source_location": "L51"
     },
     {
-      "id": "schema_template_schema_variable_additionalproperties",
+      "id": "schema_template_schema",
+      "label": "template.schema.json",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "template.schema.json",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "schema_template_schema_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L109"
-    },
-    {
-      "id": "schema_template_schema_variable_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L110"
-    },
-    {
-      "id": "schema_template_schema_variable_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L108"
-    },
-    {
-      "id": "schema_template_schema_variable_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L107"
+      "source_location": "L7"
     },
     {
       "id": "schema_template_schema_branch_minlength",
       "label": "minLength",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
@@ -2898,7 +2854,7 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
@@ -2909,7 +2865,7 @@
       "label": "$defs",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "$defs",
       "source_file": "schema/template.schema.json",
@@ -2920,7 +2876,7 @@
       "label": "imageSource",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "imagesource",
       "source_file": "schema/template.schema.json",
@@ -2931,18 +2887,40 @@
       "label": "repoSource",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "reposource",
       "source_file": "schema/template.schema.json",
       "source_location": "L95"
     },
     {
+      "id": "schema_template_schema_defs_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "schema_template_schema_id",
+      "label": "$id",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "$id",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L3"
+    },
+    {
       "id": "schema_template_schema_image_minlength",
       "label": "minLength",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
@@ -2953,7 +2931,7 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
@@ -2964,7 +2942,7 @@
       "label": "additionalProperties",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
@@ -2975,7 +2953,7 @@
       "label": "properties",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
@@ -2986,7 +2964,7 @@
       "label": "required",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "required",
       "source_file": "schema/template.schema.json",
@@ -2997,7 +2975,7 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
@@ -3008,7 +2986,7 @@
       "label": "branch",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "branch",
       "source_file": "schema/template.schema.json",
@@ -3019,7 +2997,7 @@
       "label": "image",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "image",
       "source_file": "schema/template.schema.json",
@@ -3030,7 +3008,7 @@
       "label": "repo",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "repo",
       "source_file": "schema/template.schema.json",
@@ -3041,7 +3019,7 @@
       "label": "rootDirectory",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "rootdirectory",
       "source_file": "schema/template.schema.json",
@@ -3052,7 +3030,7 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
@@ -3063,7 +3041,7 @@
       "label": "pattern",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "pattern",
       "source_file": "schema/template.schema.json",
@@ -3074,7 +3052,7 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
@@ -3085,7 +3063,7 @@
       "label": "additionalProperties",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
@@ -3096,7 +3074,7 @@
       "label": "properties",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
@@ -3107,7 +3085,7 @@
       "label": "required",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "required",
       "source_file": "schema/template.schema.json",
@@ -3118,18 +3096,29 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L96"
     },
     {
+      "id": "schema_template_schema_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L6"
+    },
+    {
       "id": "schema_template_schema_rootdirectory_minlength",
       "label": "minLength",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
@@ -3140,18 +3129,84 @@
       "label": "type",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L102"
     },
     {
+      "id": "schema_template_schema_schema",
+      "label": "$schema",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "$schema",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "schema_template_schema_service_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "schema_template_schema_service_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "schema_template_schema_service_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L33"
+    },
+    {
+      "id": "schema_template_schema_title",
+      "label": "title",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "title",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "schema_template_schema_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L5"
+    },
+    {
       "id": "schema_template_schema_type_const",
       "label": "const",
       "_origin": "ast",
       "community": 1,
-      "community_name": "$defs",
+      "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "const",
       "source_file": "schema/template.schema.json",
@@ -3173,7 +3228,7 @@
       "label": "rt_schema.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "rt_schema.py",
       "source_file": "scripts/rt_schema.py",
@@ -3184,18 +3239,29 @@
       "label": "Path",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
+      "id": "tests_test_rt_schema",
+      "label": "test_rt_schema.py",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_rt_schema.py",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L1"
+    },
+    {
       "id": "valueerror",
       "label": "ValueError",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "valueerror",
       "source_file": "",
@@ -3206,7 +3272,7 @@
       "label": "Load and validate Railway template definitions.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "load and validate railway template definitions.",
       "source_file": "scripts/rt_schema.py",
@@ -3217,7 +3283,7 @@
       "label": "Raised when a template definition does not match the schema.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raised when a template definition does not match the schema.",
       "source_file": "scripts/rt_schema.py",
@@ -3228,7 +3294,7 @@
       "label": "Read the template JSON Schema from disk.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read the template json schema from disk.",
       "source_file": "scripts/rt_schema.py",
@@ -3239,7 +3305,7 @@
       "label": "Raise TemplateValidationError if the template does not match the schema.\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raise templatevalidationerror if the template does not match the schema....",
       "source_file": "scripts/rt_schema.py",
@@ -3250,7 +3316,7 @@
       "label": "Service names address variable references, so they must be unique. JSON Schema\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "service names address variable references, so they must be unique. json schema...",
       "source_file": "scripts/rt_schema.py",
@@ -3261,7 +3327,7 @@
       "label": "Read a template definition from disk and validate it.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read a template definition from disk and validate it.",
       "source_file": "scripts/rt_schema.py",
@@ -3312,147 +3378,136 @@
       "source_location": "L97"
     },
     {
-      "id": "schema_template_schema_items_additionalproperties",
-      "label": "additionalProperties",
+      "id": "schema_template_schema_defs_variable",
+      "label": "variable",
       "_origin": "ast",
       "community": 13,
-      "community_name": "properties",
+      "community_name": "variable",
       "file_type": "code",
-      "norm_label": "additionalproperties",
+      "norm_label": "variable",
       "source_file": "schema/template.schema.json",
-      "source_location": "L18"
+      "source_location": "L106"
     },
     {
-      "id": "schema_template_schema_items_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "schema_template_schema_items_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "schema_template_schema_items_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "schema_template_schema_label_minlength",
+      "id": "schema_template_schema_description_minlength",
       "label": "minLength",
       "_origin": "ast",
       "community": 13,
-      "community_name": "properties",
+      "community_name": "variable",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
-      "source_location": "L20"
+      "source_location": "L10"
     },
     {
-      "id": "schema_template_schema_label_type",
+      "id": "schema_template_schema_description_type",
       "label": "type",
       "_origin": "ast",
       "community": 13,
-      "community_name": "properties",
+      "community_name": "variable",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L20"
+      "source_location": "L10"
     },
     {
-      "id": "schema_template_schema_links_items",
-      "label": "items",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "items",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "schema_template_schema_properties_label",
-      "label": "label",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "label",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "schema_template_schema_properties_mountpath",
-      "label": "mountPath",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "mountpath",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L56"
-    },
-    {
-      "id": "schema_template_schema_properties_url",
-      "label": "url",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "url",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L21"
-    },
-    {
-      "id": "schema_template_schema_url_format",
-      "label": "format",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "format",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L21"
-    },
-    {
-      "id": "schema_template_schema_url_type",
+      "id": "schema_template_schema_isoptional_type",
       "label": "type",
       "_origin": "ast",
       "community": 13,
-      "community_name": "properties",
+      "community_name": "variable",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L21"
+      "source_location": "L113"
     },
     {
-      "id": "schema_template_schema_volumes_items",
-      "label": "items",
+      "id": "schema_template_schema_properties_description",
+      "label": "description",
       "_origin": "ast",
       "community": 13,
-      "community_name": "properties",
+      "community_name": "variable",
       "file_type": "code",
-      "norm_label": "items",
+      "norm_label": "description",
       "source_file": "schema/template.schema.json",
-      "source_location": "L51"
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_properties_isoptional",
+      "label": "isOptional",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "isoptional",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
+    },
+    {
+      "id": "schema_template_schema_properties_value",
+      "label": "value",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "value",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L111"
+    },
+    {
+      "id": "schema_template_schema_value_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L111"
+    },
+    {
+      "id": "schema_template_schema_variable_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L109"
+    },
+    {
+      "id": "schema_template_schema_variable_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L110"
+    },
+    {
+      "id": "schema_template_schema_variable_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L108"
+    },
+    {
+      "id": "schema_template_schema_variable_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L107"
     },
     {
       "id": "tests_test_rt_payload",
@@ -3499,6 +3554,162 @@
       "source_location": "L54"
     },
     {
+      "id": "docs_railway_template_api",
+      "label": "railway-template-api.md",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "railway-template-api.md",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_railway_template_api_deploy",
+      "label": "`deploy`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`deploy`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L172"
+    },
+    {
+      "id": "docs_railway_template_api_networking",
+      "label": "`networking`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`networking`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L189"
+    },
+    {
+      "id": "docs_railway_template_api_railway_template_api",
+      "label": "Railway template API",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "railway template api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_railway_template_api_reading_a_published_template_s_config",
+      "label": "Reading a published template's config",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reading a published template's config",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L206"
+    },
+    {
+      "id": "docs_railway_template_api_serializedconfig",
+      "label": "`serializedConfig`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`serializedconfig`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "docs_railway_template_api_source",
+      "label": "`source`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`source`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L148"
+    },
+    {
+      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
+      "label": "`templateDeployV2` is refused from the public API",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`templatedeployv2` is refused from the public api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "docs_railway_template_api_there_is_no_templatecreate",
+      "label": "There is no `templateCreate`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "there is no `templatecreate`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "docs_railway_template_api_transport",
+      "label": "Transport",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "transport",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "docs_railway_template_api_variables",
+      "label": "`variables`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`variables`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L160"
+    },
+    {
+      "id": "docs_railway_template_api_volumemounts",
+      "label": "`volumeMounts`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`volumemounts`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L201"
+    },
+    {
+      "id": "docs_railway_template_api_what_templategenerate_drops",
+      "label": "What `templateGenerate` drops",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what `templategenerate` drops",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L83"
+    },
+    {
       "id": "templates_aptabase_readme",
       "label": "aptabase/README.md",
       "_origin": "ast",
@@ -3520,7 +3731,7 @@
       "node_kind": "heading",
       "norm_label": "adding oauth sign-in",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L63"
+      "source_location": "L69"
     },
     {
       "id": "templates_aptabase_readme_adding_smtp",
@@ -3532,7 +3743,7 @@
       "node_kind": "heading",
       "norm_label": "adding smtp",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L48"
+      "source_location": "L54"
     },
     {
       "id": "templates_aptabase_readme_aptabase",
@@ -3556,7 +3767,7 @@
       "node_kind": "heading",
       "norm_label": "creating the first account",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L34"
+      "source_location": "L40"
     },
     {
       "id": "templates_aptabase_readme_custom_domain",
@@ -3568,7 +3779,7 @@
       "node_kind": "heading",
       "norm_label": "custom domain",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L73"
+      "source_location": "L79"
     },
     {
       "id": "templates_aptabase_readme_deploy",
@@ -3592,7 +3803,7 @@
       "node_kind": "heading",
       "norm_label": "known limits",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L107"
+      "source_location": "L116"
     },
     {
       "id": "templates_aptabase_readme_marketplace_listing",
@@ -3604,7 +3815,19 @@
       "node_kind": "heading",
       "norm_label": "marketplace listing",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L118"
+      "source_location": "L127"
+    },
+    {
+      "id": "templates_aptabase_readme_publishing_is_not_a_one_command_step",
+      "label": "Publishing is not a one-command step",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "publishing is not a one-command step",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L140"
     },
     {
       "id": "templates_aptabase_readme_storage",
@@ -3616,7 +3839,7 @@
       "node_kind": "heading",
       "norm_label": "storage",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L95"
+      "source_location": "L102"
     },
     {
       "id": "templates_aptabase_readme_upgrading",
@@ -3628,7 +3851,7 @@
       "node_kind": "heading",
       "norm_label": "upgrading",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L82"
+      "source_location": "L88"
     },
     {
       "id": "templates_aptabase_readme_what_this_deploys",
@@ -3685,138 +3908,6 @@
       "norm_label": "a variable like ${{db.password}} cannot resolve until db exists, so every...",
       "source_file": "tests/test_rt_apply.py",
       "source_location": "L73"
-    },
-    {
-      "id": "docs_railway_template_api",
-      "label": "railway-template-api.md",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "railway-template-api.md",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_railway_template_api_deploy",
-      "label": "`deploy`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`deploy`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L121"
-    },
-    {
-      "id": "docs_railway_template_api_networking",
-      "label": "`networking`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`networking`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L138"
-    },
-    {
-      "id": "docs_railway_template_api_railway_template_api",
-      "label": "Railway template API",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "railway template api",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_railway_template_api_reading_a_published_template_s_config",
-      "label": "Reading a published template's config",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "reading a published template's config",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L155"
-    },
-    {
-      "id": "docs_railway_template_api_serializedconfig",
-      "label": "`serializedConfig`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`serializedconfig`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L62"
-    },
-    {
-      "id": "docs_railway_template_api_source",
-      "label": "`source`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`source`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L97"
-    },
-    {
-      "id": "docs_railway_template_api_there_is_no_templatecreate",
-      "label": "There is no `templateCreate`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "there is no `templatecreate`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L21"
-    },
-    {
-      "id": "docs_railway_template_api_transport",
-      "label": "Transport",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "transport",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L10"
-    },
-    {
-      "id": "docs_railway_template_api_variables",
-      "label": "`variables`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`variables`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L109"
-    },
-    {
-      "id": "docs_railway_template_api_volumemounts",
-      "label": "`volumeMounts`",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "`serializedConfig`",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`volumemounts`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L150"
     },
     {
       "id": "scripts_rt_lint",
@@ -3992,17 +4083,6 @@
       "norm_label": "$ref",
       "source_file": "schema/template.schema.json",
       "source_location": "L46"
-    },
-    {
-      "id": "schema_template_schema_defs_service",
-      "label": "service",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "service",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L32"
     },
     {
       "id": "schema_template_schema_deploy_additionalproperties",
@@ -4357,17 +4437,6 @@
       "source_location": "L80"
     },
     {
-      "id": "schema_template_schema_service_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L35"
-    },
-    {
       "id": "schema_template_schema_service_properties",
       "label": "properties",
       "_origin": "ast",
@@ -4377,28 +4446,6 @@
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
       "source_location": "L36"
-    },
-    {
-      "id": "schema_template_schema_service_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L34"
-    },
-    {
-      "id": "schema_template_schema_service_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L33"
     },
     {
       "id": "schema_template_schema_source_oneof",
@@ -4717,17 +4764,6 @@
       "source_location": "L13"
     },
     {
-      "id": "tests_test_rt_schema",
-      "label": "test_rt_schema.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_rt_schema.py",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L1"
-    },
-    {
       "id": "scripts_bump_digest",
       "label": "bump_digest.py",
       "_origin": "ast",
@@ -4939,7 +4975,7 @@
       "node_kind": "heading",
       "norm_label": "`bump-digest.sh`",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L308"
+      "source_location": "L341"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_clickhouse",
@@ -4952,6 +4988,30 @@
       "norm_label": "`clickhouse`",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
       "source_location": "L149"
+    },
+    {
+      "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_step_1_does_not_work_either",
+      "label": "Correction: step 1 does not work either",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Aptabase Railway Template \u2014 Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "correction: step 1 does not work either",
+      "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
+      "source_location": "L299"
+    },
+    {
+      "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_templategenerate_is_lossy",
+      "label": "Correction: `templateGenerate` is lossy",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Aptabase Railway Template \u2014 Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "correction: `templategenerate` is lossy",
+      "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
+      "source_location": "L311"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_there_is_no_templatecreate",
@@ -4987,7 +5047,7 @@
       "node_kind": "heading",
       "norm_label": "decisions recorded",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L373"
+      "source_location": "L412"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_environment_variables_read_by_aptabase",
@@ -5011,7 +5071,7 @@
       "node_kind": "heading",
       "norm_label": "error handling and failure modes",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L339"
+      "source_location": "L372"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_goals",
@@ -5035,7 +5095,7 @@
       "node_kind": "heading",
       "norm_label": "marketplace listing",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L314"
+      "source_location": "L347"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_non_goals",
@@ -5059,7 +5119,7 @@
       "node_kind": "heading",
       "norm_label": "post-deploy behaviour to document",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L330"
+      "source_location": "L363"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_postgres",
@@ -5155,7 +5215,7 @@
       "node_kind": "heading",
       "norm_label": "testing and acceptance criteria",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L350"
+      "source_location": "L383"
     },
     {
       "id": "tests_test_aptabase_template",
@@ -7863,13 +7923,24 @@
     },
     {
       "source": "docs_railway_template_api_railway_template_api",
+      "target": "docs_railway_template_api_serializedconfig",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_railway_template_api",
       "target": "docs_railway_template_api_reading_a_published_template_s_config",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L155",
+      "source_location": "L206",
       "weight": 1.0
     },
     {
@@ -7885,7 +7956,7 @@
     },
     {
       "source": "docs_railway_template_api_railway_template_api",
-      "target": "docs_railway_template_api_serializedconfig",
+      "target": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7895,47 +7966,14 @@
       "weight": 1.0
     },
     {
-      "source": "docs_railway_template_api_serializedconfig",
-      "target": "docs_railway_template_api_variables",
+      "source": "docs_railway_template_api_railway_template_api",
+      "target": "docs_railway_template_api_what_templategenerate_drops",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "docs_railway_template_api_serializedconfig",
-      "target": "docs_railway_template_api_deploy",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L121",
-      "weight": 1.0
-    },
-    {
-      "source": "docs_railway_template_api_serializedconfig",
-      "target": "docs_railway_template_api_networking",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L138",
-      "weight": 1.0
-    },
-    {
-      "source": "docs_railway_template_api_serializedconfig",
-      "target": "docs_railway_template_api_volumemounts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L150",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -7946,7 +7984,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L97",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_serializedconfig",
+      "target": "docs_railway_template_api_variables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_serializedconfig",
+      "target": "docs_railway_template_api_deploy",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_serializedconfig",
+      "target": "docs_railway_template_api_networking",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_serializedconfig",
+      "target": "docs_railway_template_api_volumemounts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L201",
       "weight": 1.0
     },
     {
@@ -8221,7 +8303,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L314",
+      "source_location": "L347",
       "weight": 1.0
     },
     {
@@ -8232,7 +8314,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L330",
+      "source_location": "L363",
       "weight": 1.0
     },
     {
@@ -8243,7 +8325,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L339",
+      "source_location": "L372",
       "weight": 1.0
     },
     {
@@ -8254,7 +8336,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L350",
+      "source_location": "L383",
       "weight": 1.0
     },
     {
@@ -8265,7 +8347,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L373",
+      "source_location": "L412",
       "weight": 1.0
     },
     {
@@ -8335,6 +8417,28 @@
       "weight": 1.0
     },
     {
+      "source": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_scripts_railway_template_py",
+      "target": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_step_1_does_not_work_either",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_scripts_railway_template_py",
+      "target": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_templategenerate_is_lossy",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
       "source": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_service_design",
       "target": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_postgres",
       "relation": "contains",
@@ -8397,7 +8501,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L308",
+      "source_location": "L341",
       "weight": 1.0
     },
     {
@@ -10481,13 +10585,24 @@
     },
     {
       "source": "templates_aptabase_readme_aptabase",
+      "target": "templates_aptabase_readme_storage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_aptabase",
       "target": "templates_aptabase_readme_known_limits",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L107",
+      "source_location": "L116",
       "weight": 1.0
     },
     {
@@ -10498,7 +10613,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L118",
+      "source_location": "L127",
       "weight": 1.0
     },
     {
@@ -10520,7 +10635,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L34",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -10531,7 +10646,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L48",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -10553,7 +10668,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L63",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -10564,7 +10679,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L73",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -10575,18 +10690,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L82",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_storage",
+      "source": "templates_aptabase_readme_marketplace_listing",
+      "target": "templates_aptabase_readme_publishing_is_not_a_one_command_step",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L95",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -12933,6 +13048,17 @@
       "weight": 1.0
     },
     {
+      "source": "templates_aptabase_readme",
+      "target": "docs_railway_template_api",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_railway_template_build_parser",
       "target": "scripts_railway_template_cmd_validate",
       "relation": "indirect_call",
@@ -13102,5 +13228,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e98b6697b3135c8ef91fe1dff1bbbf9a4358a728"
+  "built_at_commit": "9f991d77aaa64951884b4b034f68e10e26b1ceb7"
 }

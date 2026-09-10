@@ -48,8 +48,8 @@
     "semantic_hash": ""
   },
   "templates/aptabase/template.json": {
-    "mtime": 1789046383.4107225,
-    "seen": 1789046720.423083,
+    "mtime": 1789048196.1813571,
+    "seen": 1789048245.891785,
     "ast_hash": "aa1da70d6fd34f7d9802a49b188fe652",
     "semantic_hash": ""
   },
@@ -138,9 +138,9 @@
     "semantic_hash": ""
   },
   "docs/railway-template-api.md": {
-    "mtime": 1789046383.3312056,
-    "seen": 1789046720.423092,
-    "ast_hash": "e3c6102e384a20f38b248797105d0085",
+    "mtime": 1789047989.0067768,
+    "seen": 1789048245.892054,
+    "ast_hash": "e9c85b5701ad8e4c083577b4f91bf406",
     "semantic_hash": ""
   },
   "docs/superpowers/plans/2026-09-10-aptabase-railway-template.md": {
@@ -150,9 +150,9 @@
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md": {
-    "mtime": 1789046383.345276,
-    "seen": 1789046720.423127,
-    "ast_hash": "bf2c4a8862f2f010abcd1ff7fab63be5",
+    "mtime": 1789048238.0862982,
+    "seen": 1789048245.892075,
+    "ast_hash": "d2d1a80258bf59b9b78aa05949cde458",
     "semantic_hash": ""
   },
   "requirements-dev.txt": {
@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   "templates/aptabase/README.md": {
-    "mtime": 1789046383.4012678,
-    "seen": 1789046720.423129,
-    "ast_hash": "137089e9442238ddcfe1446990da73f5",
+    "mtime": 1789048167.946358,
+    "seen": 1789048245.89209,
+    "ast_hash": "a3e6bec947d57fcca472728c8349688c",
     "semantic_hash": ""
   },
   "scripts/rt_payload.py": {
