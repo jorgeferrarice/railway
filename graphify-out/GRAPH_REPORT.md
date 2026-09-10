@@ -1,16 +1,16 @@
 # Graph Report - railway  (2026-09-10)
 
 ## Corpus Check
-- 31 files · ~19,899 words
+- 31 files · ~20,135 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 459 nodes · 577 edges · 28 communities
+- 460 nodes · 578 edges · 28 communities
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0ddb46e6`
+- Built from commit: `d7862051`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -26,12 +26,12 @@
 - test_rt_api.py
 - rt_api.py
 - test_bump_digest.py
-- rt_schema.py
+- test_rt_schema.py
 - test_clickhouse_image.py
 - properties
 - test_rt_payload.py
 - Aptabase
-- test_rt_schema.py
+- properties
 - `serializedConfig`
 - test_rt_lint.py
 - Railway templates
@@ -60,24 +60,24 @@
 ## Communities (28 total, 0 thin omitted)
 
 ### Community 0 - "properties"
-Cohesion: 0.07
-Nodes (30): minLength, type, variable, minLength, type, type, $ref, type (+22 more)
+Cohesion: 0.08
+Nodes (26): minLength, type, variable, minLength, type, type, $ref, type (+18 more)
 
 ### Community 1 - "template.schema.json"
 Cohesion: 0.06
-Nodes (31): additionalProperties, minLength, type, $defs, imageSource, repoSource, $id, minLength (+23 more)
+Nodes (35): additionalProperties, minLength, type, $defs, imageSource, repoSource, service, $id (+27 more)
 
 ### Community 2 - "properties"
-Cohesion: 0.05
-Nodes (39): $ref, service, additionalProperties, properties, type, pattern, type, minimum (+31 more)
+Cohesion: 0.07
+Nodes (27): $ref, additionalProperties, type, additionalProperties, properties, required, type, minLength (+19 more)
 
 ### Community 3 - "bump_digest.py"
-Cohesion: 0.18
-Nodes (12): bump(), current_image(), DigestResolutionError, _HeadRequest, Path, RuntimeError, Re-resolve a digest-pinned image to the current digest behind its tag., Raised when a digest cannot be resolved or applied. (+4 more)
+Cohesion: 0.10
+Nodes (18): bump(), current_image(), DigestResolutionError, _HeadRequest, Path, RuntimeError, Re-resolve a digest-pinned image to the current digest behind its tag., Raised when a digest cannot be resolved or applied. (+10 more)
 
 ### Community 4 - "Aptabase Railway Template — Design"
 Cohesion: 0.09
-Nodes (21): `aptabase`, Aptabase Railway Template — Design, Background, `bump-digest.sh`, `clickhouse`, Data flow, Decisions recorded, Environment variables read by Aptabase (+13 more)
+Nodes (22): `aptabase`, Aptabase Railway Template — Design, Background, `bump-digest.sh`, `clickhouse`, Correction: there is no `templateCreate`, Data flow, Decisions recorded (+14 more)
 
 ### Community 5 - "test_aptabase_template.py"
 Cohesion: 0.09
@@ -96,16 +96,16 @@ Cohesion: 0.15
 Nodes (12): fake_transport(), FakeResponse, Cloudflare fronts the Railway API and answers urllib's default User-Agent with…, test_a_project_token_uses_the_project_access_token_header(), test_describe_type_raises_for_an_unknown_type(), test_describe_type_returns_the_input_fields(), test_find_mutations_filters_case_insensitively(), test_graphql_identifies_this_client_by_user_agent() (+4 more)
 
 ### Community 9 - "rt_api.py"
-Cohesion: 0.09
-Nodes (23): HTTPError, describe_type(), _error_body(), find_mutations(), get_token(), graphql(), MissingTokenError, RuntimeError (+15 more)
+Cohesion: 0.15
+Nodes (17): HTTPError, describe_type(), _error_body(), find_mutations(), get_token(), graphql(), MissingTokenError, RuntimeError (+9 more)
 
 ### Community 10 - "test_bump_digest.py"
 Cohesion: 0.21
 Nodes (12): fake_registry(), FakeResponse, template_file(), test_bump_is_a_no_op_when_the_digest_is_unchanged(), test_bump_preserves_the_rest_of_the_file_byte_for_byte(), test_bump_rejects_a_service_that_is_not_digest_pinned(), test_bump_rewrites_the_digest_in_place(), test_current_image_raises_for_an_unknown_service() (+4 more)
 
-### Community 11 - "rt_schema.py"
-Cohesion: 0.18
-Nodes (13): _duplicate_service_errors(), load_schema(), load_template(), Path, Load and validate Railway template definitions., Raised when a template definition does not match the schema., Read the template JSON Schema from disk., Raise TemplateValidationError if the template does not match the schema.… (+5 more)
+### Community 11 - "test_rt_schema.py"
+Cohesion: 0.11
+Nodes (22): _duplicate_service_errors(), load_schema(), load_template(), Path, Load and validate Railway template definitions., Raised when a template definition does not match the schema., Read the template JSON Schema from disk., Raise TemplateValidationError if the template does not match the schema.… (+14 more)
 
 ### Community 12 - "test_clickhouse_image.py"
 Cohesion: 0.19
@@ -123,9 +123,9 @@ Nodes (26): aptabase_config(), only_service(), fixture, serializedConfig has no 
 Cohesion: 0.17
 Nodes (11): Adding OAuth sign-in, Adding SMTP, Aptabase, Creating the first account, Custom domain, Deploy, Known limits, Marketplace listing (+3 more)
 
-### Community 16 - "test_rt_schema.py"
-Cohesion: 0.29
-Nodes (9): minimal_template(), test_all_errors_are_reported_not_just_the_first(), test_duplicate_service_names_are_rejected(), test_load_template_reads_and_validates(), test_minimal_template_validates(), test_missing_name_is_rejected(), test_repo_source_requires_a_root_directory(), test_unknown_source_type_is_rejected() (+1 more)
+### Community 16 - "properties"
+Cohesion: 0.17
+Nodes (12): properties, pattern, type, minimum, type, healthcheckPath, healthcheckTimeout, restartPolicyMaxRetries (+4 more)
 
 ### Community 17 - "`serializedConfig`"
 Cohesion: 0.18
@@ -158,17 +158,17 @@ Nodes (3): fixture, Record GraphQL calls and answer them, so no test reaches the
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `properties` connect `properties` to `properties`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
-- **Why does `$defs` connect `template.schema.json` to `properties`, `properties`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Why does `properties` connect `properties` to `template.schema.json`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **Why does `$defs` connect `template.schema.json` to `properties`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **Why does `properties` connect `properties` to `template.schema.json`, `properties`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Are the 8 inferred relationships involving `build_parser()` (e.g. with `cmd_bump()` and `cmd_deploy()`) actually correct?**
   _`build_parser()` has 8 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `$id`, `title` to the rest of the system?**
   _130 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `properties` be split into smaller, more focused modules?**
-  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `template.schema.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._

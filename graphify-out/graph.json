@@ -23,7 +23,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "templatevalidationerror",
       "source_file": "scripts/rt_schema.py",
@@ -280,7 +280,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "_duplicate_service_errors()",
       "source_file": "scripts/rt_schema.py",
@@ -292,7 +292,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "load_schema()",
       "source_file": "scripts/rt_schema.py",
@@ -304,7 +304,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "load_template()",
       "source_file": "scripts/rt_schema.py",
@@ -316,7 +316,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "scripts/rt_schema.py",
@@ -328,11 +328,143 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "validate_template()",
       "source_file": "scripts/rt_schema.py",
       "source_location": "L28"
+    },
+    {
+      "id": "tests_test_rt_schema_minimal_template",
+      "label": "minimal_template()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "minimal_template()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
+      "label": "test_all_errors_are_reported_not_just_the_first()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
+      "label": "test_duplicate_service_names_are_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_duplicate_service_names_are_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
+      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
+      "label": "test_load_template_raises_on_an_invalid_file()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_raises_on_an_invalid_file()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L84"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
+      "label": "test_load_template_reads_and_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_reads_and_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L78"
+    },
+    {
+      "id": "tests_test_rt_schema_test_minimal_template_validates",
+      "label": "test_minimal_template_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_minimal_template_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
+      "label": "test_missing_name_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_missing_name_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
+      "label": "test_repo_source_requires_a_root_directory()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_repo_source_requires_a_root_directory()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
+      "label": "test_unknown_source_type_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_unknown_source_type_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
+      "label": "test_variable_value_must_be_a_string()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_variable_value_must_be_a_string()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L54"
     },
     {
       "id": "tests_test_clickhouse_image_docker_available",
@@ -813,138 +945,6 @@
       "norm_label": "test_variables_use_default_value_not_value()",
       "source_file": "tests/test_rt_payload.py",
       "source_location": "L109"
-    },
-    {
-      "id": "tests_test_rt_schema_minimal_template",
-      "label": "minimal_template()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "minimal_template()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L8"
-    },
-    {
-      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
-      "label": "test_all_errors_are_reported_not_just_the_first()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L69"
-    },
-    {
-      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
-      "label": "test_duplicate_service_names_are_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_duplicate_service_names_are_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L61"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
-      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
-      "label": "test_load_template_raises_on_an_invalid_file()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_raises_on_an_invalid_file()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L84"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
-      "label": "test_load_template_reads_and_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_reads_and_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L78"
-    },
-    {
-      "id": "tests_test_rt_schema_test_minimal_template_validates",
-      "label": "test_minimal_template_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_minimal_template_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L28"
-    },
-    {
-      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
-      "label": "test_missing_name_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_missing_name_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
-      "label": "test_repo_source_requires_a_root_directory()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_repo_source_requires_a_root_directory()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L47"
-    },
-    {
-      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
-      "label": "test_unknown_source_type_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_unknown_source_type_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
-      "label": "test_variable_value_must_be_a_string()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_variable_value_must_be_a_string()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L54"
     },
     {
       "id": "scripts_rt_lint_lint_image",
@@ -1485,6 +1485,54 @@
       "norm_label": "resolve_digest()",
       "source_file": "scripts/bump_digest.py",
       "source_location": "L36"
+    },
+    {
+      "id": "scripts_rt_http_ssl_context",
+      "label": "ssl_context()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "ssl_context()",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tests_test_rt_http_test_ssl_context_has_a_usable_trust_store",
+      "label": "test_ssl_context_has_a_usable_trust_store()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "test_ssl_context_has_a_usable_trust_store()",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "tests_test_rt_http_test_ssl_context_is_cached",
+      "label": "test_ssl_context_is_cached()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "test_ssl_context_is_cached()",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L22"
+    },
+    {
+      "id": "tests_test_rt_http_test_ssl_context_verifies_certificates",
+      "label": "test_ssl_context_verifies_certificates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "test_ssl_context_verifies_certificates()",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L6"
     },
     {
       "id": "tests_test_aptabase_template_services",
@@ -2147,54 +2195,6 @@
       "source_location": "L73"
     },
     {
-      "id": "scripts_rt_http_ssl_context",
-      "label": "ssl_context()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "ssl_context()",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "tests_test_rt_http_test_ssl_context_has_a_usable_trust_store",
-      "label": "test_ssl_context_has_a_usable_trust_store()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "test_ssl_context_has_a_usable_trust_store()",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L12"
-    },
-    {
-      "id": "tests_test_rt_http_test_ssl_context_is_cached",
-      "label": "test_ssl_context_is_cached()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "test_ssl_context_is_cached()",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L22"
-    },
-    {
-      "id": "tests_test_rt_http_test_ssl_context_verifies_certificates",
-      "label": "test_ssl_context_verifies_certificates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "test_ssl_context_verifies_certificates()",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L6"
-    },
-    {
       "id": "schema_template_schema_category_minlength",
       "label": "minLength",
       "_origin": "ast",
@@ -2283,39 +2283,6 @@
       "source_location": "L14"
     },
     {
-      "id": "schema_template_schema_name_minlength",
-      "label": "minLength",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "schema_template_schema_name_pattern",
-      "label": "pattern",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L37"
-    },
-    {
-      "id": "schema_template_schema_name_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L9"
-    },
-    {
       "id": "schema_template_schema_properties",
       "label": "properties",
       "_origin": "ast",
@@ -2369,17 +2336,6 @@
       "norm_label": "links",
       "source_file": "schema/template.schema.json",
       "source_location": "L13"
-    },
-    {
-      "id": "schema_template_schema_properties_name",
-      "label": "name",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "name",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L9"
     },
     {
       "id": "schema_template_schema_properties_readme",
@@ -2600,6 +2556,17 @@
       "norm_label": "reposource",
       "source_file": "schema/template.schema.json",
       "source_location": "L95"
+    },
+    {
+      "id": "schema_template_schema_defs_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L32"
     },
     {
       "id": "schema_template_schema_id",
@@ -2844,6 +2811,39 @@
       "source_location": "L2"
     },
     {
+      "id": "schema_template_schema_service_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "schema_template_schema_service_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "schema_template_schema_service_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L33"
+    },
+    {
       "id": "schema_template_schema_title",
       "label": "title",
       "_origin": "ast",
@@ -2892,7 +2892,7 @@
       "label": "rt_schema.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "rt_schema.py",
       "source_file": "scripts/rt_schema.py",
@@ -2903,18 +2903,29 @@
       "label": "Path",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
+      "id": "tests_test_rt_schema",
+      "label": "test_rt_schema.py",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_rt_schema.py",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L1"
+    },
+    {
       "id": "valueerror",
       "label": "ValueError",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "code",
       "norm_label": "valueerror",
       "source_file": "",
@@ -2925,7 +2936,7 @@
       "label": "Load and validate Railway template definitions.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "load and validate railway template definitions.",
       "source_file": "scripts/rt_schema.py",
@@ -2936,7 +2947,7 @@
       "label": "Raised when a template definition does not match the schema.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raised when a template definition does not match the schema.",
       "source_file": "scripts/rt_schema.py",
@@ -2947,7 +2958,7 @@
       "label": "Read the template JSON Schema from disk.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read the template json schema from disk.",
       "source_file": "scripts/rt_schema.py",
@@ -2958,7 +2969,7 @@
       "label": "Raise TemplateValidationError if the template does not match the schema.\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raise templatevalidationerror if the template does not match the schema....",
       "source_file": "scripts/rt_schema.py",
@@ -2969,7 +2980,7 @@
       "label": "Service names address variable references, so they must be unique. JSON Schema\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "service names address variable references, so they must be unique. json schema...",
       "source_file": "scripts/rt_schema.py",
@@ -2980,7 +2991,7 @@
       "label": "Read a template definition from disk and validate it.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "rt_schema.py",
+      "community_name": "test_rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read a template definition from disk and validate it.",
       "source_file": "scripts/rt_schema.py",
@@ -3362,15 +3373,136 @@
       "source_location": "L6"
     },
     {
-      "id": "tests_test_rt_schema",
-      "label": "test_rt_schema.py",
+      "id": "schema_template_schema_deploy_properties",
+      "label": "properties",
       "_origin": "ast",
       "community": 16,
-      "community_name": "test_rt_schema.py",
+      "community_name": "properties",
       "file_type": "code",
-      "norm_label": "test_rt_schema.py",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L1"
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L77"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_properties_healthcheckpath",
+      "label": "healthcheckPath",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthcheckpath",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_properties_healthchecktimeout",
+      "label": "healthcheckTimeout",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthchecktimeout",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicymaxretries",
+      "label": "restartPolicyMaxRetries",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicymaxretries",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicytype",
+      "label": "restartPolicyType",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicytype",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L80"
+    },
+    {
+      "id": "schema_template_schema_restartpolicymaxretries_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_restartpolicymaxretries_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_restartpolicytype_enum",
+      "label": "enum",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "enum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L80"
     },
     {
       "id": "docs_railway_template_api",
@@ -3680,17 +3812,6 @@
       "source_location": "L46"
     },
     {
-      "id": "schema_template_schema_defs_service",
-      "label": "service",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "service",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L32"
-    },
-    {
       "id": "schema_template_schema_deploy_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -3702,17 +3823,6 @@
       "source_location": "L76"
     },
     {
-      "id": "schema_template_schema_deploy_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L77"
-    },
-    {
       "id": "schema_template_schema_deploy_type",
       "label": "type",
       "_origin": "ast",
@@ -3722,50 +3832,6 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L75"
-    },
-    {
-      "id": "schema_template_schema_healthcheckpath_pattern",
-      "label": "pattern",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_healthcheckpath_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_healthchecktimeout_minimum",
-      "label": "minimum",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
-      "id": "schema_template_schema_healthchecktimeout_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
     },
     {
       "id": "schema_template_schema_http_additionalproperties",
@@ -3812,6 +3878,39 @@
       "source_location": "L65"
     },
     {
+      "id": "schema_template_schema_name_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "schema_template_schema_name_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "schema_template_schema_name_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
+    },
+    {
       "id": "schema_template_schema_networking_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -3856,28 +3955,6 @@
       "source_location": "L74"
     },
     {
-      "id": "schema_template_schema_properties_healthcheckpath",
-      "label": "healthcheckPath",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthcheckpath",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_properties_healthchecktimeout",
-      "label": "healthcheckTimeout",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthchecktimeout",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
       "id": "schema_template_schema_properties_http",
       "label": "http",
       "_origin": "ast",
@@ -3889,6 +3966,17 @@
       "source_location": "L64"
     },
     {
+      "id": "schema_template_schema_properties_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L9"
+    },
+    {
       "id": "schema_template_schema_properties_networking",
       "label": "networking",
       "_origin": "ast",
@@ -3898,28 +3986,6 @@
       "norm_label": "networking",
       "source_file": "schema/template.schema.json",
       "source_location": "L60"
-    },
-    {
-      "id": "schema_template_schema_properties_restartpolicymaxretries",
-      "label": "restartPolicyMaxRetries",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicymaxretries",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_properties_restartpolicytype",
-      "label": "restartPolicyType",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicytype",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L80"
     },
     {
       "id": "schema_template_schema_properties_source",
@@ -3966,50 +4032,6 @@
       "source_location": "L47"
     },
     {
-      "id": "schema_template_schema_restartpolicymaxretries_minimum",
-      "label": "minimum",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_restartpolicymaxretries_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_restartpolicytype_enum",
-      "label": "enum",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "enum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L80"
-    },
-    {
-      "id": "schema_template_schema_service_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L35"
-    },
-    {
       "id": "schema_template_schema_service_properties",
       "label": "properties",
       "_origin": "ast",
@@ -4019,28 +4041,6 @@
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
       "source_location": "L36"
-    },
-    {
-      "id": "schema_template_schema_service_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L34"
-    },
-    {
-      "id": "schema_template_schema_service_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L33"
     },
     {
       "id": "schema_template_schema_source_oneof",
@@ -4392,6 +4392,39 @@
       "source_location": ""
     },
     {
+      "id": "scripts_rt_http",
+      "label": "rt_http.py",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "rt_http.py",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "sslcontext",
+      "label": "SSLContext",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "sslcontext",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_rt_http",
+      "label": "test_rt_http.py",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "code",
+      "norm_label": "test_rt_http.py",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L1"
+    },
+    {
       "id": "scripts_bump_digest_rationale_1",
       "label": "Re-resolve a digest-pinned image to the current digest behind its tag.",
       "_origin": "ast",
@@ -4445,6 +4478,39 @@
       "norm_label": "re-resolve the service's digest and rewrite the template file in place. returns...",
       "source_file": "scripts/bump_digest.py",
       "source_location": "L68"
+    },
+    {
+      "id": "scripts_rt_http_rationale_1",
+      "label": "Shared HTTPS trust configuration. Python's default SSL context trusts whatever\u2026",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "rationale",
+      "norm_label": "shared https trust configuration. python's default ssl context trusts whatever...",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_rt_http_rationale_24",
+      "label": "Return a verifying SSL context backed by certifi's CA bundle.",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "rationale",
+      "norm_label": "return a verifying ssl context backed by certifi's ca bundle.",
+      "source_file": "scripts/rt_http.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "tests_test_rt_http_rationale_13",
+      "label": "The interpreter's own store is not trusted to exist. PlatformIO's portable\u2026",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "bump_digest.py",
+      "file_type": "rationale",
+      "norm_label": "the interpreter's own store is not trusted to exist. platformio's portable...",
+      "source_file": "tests/test_rt_http.py",
+      "source_location": "L13"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design",
@@ -4504,7 +4570,7 @@
       "node_kind": "heading",
       "norm_label": "`bump-digest.sh`",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L288"
+      "source_location": "L308"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_clickhouse",
@@ -4517,6 +4583,18 @@
       "norm_label": "`clickhouse`",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
       "source_location": "L149"
+    },
+    {
+      "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_there_is_no_templatecreate",
+      "label": "Correction: there is no `templateCreate`",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Aptabase Railway Template \u2014 Design",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "correction: there is no `templatecreate`",
+      "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
+      "source_location": "L280"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_data_flow",
@@ -4540,7 +4618,7 @@
       "node_kind": "heading",
       "norm_label": "decisions recorded",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L350"
+      "source_location": "L373"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_environment_variables_read_by_aptabase",
@@ -4564,7 +4642,7 @@
       "node_kind": "heading",
       "norm_label": "error handling and failure modes",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L319"
+      "source_location": "L339"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_goals",
@@ -4588,7 +4666,7 @@
       "node_kind": "heading",
       "norm_label": "marketplace listing",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L294"
+      "source_location": "L314"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_non_goals",
@@ -4612,7 +4690,7 @@
       "node_kind": "heading",
       "norm_label": "post-deploy behaviour to document",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L310"
+      "source_location": "L330"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_postgres",
@@ -4708,7 +4786,7 @@
       "node_kind": "heading",
       "norm_label": "testing and acceptance criteria",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L330"
+      "source_location": "L350"
     },
     {
       "id": "tests_test_aptabase_template",
@@ -5171,39 +5249,6 @@
       "source_location": ""
     },
     {
-      "id": "scripts_rt_http",
-      "label": "rt_http.py",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "rt_http.py",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "sslcontext",
-      "label": "SSLContext",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "sslcontext",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_rt_http",
-      "label": "test_rt_http.py",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "code",
-      "norm_label": "test_rt_http.py",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L1"
-    },
-    {
       "id": "scripts_rt_api_rationale_1",
       "label": "Minimal Railway GraphQL client. The token comes from the RAILWAY_API_TOKEN\u2026",
       "_origin": "ast",
@@ -5290,39 +5335,6 @@
       "norm_label": "execute a graphql document and return its data object. railway authenticates...",
       "source_file": "scripts/rt_api.py",
       "source_location": "L81"
-    },
-    {
-      "id": "scripts_rt_http_rationale_1",
-      "label": "Shared HTTPS trust configuration. Python's default SSL context trusts whatever\u2026",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "rationale",
-      "norm_label": "shared https trust configuration. python's default ssl context trusts whatever...",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_rt_http_rationale_24",
-      "label": "Return a verifying SSL context backed by certifi's CA bundle.",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "rationale",
-      "norm_label": "return a verifying ssl context backed by certifi's ca bundle.",
-      "source_file": "scripts/rt_http.py",
-      "source_location": "L24"
-    },
-    {
-      "id": "tests_test_rt_http_rationale_13",
-      "label": "The interpreter's own store is not trusted to exist. PlatformIO's portable\u2026",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "rt_api.py",
-      "file_type": "rationale",
-      "norm_label": "the interpreter's own store is not trusted to exist. platformio's portable...",
-      "source_file": "tests/test_rt_http.py",
-      "source_location": "L13"
     }
   ],
   "links": [
@@ -7376,7 +7388,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L294",
+      "source_location": "L314",
       "weight": 1.0
     },
     {
@@ -7387,7 +7399,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L310",
+      "source_location": "L330",
       "weight": 1.0
     },
     {
@@ -7398,7 +7410,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L319",
+      "source_location": "L339",
       "weight": 1.0
     },
     {
@@ -7409,7 +7421,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L330",
+      "source_location": "L350",
       "weight": 1.0
     },
     {
@@ -7420,7 +7432,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L350",
+      "source_location": "L373",
       "weight": 1.0
     },
     {
@@ -7476,6 +7488,17 @@
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
       "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_scripts_railway_template_py",
+      "target": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_correction_there_is_no_templatecreate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
+      "source_location": "L280",
       "weight": 1.0
     },
     {
@@ -7541,7 +7564,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L288",
+      "source_location": "L308",
       "weight": 1.0
     },
     {
@@ -11822,5 +11845,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0ddb46e64db1cbde8ddf976ba73fee067753b175"
+  "built_at_commit": "d786205121fdc137229e088b88f103699489c435"
 }
