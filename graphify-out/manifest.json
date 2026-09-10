@@ -138,9 +138,9 @@
     "semantic_hash": ""
   },
   "docs/railway-template-api.md": {
-    "mtime": 1789047989.0067768,
-    "seen": 1789048245.892054,
-    "ast_hash": "e9c85b5701ad8e4c083577b4f91bf406",
+    "mtime": 1789053801.9728007,
+    "seen": 1789054058.9906619,
+    "ast_hash": "bcf0108046503fa9d40390834850faea",
     "semantic_hash": ""
   },
   "docs/superpowers/plans/2026-09-10-aptabase-railway-template.md": {
@@ -150,9 +150,9 @@
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md": {
-    "mtime": 1789048238.0862982,
-    "seen": 1789048245.892075,
-    "ast_hash": "d2d1a80258bf59b9b78aa05949cde458",
+    "mtime": 1789054041.1154497,
+    "seen": 1789054058.9906828,
+    "ast_hash": "74b84107e30b886fc6a3d637925a43fe",
     "semantic_hash": ""
   },
   "requirements-dev.txt": {
@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   "templates/aptabase/README.md": {
-    "mtime": 1789053673.8966537,
-    "seen": 1789053699.504898,
-    "ast_hash": "0f86fac5cb27f14f85879dacbd24a0e8",
+    "mtime": 1789054026.5109684,
+    "seen": 1789054058.990698,
+    "ast_hash": "ea79be6b2f4eca1339880d0a1416d3c0",
     "semantic_hash": ""
   },
   "scripts/rt_payload.py": {
@@ -198,9 +198,9 @@
     "semantic_hash": ""
   },
   "docs/publishing-checklist.md": {
-    "mtime": 1789048348.5534,
-    "seen": 1789048354.3230011,
-    "ast_hash": "54b8d539628f6da566be417a989deaf5",
+    "mtime": 1789053834.687883,
+    "seen": 1789054058.9906611,
+    "ast_hash": "49f258af23d18c956ad42282a6fbe53e",
     "semantic_hash": ""
   }
 }

@@ -1,16 +1,16 @@
 # Graph Report - railway  (2026-09-10)
 
 ## Corpus Check
-- 34 files · ~23,193 words
+- 34 files · ~23,550 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 526 nodes · 695 edges · 29 communities
+- 529 nodes · 697 edges · 30 communities
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e0e6ceca`
+- Built from commit: `092bb31b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,6 +39,7 @@
 - rt_payload.py
 - test_railway_template_cli.py
 - properties
+- Railway template API
 
 ## God Nodes (most connected - your core abstractions)
 1. `template_with()` - 21 edges
@@ -67,7 +68,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (29 total, 0 thin omitted)
+## Communities (30 total, 0 thin omitted)
 
 ### Community 0 - "properties"
 Cohesion: 0.07
@@ -130,8 +131,8 @@ Cohesion: 0.12
 Nodes (26): aptabase_config(), only_service(), fixture, serializedConfig has no healthcheckTimeout field. Railway reads the timeout…, Cross-service references resolve by service name, so it must match exactly what…, template_with(), test_a_private_service_has_empty_networking(), test_a_repo_source_gets_a_leading_slash_on_the_root_directory() (+18 more)
 
 ### Community 15 - "Aptabase"
-Cohesion: 0.05
-Nodes (35): Aptabase, Publishing checklist, Then, `deploy`, `networking`, Railway template API, Reading a published template's config, `serializedConfig` (+27 more)
+Cohesion: 0.07
+Nodes (25): Aptabase, Marketplace listing, Publishing checklist, Verifying the repair, What generation loses, Development, Documentation, Railway templates (+17 more)
 
 ### Community 16 - "test_rt_apply.py"
 Cohesion: 0.17
@@ -165,9 +166,13 @@ Nodes (3): fixture, Record GraphQL calls and answer them, so no test reaches the
 Cohesion: 0.19
 Nodes (13): additionalProperties, properties, required, type, minLength, type, items, label (+5 more)
 
+### Community 29 - "Railway template API"
+Cohesion: 0.15
+Nodes (13): `deploy`, `networking`, Publishing is blocked on this account, Railway template API, Reading a published template's config, `serializedConfig`, `source`, `templateDeployV2` is refused from the public API (+5 more)
+
 ## Knowledge Gaps
-- **139 isolated node(s):** `$schema`, `$id`, `title`, `type`, `required` (+134 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 279 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **141 isolated node(s):** `$schema`, `$id`, `title`, `type`, `required` (+136 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 281 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -179,7 +184,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `properties` connect `properties` to `template.schema.json`, `properties`?**
   _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **What connects `$schema`, `$id`, `title` to the rest of the system?**
-  _139 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _141 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `properties` be split into smaller, more focused modules?**
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `template.schema.json` be split into smaller, more focused modules?**

@@ -3625,7 +3625,19 @@
       "node_kind": "heading",
       "norm_label": "aptabase",
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L8"
+      "source_location": "L49"
+    },
+    {
+      "id": "docs_publishing_checklist_marketplace_listing",
+      "label": "Marketplace listing",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "marketplace listing",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L63"
     },
     {
       "id": "docs_publishing_checklist_publishing_checklist",
@@ -3640,16 +3652,28 @@
       "source_location": "L1"
     },
     {
-      "id": "docs_publishing_checklist_then",
-      "label": "Then",
+      "id": "docs_publishing_checklist_verifying_the_repair",
+      "label": "Verifying the repair",
       "_origin": "ast",
       "community": 15,
       "community_name": "Aptabase",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "then",
+      "norm_label": "verifying the repair",
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L43"
+      "source_location": "L28"
+    },
+    {
+      "id": "docs_publishing_checklist_what_generation_loses",
+      "label": "What generation loses",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Aptabase",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what generation loses",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L7"
     },
     {
       "id": "docs_railway_template_api",
@@ -3662,150 +3686,6 @@
       "norm_label": "railway-template-api.md",
       "source_file": "docs/railway-template-api.md",
       "source_location": "L1"
-    },
-    {
-      "id": "docs_railway_template_api_deploy",
-      "label": "`deploy`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`deploy`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L172"
-    },
-    {
-      "id": "docs_railway_template_api_networking",
-      "label": "`networking`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`networking`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L189"
-    },
-    {
-      "id": "docs_railway_template_api_railway_template_api",
-      "label": "Railway template API",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "railway template api",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_railway_template_api_reading_a_published_template_s_config",
-      "label": "Reading a published template's config",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "reading a published template's config",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L206"
-    },
-    {
-      "id": "docs_railway_template_api_serializedconfig",
-      "label": "`serializedConfig`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`serializedconfig`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L113"
-    },
-    {
-      "id": "docs_railway_template_api_source",
-      "label": "`source`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`source`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L148"
-    },
-    {
-      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
-      "label": "`templateDeployV2` is refused from the public API",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`templatedeployv2` is refused from the public api",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L62"
-    },
-    {
-      "id": "docs_railway_template_api_there_is_no_templatecreate",
-      "label": "There is no `templateCreate`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "there is no `templatecreate`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L21"
-    },
-    {
-      "id": "docs_railway_template_api_transport",
-      "label": "Transport",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "transport",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L10"
-    },
-    {
-      "id": "docs_railway_template_api_variables",
-      "label": "`variables`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`variables`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L160"
-    },
-    {
-      "id": "docs_railway_template_api_volumemounts",
-      "label": "`volumeMounts`",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`volumemounts`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L201"
-    },
-    {
-      "id": "docs_railway_template_api_what_templategenerate_drops",
-      "label": "What `templateGenerate` drops",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "what `templategenerate` drops",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L83"
     },
     {
       "id": "readme",
@@ -4033,7 +3913,7 @@
       "node_kind": "heading",
       "norm_label": "marketplace listing",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L129"
+      "source_location": "L134"
     },
     {
       "id": "templates_aptabase_readme_publishing_is_not_a_one_command_step",
@@ -4045,7 +3925,7 @@
       "node_kind": "heading",
       "norm_label": "publishing is not a one-command step",
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L142"
+      "source_location": "L147"
     },
     {
       "id": "templates_aptabase_readme_storage",
@@ -5071,6 +4951,162 @@
       "source_location": "L98"
     },
     {
+      "id": "docs_railway_template_api_deploy",
+      "label": "`deploy`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`deploy`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L191"
+    },
+    {
+      "id": "docs_railway_template_api_networking",
+      "label": "`networking`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`networking`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L208"
+    },
+    {
+      "id": "docs_railway_template_api_publishing_is_blocked_on_this_account",
+      "label": "Publishing is blocked on this account",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "publishing is blocked on this account",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "docs_railway_template_api_railway_template_api",
+      "label": "Railway template API",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "railway template api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_railway_template_api_reading_a_published_template_s_config",
+      "label": "Reading a published template's config",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reading a published template's config",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L225"
+    },
+    {
+      "id": "docs_railway_template_api_serializedconfig",
+      "label": "`serializedConfig`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`serializedconfig`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "docs_railway_template_api_source",
+      "label": "`source`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`source`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
+      "label": "`templateDeployV2` is refused from the public API",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`templatedeployv2` is refused from the public api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "docs_railway_template_api_there_is_no_templatecreate",
+      "label": "There is no `templateCreate`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "there is no `templatecreate`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "docs_railway_template_api_transport",
+      "label": "Transport",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "transport",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "docs_railway_template_api_variables",
+      "label": "`variables`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`variables`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L179"
+    },
+    {
+      "id": "docs_railway_template_api_volumemounts",
+      "label": "`volumeMounts`",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`volumemounts`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L220"
+    },
+    {
+      "id": "docs_railway_template_api_what_templategenerate_drops",
+      "label": "What `templateGenerate` drops",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what `templategenerate` drops",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L102"
+    },
+    {
       "id": "scripts_bump_digest",
       "label": "bump_digest.py",
       "_origin": "ast",
@@ -5354,7 +5390,7 @@
       "node_kind": "heading",
       "norm_label": "decisions recorded",
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L412"
+      "source_location": "L417"
     },
     {
       "id": "docs_superpowers_specs_2026_09_10_aptabase_railway_template_design_environment_variables_read_by_aptabase",
@@ -8326,14 +8362,25 @@
       "weight": 1.0
     },
     {
-      "source": "docs_publishing_checklist_publishing_checklist",
-      "target": "docs_publishing_checklist_then",
+      "source": "docs_publishing_checklist_aptabase",
+      "target": "docs_publishing_checklist_marketplace_listing",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L43",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist_publishing_checklist",
+      "target": "docs_publishing_checklist_verifying_the_repair",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -8344,7 +8391,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L8",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist_publishing_checklist",
+      "target": "docs_publishing_checklist_what_generation_loses",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -8371,24 +8429,24 @@
     },
     {
       "source": "docs_railway_template_api_railway_template_api",
+      "target": "docs_railway_template_api_what_templategenerate_drops",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_railway_template_api",
       "target": "docs_railway_template_api_serializedconfig",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L113",
-      "weight": 1.0
-    },
-    {
-      "source": "docs_railway_template_api_railway_template_api",
-      "target": "docs_railway_template_api_reading_a_published_template_s_config",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L206",
+      "source_location": "L132",
       "weight": 1.0
     },
     {
@@ -8404,6 +8462,17 @@
     },
     {
       "source": "docs_railway_template_api_railway_template_api",
+      "target": "docs_railway_template_api_reading_a_published_template_s_config",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_railway_template_api_railway_template_api",
       "target": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
       "relation": "contains",
       "_origin": "ast",
@@ -8415,7 +8484,7 @@
     },
     {
       "source": "docs_railway_template_api_railway_template_api",
-      "target": "docs_railway_template_api_what_templategenerate_drops",
+      "target": "docs_railway_template_api_publishing_is_blocked_on_this_account",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8432,7 +8501,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L148",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -8443,7 +8512,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L160",
+      "source_location": "L179",
       "weight": 1.0
     },
     {
@@ -8454,7 +8523,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L172",
+      "source_location": "L191",
       "weight": 1.0
     },
     {
@@ -8465,7 +8534,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L189",
+      "source_location": "L208",
       "weight": 1.0
     },
     {
@@ -8476,7 +8545,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/railway-template-api.md",
-      "source_location": "L201",
+      "source_location": "L220",
       "weight": 1.0
     },
     {
@@ -8795,7 +8864,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md",
-      "source_location": "L412",
+      "source_location": "L417",
       "weight": 1.0
     },
     {
@@ -11127,7 +11196,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L129",
+      "source_location": "L134",
       "weight": 1.0
     },
     {
@@ -11215,7 +11284,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L142",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -13734,18 +13803,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "docs_publishing_checklist",
-      "target": "templates_aptabase_readme",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/publishing-checklist.md",
-      "source_location": "L53",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -13962,5 +14020,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e0e6ceca9ef94fafe21dbd56a8d0f50117f4d847"
+  "built_at_commit": "092bb31bbe3851f99b75252a3da381cd42fbdd49"
 }
