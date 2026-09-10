@@ -1,16 +1,16 @@
 # Graph Report - railway  (2026-09-10)
 
 ## Corpus Check
-- 28 files · ~17,711 words
+- 28 files · ~17,806 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 378 nodes · 445 edges · 26 communities
+- 380 nodes · 447 edges · 27 communities
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5f5e2dd7`
+- Built from commit: `ae62f744`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,6 +36,7 @@
 - test_rt_lint.py
 - Railway templates
 - railway.json
+- variable
 
 ## God Nodes (most connected - your core abstractions)
 1. `Aptabase Railway Template Implementation Plan` - 18 edges
@@ -55,19 +56,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (26 total, 0 thin omitted)
+## Communities (27 total, 0 thin omitted)
 
 ### Community 0 - "template.schema.json"
-Cohesion: 0.06
-Nodes (32): additionalProperties, minLength, type, variable, minLength, type, $id, type (+24 more)
+Cohesion: 0.10
+Nodes (20): additionalProperties, minLength, type, $id, $ref, type, properties, category (+12 more)
 
 ### Community 1 - "$defs"
 Cohesion: 0.07
 Nodes (29): minLength, type, $defs, imageSource, repoSource, service, minLength, type (+21 more)
 
 ### Community 2 - "properties"
-Cohesion: 0.07
-Nodes (27): $ref, additionalProperties, type, additionalProperties, properties, required, type, minLength (+19 more)
+Cohesion: 0.08
+Nodes (24): $ref, additionalProperties, properties, required, type, minLength, pattern, type (+16 more)
 
 ### Community 3 - "bump_digest.py"
 Cohesion: 0.10
@@ -78,8 +79,8 @@ Cohesion: 0.09
 Nodes (21): `aptabase`, Aptabase Railway Template — Design, Background, `bump-digest.sh`, `clickhouse`, Data flow, Decisions recorded, Environment variables read by Aptabase (+13 more)
 
 ### Community 5 - "test_aptabase_template.py"
-Cohesion: 0.10
-Nodes (3): fixture, services(), template()
+Cohesion: 0.09
+Nodes (5): fixture, Railway health-checks the port named by PORT, not the target port. Kestrel is…, services(), template(), test_port_is_pinned_so_health_checks_probe_the_right_port()
 
 ### Community 6 - "railway_template.py"
 Cohesion: 0.14
@@ -114,8 +115,8 @@ Cohesion: 0.19
 Nodes (13): additionalProperties, properties, required, type, minLength, type, items, label (+5 more)
 
 ### Community 14 - "properties"
-Cohesion: 0.17
-Nodes (12): properties, pattern, type, minimum, type, healthcheckPath, healthcheckTimeout, restartPolicyMaxRetries (+4 more)
+Cohesion: 0.13
+Nodes (15): additionalProperties, properties, type, pattern, type, minimum, type, deploy (+7 more)
 
 ### Community 15 - "Aptabase"
 Cohesion: 0.17
@@ -141,24 +142,28 @@ Nodes (8): Development, Documentation, Railway templates, Templates, Hook-Based 
 Cohesion: 0.25
 Nodes (7): build, builder, dockerfilePath, deploy, restartPolicyMaxRetries, restartPolicyType, $schema
 
+### Community 26 - "variable"
+Cohesion: 0.17
+Nodes (12): variable, minLength, type, type, description, isOptional, value, type (+4 more)
+
 ## Knowledge Gaps
 - **130 isolated node(s):** `$schema`, `$id`, `title`, `type`, `required` (+125 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 219 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 220 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `properties` connect `properties` to `$defs`?**
+- **Why does `properties` connect `properties` to `$defs`, `properties`?**
   _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `$defs` connect `$defs` to `template.schema.json`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
-- **Why does `properties` connect `template.schema.json` to `properties`?**
+- **Why does `$defs` connect `$defs` to `template.schema.json`, `variable`?**
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+- **Why does `properties` connect `template.schema.json` to `variable`, `properties`?**
   _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **What connects `$schema`, `$id`, `title` to the rest of the system?**
   _130 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `template.schema.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
 - **Should `$defs` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `properties` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._

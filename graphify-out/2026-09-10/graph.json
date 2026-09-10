@@ -896,7 +896,7 @@
       "file_type": "code",
       "norm_label": "test_generated_secrets_use_the_alphanumeric_alphabet()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L124"
+      "source_location": "L137"
     },
     {
       "id": "tests_test_aptabase_template_test_it_defines_exactly_the_three_expected_services",
@@ -923,6 +923,18 @@
       "source_location": "L63"
     },
     {
+      "id": "tests_test_aptabase_template_test_port_is_pinned_so_health_checks_probe_the_right_port",
+      "label": "test_port_is_pinned_so_health_checks_probe_the_right_port()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": "test_port_is_pinned_so_health_checks_probe_the_right_port()",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L102"
+    },
+    {
       "id": "tests_test_aptabase_template_test_postgres_uses_the_railway_ssl_image_on_15",
       "label": "test_postgres_uses_the_railway_ssl_image_on_15()",
       "_callable": true,
@@ -944,7 +956,7 @@
       "file_type": "code",
       "norm_label": "test_smtp_and_oauth_variables_are_present_optional_and_empty()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L106"
+      "source_location": "L119"
     },
     {
       "id": "tests_test_aptabase_template_test_the_app_has_no_volume",
@@ -1040,7 +1052,7 @@
       "file_type": "code",
       "norm_label": "test_the_region_is_self_hosted()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L102"
+      "source_location": "L115"
     },
     {
       "id": "tests_test_aptabase_template_test_the_template_lints_clean",
@@ -1507,39 +1519,6 @@
       "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_defs_variable",
-      "label": "variable",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "variable",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L106"
-    },
-    {
-      "id": "schema_template_schema_description_minlength",
-      "label": "minLength",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "schema_template_schema_description_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
       "id": "schema_template_schema_id",
       "label": "$id",
       "_origin": "ast",
@@ -1549,17 +1528,6 @@
       "norm_label": "$id",
       "source_file": "schema/template.schema.json",
       "source_location": "L3"
-    },
-    {
-      "id": "schema_template_schema_isoptional_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
     },
     {
       "id": "schema_template_schema_items_ref",
@@ -1606,28 +1574,6 @@
       "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_properties_description",
-      "label": "description",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "description",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "schema_template_schema_properties_isoptional",
-      "label": "isOptional",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "isoptional",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
-    },
-    {
       "id": "schema_template_schema_properties_links",
       "label": "links",
       "_origin": "ast",
@@ -1659,17 +1605,6 @@
       "norm_label": "services",
       "source_file": "schema/template.schema.json",
       "source_location": "L25"
-    },
-    {
-      "id": "schema_template_schema_properties_value",
-      "label": "value",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "value",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L111"
     },
     {
       "id": "schema_template_schema_readme_minlength",
@@ -1769,61 +1704,6 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L5"
-    },
-    {
-      "id": "schema_template_schema_value_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L111"
-    },
-    {
-      "id": "schema_template_schema_variable_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L109"
-    },
-    {
-      "id": "schema_template_schema_variable_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L110"
-    },
-    {
-      "id": "schema_template_schema_variable_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L108"
-    },
-    {
-      "id": "schema_template_schema_variable_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L107"
     },
     {
       "id": "schema_template_schema_branch_minlength",
@@ -2442,6 +2322,17 @@
       "source_location": "L51"
     },
     {
+      "id": "schema_template_schema_deploy_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L76"
+    },
+    {
       "id": "schema_template_schema_deploy_properties",
       "label": "properties",
       "_origin": "ast",
@@ -2451,6 +2342,17 @@
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
       "source_location": "L77"
+    },
+    {
+      "id": "schema_template_schema_deploy_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L75"
     },
     {
       "id": "schema_template_schema_healthcheckpath_pattern",
@@ -2495,6 +2397,17 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_properties_deploy",
+      "label": "deploy",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "deploy",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L74"
     },
     {
       "id": "schema_template_schema_properties_healthcheckpath",
@@ -3003,28 +2916,6 @@
       "source_location": "L46"
     },
     {
-      "id": "schema_template_schema_deploy_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L76"
-    },
-    {
-      "id": "schema_template_schema_deploy_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L75"
-    },
-    {
       "id": "schema_template_schema_http_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -3133,17 +3024,6 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L61"
-    },
-    {
-      "id": "schema_template_schema_properties_deploy",
-      "label": "deploy",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "deploy",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L74"
     },
     {
       "id": "schema_template_schema_properties_http",
@@ -3438,6 +3318,138 @@
       "norm_label": "rules/caveman.md",
       "source_file": ".windsurf/rules/caveman.md",
       "source_location": "L1"
+    },
+    {
+      "id": "schema_template_schema_defs_variable",
+      "label": "variable",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "variable",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L106"
+    },
+    {
+      "id": "schema_template_schema_description_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_description_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_isoptional_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
+    },
+    {
+      "id": "schema_template_schema_properties_description",
+      "label": "description",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "description",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_properties_isoptional",
+      "label": "isOptional",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "isoptional",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
+    },
+    {
+      "id": "schema_template_schema_properties_value",
+      "label": "value",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "value",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L111"
+    },
+    {
+      "id": "schema_template_schema_value_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L111"
+    },
+    {
+      "id": "schema_template_schema_variable_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L109"
+    },
+    {
+      "id": "schema_template_schema_variable_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L110"
+    },
+    {
+      "id": "schema_template_schema_variable_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L108"
+    },
+    {
+      "id": "schema_template_schema_variable_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "variable",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L107"
     },
     {
       "id": "scripts_bump_digest",
@@ -3878,6 +3890,17 @@
       "norm_label": "fixture",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "tests_test_aptabase_template_rationale_103",
+      "label": "Railway health-checks the port named by PORT, not the target port. Kestrel is\u2026",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "rationale",
+      "norm_label": "railway health-checks the port named by port, not the target port. kestrel is...",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L103"
     },
     {
       "id": "argumentparser",
@@ -7906,7 +7929,7 @@
     },
     {
       "source": "tests_test_aptabase_template",
-      "target": "tests_test_aptabase_template_test_the_region_is_self_hosted",
+      "target": "tests_test_aptabase_template_test_port_is_pinned_so_health_checks_probe_the_right_port",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7917,13 +7940,24 @@
     },
     {
       "source": "tests_test_aptabase_template",
+      "target": "tests_test_aptabase_template_test_the_region_is_self_hosted",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template",
       "target": "tests_test_aptabase_template_test_smtp_and_oauth_variables_are_present_optional_and_empty",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L106",
+      "source_location": "L119",
       "weight": 1.0
     },
     {
@@ -7934,7 +7968,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L124",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
@@ -9258,6 +9292,17 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_aptabase_template_rationale_103",
+      "target": "tests_test_aptabase_template_test_port_is_pinned_so_health_checks_probe_the_right_port",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_clickhouse_image_rationale_86",
       "target": "tests_test_clickhouse_image_test_the_railway_config_declares_ipv6_itself",
       "relation": "rationale_for",
@@ -9362,5 +9407,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5f5e2dd755087ec0eb0bcb772c745e9832ef5d3d"
+  "built_at_commit": "ae62f7447910ff568e6ab867b7e3d0fe63e9a34e"
 }

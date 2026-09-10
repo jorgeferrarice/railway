@@ -48,15 +48,15 @@
     "semantic_hash": ""
   },
   "templates/aptabase/template.json": {
-    "mtime": 1789044919.618386,
-    "seen": 1789045910.407619,
-    "ast_hash": "313701adf64e20c846b98fd4bbf678fa",
+    "mtime": 1789045994.5420437,
+    "seen": 1789046019.762927,
+    "ast_hash": "aa1da70d6fd34f7d9802a49b188fe652",
     "semantic_hash": ""
   },
   "tests/test_aptabase_template.py": {
-    "mtime": 1789044894.5710206,
-    "seen": 1789045910.4076202,
-    "ast_hash": "46be3cb6ee4ec0bd521f0bf480ab43e6",
+    "mtime": 1789045985.725697,
+    "seen": 1789046019.762928,
+    "ast_hash": "00aad2e8fb091871f49ef612dafb4fb5",
     "semantic_hash": ""
   },
   "tests/test_bump_digest.py": {
