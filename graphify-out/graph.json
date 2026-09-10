@@ -95,6 +95,19 @@
       "source_location": "L27"
     },
     {
+      "id": "tests_test_aptabase_template_testmarketplaceoverview",
+      "label": "TestMarketplaceOverview",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": "testmarketplaceoverview",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L145"
+    },
+    {
       "id": "tests_test_rt_api_fakeresponse",
       "label": "FakeResponse",
       "_callable": true,
@@ -1691,7 +1704,7 @@
       "file_type": "code",
       "norm_label": "test_a_missing_token_is_reported_clearly()",
       "source_file": "tests/test_railway_template_cli.py",
-      "source_location": "L151"
+      "source_location": "L153"
     },
     {
       "id": "tests_test_railway_template_cli_test_api_errors_become_exit_code_one",
@@ -1703,7 +1716,7 @@
       "file_type": "code",
       "norm_label": "test_api_errors_become_exit_code_one()",
       "source_file": "tests/test_railway_template_cli.py",
-      "source_location": "L141"
+      "source_location": "L143"
     },
     {
       "id": "tests_test_railway_template_cli_test_deploy_accepts_a_workspace_instead_of_a_project",
@@ -1799,7 +1812,7 @@
       "file_type": "code",
       "norm_label": "test_publish_requires_a_template_id()",
       "source_file": "tests/test_railway_template_cli.py",
-      "source_location": "L136"
+      "source_location": "L138"
     },
     {
       "id": "tests_test_railway_template_cli_test_publish_sends_the_marketplace_metadata",
@@ -1967,7 +1980,7 @@
       "file_type": "code",
       "norm_label": "services()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L19"
+      "source_location": "L20"
     },
     {
       "id": "tests_test_aptabase_template_template",
@@ -1979,7 +1992,7 @@
       "file_type": "code",
       "norm_label": "template()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L14"
+      "source_location": "L15"
     },
     {
       "id": "tests_test_aptabase_template_test_both_databases_have_a_volume",
@@ -1991,7 +2004,7 @@
       "file_type": "code",
       "norm_label": "test_both_databases_have_a_volume()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L54"
+      "source_location": "L55"
     },
     {
       "id": "tests_test_aptabase_template_test_clickhouse_builds_from_this_repository",
@@ -2003,7 +2016,7 @@
       "file_type": "code",
       "norm_label": "test_clickhouse_builds_from_this_repository()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L47"
+      "source_location": "L48"
     },
     {
       "id": "tests_test_aptabase_template_test_clickhouse_does_not_set_a_default_database",
@@ -2015,7 +2028,7 @@
       "file_type": "code",
       "norm_label": "test_clickhouse_does_not_set_a_default_database()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L94"
+      "source_location": "L95"
     },
     {
       "id": "tests_test_aptabase_template_test_generated_secrets_use_the_alphanumeric_alphabet",
@@ -2027,7 +2040,7 @@
       "file_type": "code",
       "norm_label": "test_generated_secrets_use_the_alphanumeric_alphabet()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L137"
+      "source_location": "L138"
     },
     {
       "id": "tests_test_aptabase_template_test_it_defines_exactly_the_three_expected_services",
@@ -2039,7 +2052,7 @@
       "file_type": "code",
       "norm_label": "test_it_defines_exactly_the_three_expected_services()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L31"
+      "source_location": "L32"
     },
     {
       "id": "tests_test_aptabase_template_test_only_the_app_is_publicly_reachable",
@@ -2051,7 +2064,7 @@
       "file_type": "code",
       "norm_label": "test_only_the_app_is_publicly_reachable()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L63"
+      "source_location": "L64"
     },
     {
       "id": "tests_test_aptabase_template_test_port_is_pinned_so_health_checks_probe_the_right_port",
@@ -2063,7 +2076,7 @@
       "file_type": "code",
       "norm_label": "test_port_is_pinned_so_health_checks_probe_the_right_port()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L102"
+      "source_location": "L103"
     },
     {
       "id": "tests_test_aptabase_template_test_postgres_uses_the_railway_ssl_image_on_15",
@@ -2075,7 +2088,7 @@
       "file_type": "code",
       "norm_label": "test_postgres_uses_the_railway_ssl_image_on_15()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L40"
+      "source_location": "L41"
     },
     {
       "id": "tests_test_aptabase_template_test_smtp_and_oauth_variables_are_present_optional_and_empty",
@@ -2087,7 +2100,7 @@
       "file_type": "code",
       "norm_label": "test_smtp_and_oauth_variables_are_present_optional_and_empty()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L119"
+      "source_location": "L120"
     },
     {
       "id": "tests_test_aptabase_template_test_the_app_has_no_volume",
@@ -2099,7 +2112,7 @@
       "file_type": "code",
       "norm_label": "test_the_app_has_no_volume()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L59"
+      "source_location": "L60"
     },
     {
       "id": "tests_test_aptabase_template_test_the_app_image_is_pinned_to_the_expected_digest",
@@ -2111,7 +2124,7 @@
       "file_type": "code",
       "norm_label": "test_the_app_image_is_pinned_to_the_expected_digest()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L35"
+      "source_location": "L36"
     },
     {
       "id": "tests_test_aptabase_template_test_the_app_port_is_pinned_to_match_the_declared_target_port",
@@ -2123,7 +2136,7 @@
       "file_type": "code",
       "norm_label": "test_the_app_port_is_pinned_to_match_the_declared_target_port()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L98"
+      "source_location": "L99"
     },
     {
       "id": "tests_test_aptabase_template_test_the_base_url_follows_the_generated_domain",
@@ -2135,7 +2148,7 @@
       "file_type": "code",
       "norm_label": "test_the_base_url_follows_the_generated_domain()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L75"
+      "source_location": "L76"
     },
     {
       "id": "tests_test_aptabase_template_test_the_clickhouse_connection_string_omits_a_database",
@@ -2147,7 +2160,7 @@
       "file_type": "code",
       "norm_label": "test_the_clickhouse_connection_string_omits_a_database()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L87"
+      "source_location": "L88"
     },
     {
       "id": "tests_test_aptabase_template_test_the_health_check_tolerates_startup_migrations",
@@ -2159,7 +2172,7 @@
       "file_type": "code",
       "norm_label": "test_the_health_check_tolerates_startup_migrations()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L69"
+      "source_location": "L70"
     },
     {
       "id": "tests_test_aptabase_template_test_the_postgres_connection_string_targets_the_private_domain",
@@ -2171,7 +2184,7 @@
       "file_type": "code",
       "norm_label": "test_the_postgres_connection_string_targets_the_private_domain()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L80"
+      "source_location": "L81"
     },
     {
       "id": "tests_test_aptabase_template_test_the_region_is_self_hosted",
@@ -2183,7 +2196,7 @@
       "file_type": "code",
       "norm_label": "test_the_region_is_self_hosted()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L115"
+      "source_location": "L116"
     },
     {
       "id": "tests_test_aptabase_template_test_the_template_lints_clean",
@@ -2195,7 +2208,7 @@
       "file_type": "code",
       "norm_label": "test_the_template_lints_clean()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L27"
+      "source_location": "L28"
     },
     {
       "id": "tests_test_aptabase_template_test_the_template_validates_against_the_schema",
@@ -2207,7 +2220,67 @@
       "file_type": "code",
       "norm_label": "test_the_template_validates_against_the_schema()",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L23"
+      "source_location": "L24"
+    },
+    {
+      "id": "tests_test_aptabase_template_testmarketplaceoverview_readme",
+      "label": ".readme()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": ".readme()",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L163"
+    },
+    {
+      "id": "tests_test_aptabase_template_testmarketplaceoverview_test_every_required_heading_is_present",
+      "label": ".test_every_required_heading_is_present()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": ".test_every_required_heading_is_present()",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L168"
+    },
+    {
+      "id": "tests_test_aptabase_template_testmarketplaceoverview_test_maintainer_notes_are_not_published",
+      "label": ".test_maintainer_notes_are_not_published()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": ".test_maintainer_notes_are_not_published()",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L179"
+    },
+    {
+      "id": "tests_test_aptabase_template_testmarketplaceoverview_test_the_headings_appear_in_the_order_railway_documents",
+      "label": ".test_the_headings_appear_in_the_order_railway_documents()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": ".test_the_headings_appear_in_the_order_railway_documents()",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L172"
+    },
+    {
+      "id": "tests_test_aptabase_template_testmarketplaceoverview_test_the_overview_opens_with_the_h1",
+      "label": ".test_the_overview_opens_with_the_h1()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "code",
+      "norm_label": ".test_the_overview_opens_with_the_h1()",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L176"
     },
     {
       "id": "scripts_railway_template_build_parser",
@@ -3109,6 +3182,17 @@
       "source_location": "L176"
     },
     {
+      "id": "schema_template_schema_defs_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L65"
+    },
+    {
       "id": "schema_template_schema_id",
       "label": "$id",
       "_origin": "ast",
@@ -3349,6 +3433,39 @@
       "norm_label": "$schema",
       "source_file": "schema/template.schema.json",
       "source_location": "L2"
+    },
+    {
+      "id": "schema_template_schema_service_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L71"
+    },
+    {
+      "id": "schema_template_schema_service_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L67"
+    },
+    {
+      "id": "schema_template_schema_service_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L66"
     },
     {
       "id": "schema_template_schema_title",
@@ -3608,7 +3725,7 @@
       "label": "publishing-checklist.md",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "publishing-checklist.md",
@@ -3620,31 +3737,31 @@
       "label": "Aptabase",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "aptabase",
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L49"
+      "source_location": "L73"
     },
     {
       "id": "docs_publishing_checklist_marketplace_listing",
       "label": "Marketplace listing",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "marketplace listing",
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L63"
+      "source_location": "L87"
     },
     {
       "id": "docs_publishing_checklist_publishing_checklist",
       "label": "Publishing checklist",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "publishing checklist",
@@ -3652,11 +3769,23 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_publishing_checklist_the_overview_s_shape_is_mandated",
+      "label": "The overview's shape is mandated",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "the overview's shape is mandated",
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L49"
+    },
+    {
       "id": "docs_publishing_checklist_verifying_the_repair",
       "label": "Verifying the repair",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "verifying the repair",
@@ -3668,7 +3797,7 @@
       "label": "What generation loses",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "what generation loses",
@@ -3680,7 +3809,7 @@
       "label": "railway-template-api.md",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "railway-template-api.md",
@@ -3688,11 +3817,167 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_railway_template_api_deploy",
+      "label": "`deploy`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`deploy`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L191"
+    },
+    {
+      "id": "docs_railway_template_api_networking",
+      "label": "`networking`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`networking`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L208"
+    },
+    {
+      "id": "docs_railway_template_api_publishing_is_blocked_on_this_account",
+      "label": "Publishing is blocked on this account",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "publishing is blocked on this account",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "docs_railway_template_api_railway_template_api",
+      "label": "Railway template API",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "railway template api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_railway_template_api_reading_a_published_template_s_config",
+      "label": "Reading a published template's config",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reading a published template's config",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L225"
+    },
+    {
+      "id": "docs_railway_template_api_serializedconfig",
+      "label": "`serializedConfig`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`serializedconfig`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "docs_railway_template_api_source",
+      "label": "`source`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`source`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
+      "label": "`templateDeployV2` is refused from the public API",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`templatedeployv2` is refused from the public api",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "docs_railway_template_api_there_is_no_templatecreate",
+      "label": "There is no `templateCreate`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "there is no `templatecreate`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "docs_railway_template_api_transport",
+      "label": "Transport",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "transport",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "docs_railway_template_api_variables",
+      "label": "`variables`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`variables`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L179"
+    },
+    {
+      "id": "docs_railway_template_api_volumemounts",
+      "label": "`volumeMounts`",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`volumemounts`",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L220"
+    },
+    {
+      "id": "docs_railway_template_api_what_templategenerate_drops",
+      "label": "What `templateGenerate` drops",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Railway template API",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what `templategenerate` drops",
+      "source_file": "docs/railway-template-api.md",
+      "source_location": "L102"
+    },
+    {
       "id": "readme",
       "label": "README.md",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "readme.md",
@@ -3704,7 +3989,7 @@
       "label": "Development",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "development",
@@ -3716,7 +4001,7 @@
       "label": "Documentation",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "documentation",
@@ -3728,7 +4013,7 @@
       "label": "Railway templates",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "railway templates",
@@ -3740,7 +4025,7 @@
       "label": "Templates",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "templates",
@@ -3752,7 +4037,7 @@
       "label": "RTK.md",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "rtk.md",
@@ -3764,7 +4049,7 @@
       "label": "Hook-Based Usage",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "hook-based usage",
@@ -3776,7 +4061,7 @@
       "label": "Installation Verification",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "installation verification",
@@ -3788,7 +4073,7 @@
       "label": "Meta Commands (always use rtk directly)",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "meta commands (always use rtk directly)",
@@ -3800,168 +4085,12 @@
       "label": "RTK - Rust Token Killer",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Aptabase",
+      "community_name": "Railway template API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "rtk - rust token killer",
       "source_file": "RTK.md",
       "source_location": "L1"
-    },
-    {
-      "id": "templates_aptabase_readme",
-      "label": "aptabase/README.md",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "aptabase/readme.md",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "templates_aptabase_readme_adding_oauth_sign_in",
-      "label": "Adding OAuth sign-in",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "adding oauth sign-in",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L69"
-    },
-    {
-      "id": "templates_aptabase_readme_adding_smtp",
-      "label": "Adding SMTP",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "adding smtp",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L54"
-    },
-    {
-      "id": "templates_aptabase_readme_aptabase",
-      "label": "Aptabase",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "aptabase",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "templates_aptabase_readme_creating_the_first_account",
-      "label": "Creating the first account",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "creating the first account",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L40"
-    },
-    {
-      "id": "templates_aptabase_readme_custom_domain",
-      "label": "Custom domain",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "custom domain",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L79"
-    },
-    {
-      "id": "templates_aptabase_readme_deploy",
-      "label": "Deploy",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "deploy",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L21"
-    },
-    {
-      "id": "templates_aptabase_readme_known_limits",
-      "label": "Known limits",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "known limits",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L116"
-    },
-    {
-      "id": "templates_aptabase_readme_marketplace_listing",
-      "label": "Marketplace listing",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "marketplace listing",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L134"
-    },
-    {
-      "id": "templates_aptabase_readme_publishing_is_not_a_one_command_step",
-      "label": "Publishing is not a one-command step",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "publishing is not a one-command step",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L147"
-    },
-    {
-      "id": "templates_aptabase_readme_storage",
-      "label": "Storage",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "storage",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L102"
-    },
-    {
-      "id": "templates_aptabase_readme_upgrading",
-      "label": "Upgrading",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "upgrading",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L88"
-    },
-    {
-      "id": "templates_aptabase_readme_what_this_deploys",
-      "label": "What this deploys",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Aptabase",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "what this deploys",
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L6"
     },
     {
       "id": "tests_test_rt_apply",
@@ -4008,169 +4137,208 @@
       "source_location": "L73"
     },
     {
-      "id": "schema_template_schema_deploy_additionalproperties",
-      "label": "additionalProperties",
+      "id": "templates_aptabase_readme",
+      "label": "aptabase/README.md",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L134"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "aptabase/readme.md",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L1"
     },
     {
-      "id": "schema_template_schema_deploy_properties",
-      "label": "properties",
+      "id": "templates_aptabase_readme_about_hosting_aptabase",
+      "label": "About Hosting Aptabase",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L135"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "about hosting aptabase",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L9"
     },
     {
-      "id": "schema_template_schema_deploy_type",
-      "label": "type",
+      "id": "templates_aptabase_readme_adding_oauth_sign_in",
+      "label": "Adding OAuth sign-in",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L133"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "adding oauth sign-in",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L129"
     },
     {
-      "id": "schema_template_schema_healthcheckpath_pattern",
-      "label": "pattern",
+      "id": "templates_aptabase_readme_adding_smtp",
+      "label": "Adding SMTP",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L138"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "adding smtp",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L114"
     },
     {
-      "id": "schema_template_schema_healthcheckpath_type",
-      "label": "type",
+      "id": "templates_aptabase_readme_common_use_cases",
+      "label": "Common Use Cases",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L137"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "common use cases",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L21"
     },
     {
-      "id": "schema_template_schema_healthchecktimeout_minimum",
-      "label": "minimum",
+      "id": "templates_aptabase_readme_creating_the_first_account",
+      "label": "Creating the first account",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L142"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "creating the first account",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L100"
     },
     {
-      "id": "schema_template_schema_healthchecktimeout_type",
-      "label": "type",
+      "id": "templates_aptabase_readme_custom_domain",
+      "label": "Custom domain",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L141"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "custom domain",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L139"
     },
     {
-      "id": "schema_template_schema_properties_deploy",
-      "label": "deploy",
+      "id": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "label": "Dependencies for Aptabase Hosting",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "deploy",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L132"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "dependencies for aptabase hosting",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L32"
     },
     {
-      "id": "schema_template_schema_properties_healthcheckpath",
-      "label": "healthcheckPath",
+      "id": "templates_aptabase_readme_deploy_and_host_aptabase_with_railway",
+      "label": "Deploy and Host Aptabase with Railway",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthcheckpath",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L136"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deploy and host aptabase with railway",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L1"
     },
     {
-      "id": "schema_template_schema_properties_healthchecktimeout",
-      "label": "healthcheckTimeout",
+      "id": "templates_aptabase_readme_deployment_dependencies",
+      "label": "Deployment Dependencies",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthchecktimeout",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L140"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deployment dependencies",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L43"
     },
     {
-      "id": "schema_template_schema_properties_restartpolicymaxretries",
-      "label": "restartPolicyMaxRetries",
+      "id": "templates_aptabase_readme_implementation_details",
+      "label": "Implementation Details",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicymaxretries",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L151"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "implementation details",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L51"
     },
     {
-      "id": "schema_template_schema_properties_restartpolicytype",
-      "label": "restartPolicyType",
+      "id": "templates_aptabase_readme_known_limits",
+      "label": "Known limits",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicytype",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L144"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "known limits",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L176"
     },
     {
-      "id": "schema_template_schema_restartpolicymaxretries_minimum",
-      "label": "minimum",
+      "id": "templates_aptabase_readme_marketplace_listing",
+      "label": "Marketplace listing",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L153"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "marketplace listing",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L204"
     },
     {
-      "id": "schema_template_schema_restartpolicymaxretries_type",
-      "label": "type",
+      "id": "templates_aptabase_readme_publishing_is_not_a_one_command_step",
+      "label": "Publishing is not a one-command step",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L152"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "publishing is not a one-command step",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L217"
     },
     {
-      "id": "schema_template_schema_restartpolicytype_enum",
-      "label": "enum",
+      "id": "templates_aptabase_readme_storage",
+      "label": "Storage",
       "_origin": "ast",
       "community": 17,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "enum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L145"
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "storage",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L162"
+    },
+    {
+      "id": "templates_aptabase_readme_upgrading",
+      "label": "Upgrading",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "upgrading",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L148"
+    },
+    {
+      "id": "templates_aptabase_readme_why_deploy_aptabase_on_railway",
+      "label": "Why Deploy Aptabase on Railway?",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Dependencies for Aptabase Hosting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "why deploy aptabase on railway?",
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L192"
     },
     {
       "id": "scripts_rt_lint",
@@ -4239,15 +4407,81 @@
       "source_location": "L90"
     },
     {
-      "id": "schema_template_schema_defs_service",
-      "label": "service",
+      "id": "schema_template_schema_deploy_additionalproperties",
+      "label": "additionalProperties",
       "_origin": "ast",
       "community": 2,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "service",
+      "norm_label": "additionalproperties",
       "source_file": "schema/template.schema.json",
-      "source_location": "L65"
+      "source_location": "L134"
+    },
+    {
+      "id": "schema_template_schema_deploy_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L135"
+    },
+    {
+      "id": "schema_template_schema_deploy_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L133"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L138"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L137"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L142"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L141"
     },
     {
       "id": "schema_template_schema_http_additionalproperties",
@@ -4360,6 +4594,39 @@
       "source_location": "L113"
     },
     {
+      "id": "schema_template_schema_properties_deploy",
+      "label": "deploy",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "deploy",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L132"
+    },
+    {
+      "id": "schema_template_schema_properties_healthcheckpath",
+      "label": "healthcheckPath",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthcheckpath",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L136"
+    },
+    {
+      "id": "schema_template_schema_properties_healthchecktimeout",
+      "label": "healthcheckTimeout",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthchecktimeout",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L140"
+    },
+    {
       "id": "schema_template_schema_properties_http",
       "label": "http",
       "_origin": "ast",
@@ -4391,6 +4658,28 @@
       "norm_label": "networking",
       "source_file": "schema/template.schema.json",
       "source_location": "L112"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicymaxretries",
+      "label": "restartPolicyMaxRetries",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicymaxretries",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L151"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicytype",
+      "label": "restartPolicyType",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicytype",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L144"
     },
     {
       "id": "schema_template_schema_properties_source",
@@ -4437,15 +4726,37 @@
       "source_location": "L93"
     },
     {
-      "id": "schema_template_schema_service_additionalproperties",
-      "label": "additionalProperties",
+      "id": "schema_template_schema_restartpolicymaxretries_minimum",
+      "label": "minimum",
       "_origin": "ast",
       "community": 2,
       "community_name": "properties",
       "file_type": "code",
-      "norm_label": "additionalproperties",
+      "norm_label": "minimum",
       "source_file": "schema/template.schema.json",
-      "source_location": "L71"
+      "source_location": "L153"
+    },
+    {
+      "id": "schema_template_schema_restartpolicymaxretries_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L152"
+    },
+    {
+      "id": "schema_template_schema_restartpolicytype_enum",
+      "label": "enum",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "enum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L145"
     },
     {
       "id": "schema_template_schema_service_properties",
@@ -4457,28 +4768,6 @@
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
       "source_location": "L72"
-    },
-    {
-      "id": "schema_template_schema_service_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L67"
-    },
-    {
-      "id": "schema_template_schema_service_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L66"
     },
     {
       "id": "schema_template_schema_source_oneof",
@@ -4949,162 +5238,6 @@
       "norm_label": "items",
       "source_file": "schema/template.schema.json",
       "source_location": "L98"
-    },
-    {
-      "id": "docs_railway_template_api_deploy",
-      "label": "`deploy`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`deploy`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L191"
-    },
-    {
-      "id": "docs_railway_template_api_networking",
-      "label": "`networking`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`networking`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L208"
-    },
-    {
-      "id": "docs_railway_template_api_publishing_is_blocked_on_this_account",
-      "label": "Publishing is blocked on this account",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "publishing is blocked on this account",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L83"
-    },
-    {
-      "id": "docs_railway_template_api_railway_template_api",
-      "label": "Railway template API",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "railway template api",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_railway_template_api_reading_a_published_template_s_config",
-      "label": "Reading a published template's config",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "reading a published template's config",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L225"
-    },
-    {
-      "id": "docs_railway_template_api_serializedconfig",
-      "label": "`serializedConfig`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`serializedconfig`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L132"
-    },
-    {
-      "id": "docs_railway_template_api_source",
-      "label": "`source`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`source`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L167"
-    },
-    {
-      "id": "docs_railway_template_api_templatedeployv2_is_refused_from_the_public_api",
-      "label": "`templateDeployV2` is refused from the public API",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`templatedeployv2` is refused from the public api",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L62"
-    },
-    {
-      "id": "docs_railway_template_api_there_is_no_templatecreate",
-      "label": "There is no `templateCreate`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "there is no `templatecreate`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L21"
-    },
-    {
-      "id": "docs_railway_template_api_transport",
-      "label": "Transport",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "transport",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L10"
-    },
-    {
-      "id": "docs_railway_template_api_variables",
-      "label": "`variables`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`variables`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L179"
-    },
-    {
-      "id": "docs_railway_template_api_volumemounts",
-      "label": "`volumeMounts`",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`volumemounts`",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L220"
-    },
-    {
-      "id": "docs_railway_template_api_what_templategenerate_drops",
-      "label": "What `templateGenerate` drops",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "Railway template API",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "what `templategenerate` drops",
-      "source_file": "docs/railway-template-api.md",
-      "source_location": "L102"
     },
     {
       "id": "scripts_bump_digest",
@@ -5583,7 +5716,7 @@
       "source_location": ""
     },
     {
-      "id": "tests_test_aptabase_template_rationale_103",
+      "id": "tests_test_aptabase_template_rationale_104",
       "label": "Railway health-checks the port named by PORT, not the target port. Kestrel is\u2026",
       "_origin": "ast",
       "community": 5,
@@ -5591,7 +5724,18 @@
       "file_type": "rationale",
       "norm_label": "railway health-checks the port named by port, not the target port. kestrel is...",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L103"
+      "source_location": "L104"
+    },
+    {
+      "id": "tests_test_aptabase_template_rationale_146",
+      "label": "Railway's template best practices mandate the overview's skeleton:\u2026",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "test_aptabase_template.py",
+      "file_type": "rationale",
+      "norm_label": "railway's template best practices mandate the overview's skeleton:...",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L146"
     },
     {
       "id": "argumentparser",
@@ -7987,7 +8131,7 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -7999,7 +8143,19 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L13",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template_testmarketplaceoverview_readme",
+      "target": "tests_test_aptabase_template_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L162",
       "weight": 1.0
     },
     {
@@ -8172,7 +8328,7 @@
     },
     {
       "source": "tests_test_aptabase_template",
-      "target": "scripts_rt_schema",
+      "target": "scripts_rt_payload",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8180,6 +8336,18 @@
       "context": "import",
       "source_file": "tests/test_aptabase_template.py",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template",
+      "target": "scripts_rt_schema",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -8369,7 +8537,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/publishing-checklist.md",
-      "source_location": "L63",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -8385,7 +8553,7 @@
     },
     {
       "source": "docs_publishing_checklist_publishing_checklist",
-      "target": "docs_publishing_checklist_aptabase",
+      "target": "docs_publishing_checklist_the_overview_s_shape_is_mandated",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8403,6 +8571,17 @@
       "confidence_score": 1.0,
       "source_file": "docs/publishing-checklist.md",
       "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_publishing_checklist_publishing_checklist",
+      "target": "docs_publishing_checklist_aptabase",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/publishing-checklist.md",
+      "source_location": "L73",
       "weight": 1.0
     },
     {
@@ -11157,7 +11336,7 @@
     },
     {
       "source": "templates_aptabase_readme",
-      "target": "templates_aptabase_readme_aptabase",
+      "target": "templates_aptabase_readme_deploy_and_host_aptabase_with_railway",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11167,41 +11346,129 @@
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_creating_the_first_account",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_adding_smtp",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_adding_oauth_sign_in",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_custom_domain",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_upgrading",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
       "target": "templates_aptabase_readme_storage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L102",
+      "source_location": "L162",
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
       "target": "templates_aptabase_readme_known_limits",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L116",
+      "source_location": "L176",
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_why_deploy_aptabase_on_railway",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_deployment_dependencies",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
+      "target": "templates_aptabase_readme_implementation_details",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/aptabase/README.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_aptabase_readme_deploy_and_host_aptabase_with_railway",
       "target": "templates_aptabase_readme_marketplace_listing",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L134",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_deploy",
+      "source": "templates_aptabase_readme_deploy_and_host_aptabase_with_railway",
+      "target": "templates_aptabase_readme_common_use_cases",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11211,69 +11478,25 @@
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_creating_the_first_account",
+      "source": "templates_aptabase_readme_deploy_and_host_aptabase_with_railway",
+      "target": "templates_aptabase_readme_dependencies_for_aptabase_hosting",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L40",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_adding_smtp",
+      "source": "templates_aptabase_readme_deploy_and_host_aptabase_with_railway",
+      "target": "templates_aptabase_readme_about_hosting_aptabase",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L54",
-      "weight": 1.0
-    },
-    {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_what_this_deploys",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_adding_oauth_sign_in",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L69",
-      "weight": 1.0
-    },
-    {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_custom_domain",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L79",
-      "weight": 1.0
-    },
-    {
-      "source": "templates_aptabase_readme_aptabase",
-      "target": "templates_aptabase_readme_upgrading",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L88",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -11284,7 +11507,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "templates/aptabase/README.md",
-      "source_location": "L147",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -11295,7 +11518,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L102",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -11306,7 +11529,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L115",
+      "source_location": "L116",
       "weight": 1.0
     },
     {
@@ -11317,7 +11540,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L119",
+      "source_location": "L120",
       "weight": 1.0
     },
     {
@@ -11328,7 +11551,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L137",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -11339,7 +11573,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -11350,7 +11584,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L19",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -11361,7 +11595,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -11372,7 +11606,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L27",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -11383,7 +11617,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -11394,7 +11628,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L35",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -11405,7 +11639,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -11416,7 +11650,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L47",
+      "source_location": "L48",
       "weight": 1.0
     },
     {
@@ -11427,7 +11661,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L54",
+      "source_location": "L55",
       "weight": 1.0
     },
     {
@@ -11438,7 +11672,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L59",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -11449,7 +11683,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L63",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -11460,7 +11694,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L69",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -11471,7 +11705,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L75",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -11482,7 +11716,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L80",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -11493,7 +11727,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L87",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
@@ -11504,7 +11738,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L94",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -11515,7 +11749,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L98",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -11834,7 +12068,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_railway_template_cli.py",
-      "source_location": "L136",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
@@ -11845,7 +12079,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_railway_template_cli.py",
-      "source_location": "L141",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -11856,7 +12090,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_railway_template_cli.py",
-      "source_location": "L151",
+      "source_location": "L153",
       "weight": 1.0
     },
     {
@@ -12971,6 +13205,61 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_aptabase_template_testmarketplaceoverview",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview_readme",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template_testmarketplaceoverview",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview_test_every_required_heading_is_present",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template_testmarketplaceoverview",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview_test_the_headings_appear_in_the_order_railway_documents",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template_testmarketplaceoverview",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview_test_the_overview_opens_with_the_h1",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template_testmarketplaceoverview",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview_test_maintainer_notes_are_not_published",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_bump_digest_fakeresponse",
       "target": "tests_test_bump_digest_fakeresponse_init",
       "relation": "method",
@@ -13664,14 +13953,25 @@
       "weight": 1.0
     },
     {
-      "source": "tests_test_aptabase_template_rationale_103",
+      "source": "tests_test_aptabase_template_rationale_104",
       "target": "tests_test_aptabase_template_test_port_is_pinned_so_health_checks_probe_the_right_port",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_aptabase_template.py",
-      "source_location": "L103",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_aptabase_template_rationale_146",
+      "target": "tests_test_aptabase_template_testmarketplaceoverview",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_aptabase_template.py",
+      "source_location": "L146",
       "weight": 1.0
     },
     {
@@ -13837,17 +14137,6 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "templates_aptabase_readme",
-      "target": "docs_railway_template_api",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "templates/aptabase/README.md",
-      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -14020,5 +14309,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "092bb31bbe3851f99b75252a3da381cd42fbdd49"
+  "built_at_commit": "9e71c285e79b3aaaf4a6c59570eeb374b4fb8865"
 }

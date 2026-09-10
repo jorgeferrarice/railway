@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "tests/test_aptabase_template.py": {
-    "mtime": 1789046383.4126778,
-    "seen": 1789046720.423084,
-    "ast_hash": "00aad2e8fb091871f49ef612dafb4fb5",
+    "mtime": 1789058446.8712378,
+    "seen": 1789058545.3300989,
+    "ast_hash": "bad65fb9fa810a240ea4d2d0073bc975",
     "semantic_hash": ""
   },
   "tests/test_bump_digest.py": {
@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   "templates/aptabase/README.md": {
-    "mtime": 1789054026.5109684,
-    "seen": 1789054058.990698,
-    "ast_hash": "ea79be6b2f4eca1339880d0a1416d3c0",
+    "mtime": 1789058430.5376732,
+    "seen": 1789058545.330425,
+    "ast_hash": "a4116056e8739c778f112b891a720f96",
     "semantic_hash": ""
   },
   "scripts/rt_payload.py": {
@@ -180,9 +180,9 @@
     "semantic_hash": ""
   },
   "tests/test_railway_template_cli.py": {
-    "mtime": 1789046383.419212,
-    "seen": 1789046720.423085,
-    "ast_hash": "00587db79c7b9c12532749b745a0d129",
+    "mtime": 1789058486.4880686,
+    "seen": 1789058545.330136,
+    "ast_hash": "f29a976ed3a3ad3668ab689268c56a4d",
     "semantic_hash": ""
   },
   "scripts/rt_apply.py": {
@@ -198,9 +198,9 @@
     "semantic_hash": ""
   },
   "docs/publishing-checklist.md": {
-    "mtime": 1789053834.687883,
-    "seen": 1789054058.9906611,
-    "ast_hash": "49f258af23d18c956ad42282a6fbe53e",
+    "mtime": 1789058519.6646235,
+    "seen": 1789058545.330354,
+    "ast_hash": "a945b58d5896d911b5f3cf736ca67254",
     "semantic_hash": ""
   }
 }

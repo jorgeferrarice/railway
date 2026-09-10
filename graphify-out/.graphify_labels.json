@@ -14,9 +14,9 @@
   "12": "test_clickhouse_image.py",
   "13": "TestReadmeLinkRewriting",
   "14": "test_rt_payload.py",
-  "15": "Aptabase",
+  "15": "Railway template API",
   "16": "test_rt_apply.py",
-  "17": "properties",
+  "17": "Dependencies for Aptabase Hosting",
   "18": "test_rt_lint.py",
   "19": "test_rt_schema.py",
   "20": "railway.json",
@@ -27,6 +27,5 @@
   "25": "rules/caveman.md",
   "26": "rt_payload.py",
   "27": "test_railway_template_cli.py",
-  "28": "properties",
-  "29": "Railway template API"
+  "28": "properties"
 }
