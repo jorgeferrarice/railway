@@ -178,9 +178,21 @@ Railway-specific tuning that the stock image does not have:
   logs will consume a meaningful share of that before any events arrive.
 - Logger level raised to `warning` to keep Railway's log stream readable.
 
-The file does **not** touch `listen_host` — the stock image's
-`docker_related_config.xml` already binds `::`, satisfying Railway's IPv6-only private
-networking.
+It also declares `listen_host` explicitly (`::` and `0.0.0.0`, with `listen_try` left at
+`1`).
+
+This reverses an earlier decision in this document, which said the file should *not*
+touch `listen_host` because the stock image's `docker_related_config.xml` already binds
+`::`. That file does still set it, but implementation showed the service's entire
+private-network reachability hangs on that one upstream file, which is free to change
+between image versions. A custom image exists for this service anyway, so the binding is
+declared here rather than inherited.
+
+Verified on 2026-09-10 while implementing: on Docker Desktop for macOS the `::` bind
+fails with `Address family for hostname not supported`, `listen_try` swallows it, and
+only IPv4 comes up. That is a property of that host's disabled container IPv6, not of the
+image, so the test asserts the *merged effective configuration* asks for `::` rather than
+asserting a live IPv6 socket.
 
 `railway.json` in the same directory pins the builder to Dockerfile and sets a restart
 policy.

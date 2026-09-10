@@ -1,0 +1,57 @@
+<clickhouse>
+    <!--
+        Railway-specific tuning for the Aptabase events database.
+    -->
+
+    <!--
+        Railway's private network resolves to IPv6 in legacy environments, so
+        binding "::" is what makes this service reachable from the app at all.
+
+        The upstream image's config.d/docker_related_config.xml already sets
+        this, but it is upstream's file and can change between image versions.
+        The whole point of building our own image is not to depend on that, so
+        both families are declared here explicitly.
+
+        listen_try stays 1 so the server still starts on a host with IPv6
+        disabled — Docker Desktop on macOS being one, where the "::" bind fails
+        with "Address family for hostname not supported" and only IPv4 comes up.
+    -->
+    <listen_host>::</listen_host>
+    <listen_host>0.0.0.0</listen_host>
+    <listen_try>1</listen_try>
+
+    <logger>
+        <level>warning</level>
+        <console>1</console>
+    </logger>
+
+    <!-- Size caches from the container's memory limit, not the host's RAM. -->
+    <max_server_memory_usage_to_ram_ratio>0.7</max_server_memory_usage_to_ram_ratio>
+    <mark_cache_size>268435456</mark_cache_size>
+
+    <!--
+        Railway volumes start at 5 GB. Stock ClickHouse system logs would claim
+        a large share of that before a single analytics event arrives, so the
+        high-volume tables are removed and the rest are given a short TTL.
+    -->
+    <trace_log remove="1"/>
+    <metric_log remove="1"/>
+    <asynchronous_metric_log remove="1"/>
+    <session_log remove="1"/>
+    <text_log remove="1"/>
+    <crash_log remove="1"/>
+
+    <query_log>
+        <database>system</database>
+        <table>query_log</table>
+        <ttl>event_date + INTERVAL 7 DAY DELETE</ttl>
+        <flush_interval_milliseconds>7500</flush_interval_milliseconds>
+    </query_log>
+
+    <part_log>
+        <database>system</database>
+        <table>part_log</table>
+        <ttl>event_date + INTERVAL 7 DAY DELETE</ttl>
+        <flush_interval_milliseconds>7500</flush_interval_milliseconds>
+    </part_log>
+</clickhouse>
