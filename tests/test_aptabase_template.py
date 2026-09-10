@@ -99,6 +99,19 @@ def test_the_app_port_is_pinned_to_match_the_declared_target_port(services):
     assert services["aptabase"]["variables"]["ASPNETCORE_HTTP_PORTS"]["value"] == "8080"
 
 
+def test_port_is_pinned_so_health_checks_probe_the_right_port(services):
+    """Railway health-checks the port named by PORT, not the target port.
+
+    Kestrel is pinned to 8080 and ignores PORT, so if Railway injected any
+    other value the health check would probe a dead port and every deploy
+    would fail.
+    """
+    variables = services["aptabase"]["variables"]
+    assert variables["PORT"]["value"] == "8080"
+    assert variables["PORT"]["value"] == variables["ASPNETCORE_HTTP_PORTS"]["value"]
+    assert str(services["aptabase"]["networking"]["http"]["targetPort"]) == variables["PORT"]["value"]
+
+
 def test_the_region_is_self_hosted(services):
     assert services["aptabase"]["variables"]["REGION"]["value"] == "SH"
 

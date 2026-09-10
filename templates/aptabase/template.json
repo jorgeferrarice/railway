@@ -90,6 +90,10 @@
           "value": "8080",
           "description": "Pinned so the declared target port and Kestrel's listener cannot drift apart."
         },
+        "PORT": {
+          "value": "8080",
+          "description": "Railway health-checks the port named by PORT, not the declared target port. Kestrel ignores PORT, so it is pinned to the same 8080 or the health check would probe a dead port."
+        },
         "REGION": {
           "value": "SH",
           "description": "Self-hosted."
