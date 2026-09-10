@@ -328,3 +328,96 @@ def test_the_aptabase_cross_service_references_name_real_services(aptabase_confi
     database_url = app["variables"]["DATABASE_URL"]["defaultValue"]
     assert "${{postgres." in database_url
     assert "postgres" in names
+
+
+class TestReadmeLinkRewriting:
+    """The marketplace renders the readme outside the repository, so every
+    relative link in it is dead unless it is made absolute first.
+    """
+
+    TEMPLATE = {
+        "name": "Example",
+        "description": "d",
+        "category": "Analytics",
+        "repository": "https://github.com/owner/repo",
+        "services": [],
+    }
+
+    def publish(self, tmp_path, readme, **overrides):
+        path = tmp_path / "README.md"
+        path.write_text(readme)
+        template = {**self.TEMPLATE, "readme": str(path), **overrides}
+        return rt_payload.build_publish_input(
+            template, readme_root="templates/example"
+        )["readme"]
+
+    def test_a_sibling_link_becomes_a_blob_url(self, tmp_path):
+        out = self.publish(tmp_path, "See [config](clickhouse/config.d/railway.xml).")
+        assert out == (
+            "See [config](https://github.com/owner/repo/blob/main/"
+            "templates/example/clickhouse/config.d/railway.xml)."
+        )
+
+    def test_a_parent_link_is_resolved_against_the_readme_directory(self, tmp_path):
+        out = self.publish(tmp_path, "See [API](../../docs/railway-template-api.md).")
+        assert out == (
+            "See [API](https://github.com/owner/repo/blob/main/"
+            "docs/railway-template-api.md)."
+        )
+
+    def test_an_absolute_link_is_left_alone(self, tmp_path):
+        readme = "See [upstream](https://github.com/aptabase/aptabase)."
+        assert self.publish(tmp_path, readme) == readme
+
+    def test_an_anchor_link_is_left_alone(self, tmp_path):
+        readme = "Jump to [storage](#storage)."
+        assert self.publish(tmp_path, readme) == readme
+
+    def test_a_mailto_link_is_left_alone(self, tmp_path):
+        readme = "Mail [us](mailto:hi@example.com)."
+        assert self.publish(tmp_path, readme) == readme
+
+    def test_a_readme_is_untouched_without_a_repository(self, tmp_path):
+        readme = "See [config](clickhouse/config.d/railway.xml)."
+        template = {k: v for k, v in self.TEMPLATE.items() if k != "repository"}
+        path = tmp_path / "README.md"
+        path.write_text(readme)
+        template = {**template, "readme": str(path)}
+        out = rt_payload.build_publish_input(template, readme_root="templates/example")
+        assert out["readme"] == readme
+
+    def test_the_links_table_is_appended(self, tmp_path):
+        template = {
+            **self.TEMPLATE,
+            "links": [{"label": "Source", "url": "https://github.com/aptabase/aptabase"}],
+        }
+        path = tmp_path / "README.md"
+        path.write_text("Body.")
+        template["readme"] = str(path)
+        out = rt_payload.build_publish_input(template, readme_root="templates/example")
+        assert out["readme"].endswith(
+            "\n\n## Links\n\n- [Source](https://github.com/aptabase/aptabase)\n"
+        )
+
+
+class TestReadmeTruncation:
+    """A repository readme ends with notes for whoever maintains the template.
+    Deployers reading the marketplace page should not see them.
+    """
+
+    TEMPLATE = {"name": "E", "description": "d", "category": "Analytics", "services": []}
+
+    def publish(self, tmp_path, readme):
+        path = tmp_path / "README.md"
+        path.write_text(readme)
+        return rt_payload.build_publish_input({**self.TEMPLATE, "readme": str(path)})["readme"]
+
+    def test_everything_after_the_marker_is_dropped(self, tmp_path):
+        out = self.publish(
+            tmp_path,
+            "For deployers.\n\n<!-- marketplace:end -->\n\n## Maintaining\n\nFor us.\n",
+        )
+        assert out == "For deployers."
+
+    def test_a_readme_without_the_marker_is_kept_whole(self, tmp_path):
+        assert self.publish(tmp_path, "All of it.\n") == "All of it.\n"

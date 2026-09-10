@@ -124,6 +124,8 @@ To grow a volume, open the service in Railway, select the volume and increase it
 - `postgres-ssl` is Railway's image, not the plain `postgres:15-alpine` upstream's compose
   file uses. The major version matches; the TLS layer does not.
 
+<!-- marketplace:end -->
+
 ## Marketplace listing
 
 - **Name:** Aptabase

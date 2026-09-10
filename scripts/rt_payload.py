@@ -11,6 +11,8 @@ edit.
 
 from __future__ import annotations
 
+import posixpath
+import re
 import uuid
 from pathlib import Path
 
@@ -142,14 +144,65 @@ def build_deploy_input(
     return payload
 
 
-def build_publish_input(template: dict, *, workspace_id: str | None = None) -> dict:
+# Everything below this marker in a readme is for whoever maintains the
+# template, not for whoever deploys it, so it does not go to the marketplace.
+README_END_MARKER = "<!-- marketplace:end -->"
+
+# Markdown link whose target is not already absolute, an anchor, or a scheme
+# such as mailto:. Those are the ones the marketplace cannot resolve.
+_RELATIVE_LINK = re.compile(r"\]\((?![a-z][a-z0-9+.-]*:|#|/)([^)\s]+)\)")
+
+
+def absolute_links(readme: str, repository: str, readme_root: str) -> str:
+    """Rewrite relative markdown links against the repository.
+
+    The marketplace renders the readme on its own page, where a link like
+    `clickhouse/config.d/railway.xml` points at nothing. `readme_root` is the
+    readme's directory within the repository, so `../../docs/x.md` resolves the
+    way it does on GitHub.
+    """
+    base = repository.rstrip("/") + "/blob/main"
+
+    def rewrite(match: re.Match) -> str:
+        target = posixpath.normpath(posixpath.join(readme_root, match.group(1)))
+        return f"]({base}/{target})"
+
+    return _RELATIVE_LINK.sub(rewrite, readme)
+
+
+def build_publish_input(
+    template: dict,
+    *,
+    workspace_id: str | None = None,
+    readme_root: str | None = None,
+) -> dict:
     """Build the TemplatePublishInput carrying the marketplace metadata."""
-    readme_path = template.get("readme")
     payload = {
         "category": template["category"],
         "description": template["description"],
-        "readme": Path(readme_path).read_text() if readme_path else None,
+        "readme": _readme(template, readme_root),
     }
     if workspace_id is not None:
         payload["workspaceId"] = workspace_id
     return payload
+
+
+def _readme(template: dict, readme_root: str | None) -> str | None:
+    readme_path = template.get("readme")
+    if not readme_path:
+        return None
+
+    readme = Path(readme_path).read_text()
+    readme = readme.split(README_END_MARKER)[0].rstrip() if README_END_MARKER in readme else readme
+    repository = template.get("repository")
+    if repository:
+        root = readme_root
+        if root is None:
+            root = str(Path(readme_path).parent)
+        readme = absolute_links(readme, repository, root)
+
+    links = template.get("links")
+    if links:
+        rows = "".join(f"- [{link['label']}]({link['url']})\n" for link in links)
+        readme = f"{readme.rstrip()}\n\n## Links\n\n{rows}"
+    return readme

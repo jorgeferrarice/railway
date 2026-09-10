@@ -161,7 +161,11 @@ def cmd_publish(args) -> int:
     template = _load_checked(args.template)
     if template is None:
         return 1
-    payload = rt_payload.build_publish_input(template, workspace_id=args.workspace_id)
+    payload = rt_payload.build_publish_input(
+        template,
+        workspace_id=args.workspace_id,
+        readme_root=str(Path(args.template).parent),
+    )
     result = rt_api.graphql(
         PUBLISH_MUTATION, {"id": args.template_id, "input": payload}
     )["templatePublish"]

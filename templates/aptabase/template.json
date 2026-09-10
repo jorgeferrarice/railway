@@ -3,10 +3,20 @@
   "description": "Open-source, privacy-friendly analytics for mobile, desktop and web apps. Self-hosted, with PostgreSQL for accounts and ClickHouse for events.",
   "category": "Analytics",
   "readme": "templates/aptabase/README.md",
+  "repository": "https://github.com/jorgeferrarice/railway",
   "links": [
-    {"label": "Source", "url": "https://github.com/aptabase/aptabase"},
-    {"label": "Self-hosting guide", "url": "https://github.com/aptabase/self-hosting"},
-    {"label": "Documentation", "url": "https://aptabase.com/docs"}
+    {
+      "label": "Source",
+      "url": "https://github.com/aptabase/aptabase"
+    },
+    {
+      "label": "Self-hosting guide",
+      "url": "https://github.com/aptabase/self-hosting"
+    },
+    {
+      "label": "Documentation",
+      "url": "https://aptabase.com/docs"
+    }
   ],
   "services": [
     {
@@ -33,7 +43,11 @@
           "description": "Data directory inside the mounted volume."
         }
       },
-      "volumes": [{"mountPath": "/var/lib/postgresql/data"}],
+      "volumes": [
+        {
+          "mountPath": "/var/lib/postgresql/data"
+        }
+      ],
       "deploy": {
         "restartPolicyType": "ON_FAILURE",
         "restartPolicyMaxRetries": 10
@@ -57,7 +71,11 @@
           "description": "Generated on deploy. Alphanumeric only, because it is interpolated into an ADO.NET connection string."
         }
       },
-      "volumes": [{"mountPath": "/var/lib/clickhouse"}],
+      "volumes": [
+        {
+          "mountPath": "/var/lib/clickhouse"
+        }
+      ],
       "deploy": {
         "restartPolicyType": "ON_FAILURE",
         "restartPolicyMaxRetries": 10
@@ -103,16 +121,52 @@
           "description": "Optional. Without SMTP, the signup activation link appears in this service's deploy logs instead of an inbox.",
           "isOptional": true
         },
-        "SMTP_PORT": {"value": "", "description": "Optional SMTP port.", "isOptional": true},
-        "SMTP_USERNAME": {"value": "", "description": "Optional SMTP username.", "isOptional": true},
-        "SMTP_PASSWORD": {"value": "", "description": "Optional SMTP password.", "isOptional": true},
-        "SMTP_FROM_ADDRESS": {"value": "", "description": "Optional sender address for outbound email.", "isOptional": true},
-        "OAUTH_GITHUB_CLIENT_ID": {"value": "", "description": "Optional GitHub sign-in.", "isOptional": true},
-        "OAUTH_GITHUB_CLIENT_SECRET": {"value": "", "description": "Optional GitHub sign-in.", "isOptional": true},
-        "OAUTH_GOOGLE_CLIENT_ID": {"value": "", "description": "Optional Google sign-in.", "isOptional": true},
-        "OAUTH_GOOGLE_CLIENT_SECRET": {"value": "", "description": "Optional Google sign-in.", "isOptional": true}
+        "SMTP_PORT": {
+          "value": "",
+          "description": "Optional SMTP port.",
+          "isOptional": true
+        },
+        "SMTP_USERNAME": {
+          "value": "",
+          "description": "Optional SMTP username.",
+          "isOptional": true
+        },
+        "SMTP_PASSWORD": {
+          "value": "",
+          "description": "Optional SMTP password.",
+          "isOptional": true
+        },
+        "SMTP_FROM_ADDRESS": {
+          "value": "",
+          "description": "Optional sender address for outbound email.",
+          "isOptional": true
+        },
+        "OAUTH_GITHUB_CLIENT_ID": {
+          "value": "",
+          "description": "Optional GitHub sign-in.",
+          "isOptional": true
+        },
+        "OAUTH_GITHUB_CLIENT_SECRET": {
+          "value": "",
+          "description": "Optional GitHub sign-in.",
+          "isOptional": true
+        },
+        "OAUTH_GOOGLE_CLIENT_ID": {
+          "value": "",
+          "description": "Optional Google sign-in.",
+          "isOptional": true
+        },
+        "OAUTH_GOOGLE_CLIENT_SECRET": {
+          "value": "",
+          "description": "Optional Google sign-in.",
+          "isOptional": true
+        }
       },
-      "networking": {"http": {"targetPort": 8080}},
+      "networking": {
+        "http": {
+          "targetPort": 8080
+        }
+      },
       "deploy": {
         "healthcheckPath": "/healthz",
         "healthcheckTimeout": 300,
