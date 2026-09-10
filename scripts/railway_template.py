@@ -10,6 +10,7 @@ from pathlib import Path
 
 import bump_digest
 import rt_api
+import rt_apply
 import rt_lint
 import rt_payload
 import rt_schema
@@ -125,6 +126,21 @@ def cmd_deploy(args) -> int:
     return 0
 
 
+def cmd_apply(args) -> int:
+    """Build the template's services directly in a project.
+
+    The route to use because templateDeployV2 is refused from the public API;
+    see docs/railway-template-api.md.
+    """
+    template = _load_checked(args.template)
+    if template is None:
+        return 1
+    ids = rt_apply.apply_template(template, args.project_id, args.environment_id)
+    for name, service_id in ids.items():
+        print(f"{name}: {service_id}")
+    return 0
+
+
 def cmd_generate(args) -> int:
     """Turn a deployed project into a stored template.
 
@@ -191,6 +207,14 @@ def build_parser() -> argparse.ArgumentParser:
         help="stage the changes without applying them",
     )
     deploy.set_defaults(func=cmd_deploy)
+
+    apply_cmd = subparsers.add_parser(
+        "apply", help="build the template's services directly in a project"
+    )
+    apply_cmd.add_argument("template")
+    apply_cmd.add_argument("--project-id", required=True)
+    apply_cmd.add_argument("--environment-id", required=True)
+    apply_cmd.set_defaults(func=cmd_apply)
 
     generate = subparsers.add_parser(
         "generate", help="turn a deployed project into a stored template"
