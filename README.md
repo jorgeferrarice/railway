@@ -25,3 +25,5 @@ python3 -m venv .venv
 - [RTK](RTK.md)
 - [Design specs](docs/superpowers/specs/)
 - [Implementation plans](docs/superpowers/plans/)
+- [Railway template API](docs/railway-template-api.md) — what the undocumented API actually does
+- [Publishing checklist](docs/publishing-checklist.md)
