@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jorgeferrarice/railway/schema/template.schema.json",
+  "title": "Railway template definition",
+  "type": "object",
+  "required": ["name", "description", "category", "services"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string", "minLength": 1},
+    "category": {"type": "string", "minLength": 1},
+    "readme": {"type": "string", "minLength": 1},
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "label": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "format": "uri"}
+        }
+      }
+    },
+    "services": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/service"}
+    }
+  },
+  "$defs": {
+    "service": {
+      "type": "object",
+      "required": ["name", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+        "source": {
+          "oneOf": [
+            {"$ref": "#/$defs/imageSource"},
+            {"$ref": "#/$defs/repoSource"}
+          ]
+        },
+        "variables": {
+          "type": "object",
+          "additionalProperties": {"$ref": "#/$defs/variable"},
+          "propertyNames": {"pattern": "^[A-Za-z_][A-Za-z0-9_]*$"}
+        },
+        "volumes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["mountPath"],
+            "additionalProperties": false,
+            "properties": {
+              "mountPath": {"type": "string", "pattern": "^/"}
+            }
+          }
+        },
+        "networking": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "http": {
+              "type": "object",
+              "required": ["targetPort"],
+              "additionalProperties": false,
+              "properties": {
+                "targetPort": {"type": "integer", "minimum": 1, "maximum": 65535}
+              }
+            }
+          }
+        },
+        "deploy": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "healthcheckPath": {"type": "string", "pattern": "^/"},
+            "healthcheckTimeout": {"type": "integer", "minimum": 1},
+            "restartPolicyType": {"enum": ["ON_FAILURE", "ALWAYS", "NEVER"]},
+            "restartPolicyMaxRetries": {"type": "integer", "minimum": 0}
+          }
+        }
+      }
+    },
+    "imageSource": {
+      "type": "object",
+      "required": ["type", "image"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "image"},
+        "image": {"type": "string", "minLength": 1}
+      }
+    },
+    "repoSource": {
+      "type": "object",
+      "required": ["type", "repo", "rootDirectory"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"const": "repo"},
+        "repo": {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+        "rootDirectory": {"type": "string", "minLength": 1},
+        "branch": {"type": "string", "minLength": 1}
+      }
+    },
+    "variable": {
+      "type": "object",
+      "required": ["value"],
+      "additionalProperties": false,
+      "properties": {
+        "value": {"type": "string"},
+        "description": {"type": "string"},
+        "isOptional": {"type": "boolean"}
+      }
+    }
+  }
+}
