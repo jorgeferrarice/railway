@@ -23,11 +23,24 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "templatevalidationerror",
       "source_file": "scripts/rt_schema.py",
       "source_location": "L15"
+    },
+    {
+      "id": "tests_test_rt_apply_fakeapi",
+      "label": "FakeAPI",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "fakeapi",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L18"
     },
     {
       "id": "scripts_bump_digest_digestresolutionerror",
@@ -280,7 +293,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "_duplicate_service_errors()",
       "source_file": "scripts/rt_schema.py",
@@ -292,7 +305,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "load_schema()",
       "source_file": "scripts/rt_schema.py",
@@ -304,7 +317,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "load_template()",
       "source_file": "scripts/rt_schema.py",
@@ -316,7 +329,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "scripts/rt_schema.py",
@@ -328,143 +341,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "validate_template()",
       "source_file": "scripts/rt_schema.py",
       "source_location": "L28"
-    },
-    {
-      "id": "tests_test_rt_schema_minimal_template",
-      "label": "minimal_template()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "minimal_template()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L8"
-    },
-    {
-      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
-      "label": "test_all_errors_are_reported_not_just_the_first()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L69"
-    },
-    {
-      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
-      "label": "test_duplicate_service_names_are_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_duplicate_service_names_are_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L61"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
-      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
-      "label": "test_load_template_raises_on_an_invalid_file()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_raises_on_an_invalid_file()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L84"
-    },
-    {
-      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
-      "label": "test_load_template_reads_and_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_load_template_reads_and_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L78"
-    },
-    {
-      "id": "tests_test_rt_schema_test_minimal_template_validates",
-      "label": "test_minimal_template_validates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_minimal_template_validates()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L28"
-    },
-    {
-      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
-      "label": "test_missing_name_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_missing_name_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
-      "label": "test_repo_source_requires_a_root_directory()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_repo_source_requires_a_root_directory()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L47"
-    },
-    {
-      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
-      "label": "test_unknown_source_type_is_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_unknown_source_type_is_rejected()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
-      "label": "test_variable_value_must_be_a_string()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_variable_value_must_be_a_string()",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L54"
     },
     {
       "id": "tests_test_clickhouse_image_docker_available",
@@ -947,6 +828,234 @@
       "source_location": "L109"
     },
     {
+      "id": "tests_test_rt_apply_api",
+      "label": "api()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "api()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "tests_test_rt_apply_apply",
+      "label": "apply()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "apply()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "tests_test_rt_apply_fakeapi_call",
+      "label": ".__call__()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": ".__call__()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "tests_test_rt_apply_fakeapi_init",
+      "label": ".__init__()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": ".__init__()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "tests_test_rt_apply_fakeapi_named",
+      "label": ".named()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": ".named()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L42"
+    },
+    {
+      "id": "tests_test_rt_apply_fakeapi_order",
+      "label": ".order()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": ".order()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L46"
+    },
+    {
+      "id": "tests_test_rt_apply_template_with",
+      "label": "template_with()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "template_with()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L9"
+    },
+    {
+      "id": "tests_test_rt_apply_test_a_private_service_gets_no_domain",
+      "label": "test_a_private_service_gets_no_domain()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_a_private_service_gets_no_domain()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L207"
+    },
+    {
+      "id": "tests_test_rt_apply_test_a_public_service_gets_a_domain_on_its_target_port",
+      "label": "test_a_public_service_gets_a_domain_on_its_target_port()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_a_public_service_gets_a_domain_on_its_target_port()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L192"
+    },
+    {
+      "id": "tests_test_rt_apply_test_a_repo_source_carries_the_branch_and_root_directory",
+      "label": "test_a_repo_source_carries_the_branch_and_root_directory()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_a_repo_source_carries_the_branch_and_root_directory()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L123"
+    },
+    {
+      "id": "tests_test_rt_apply_test_a_service_with_nothing_to_update_skips_the_update_call",
+      "label": "test_a_service_with_nothing_to_update_skips_the_update_call()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_a_service_with_nothing_to_update_skips_the_update_call()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L172"
+    },
+    {
+      "id": "tests_test_rt_apply_test_all_services_exist_before_any_variables_are_set",
+      "label": "test_all_services_exist_before_any_variables_are_set()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_all_services_exist_before_any_variables_are_set()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L72"
+    },
+    {
+      "id": "tests_test_rt_apply_test_an_image_source_is_passed_to_service_create",
+      "label": "test_an_image_source_is_passed_to_service_create()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_an_image_source_is_passed_to_service_create()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L118"
+    },
+    {
+      "id": "tests_test_rt_apply_test_deploy_settings_are_applied",
+      "label": "test_deploy_settings_are_applied()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_deploy_settings_are_applied()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L147"
+    },
+    {
+      "id": "tests_test_rt_apply_test_every_service_is_created",
+      "label": "test_every_service_is_created()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_every_service_is_created()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L59"
+    },
+    {
+      "id": "tests_test_rt_apply_test_it_returns_the_created_service_ids_by_name",
+      "label": "test_it_returns_the_created_service_ids_by_name()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_it_returns_the_created_service_ids_by_name()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L212"
+    },
+    {
+      "id": "tests_test_rt_apply_test_services_are_created_without_variables",
+      "label": "test_services_are_created_without_variables()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_services_are_created_without_variables()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L92"
+    },
+    {
+      "id": "tests_test_rt_apply_test_variables_are_sent_as_plain_name_to_value",
+      "label": "test_variables_are_sent_as_plain_name_to_value()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_variables_are_sent_as_plain_name_to_value()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L103"
+    },
+    {
+      "id": "tests_test_rt_apply_test_volumes_are_created_on_the_right_service",
+      "label": "test_volumes_are_created_on_the_right_service()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "test_rt_apply.py",
+      "file_type": "code",
+      "norm_label": "test_volumes_are_created_on_the_right_service()",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L177"
+    },
+    {
       "id": "scripts_rt_lint_lint_image",
       "label": "_lint_image()",
       "_callable": true,
@@ -1427,6 +1536,138 @@
       "source_location": "L43"
     },
     {
+      "id": "tests_test_rt_schema_minimal_template",
+      "label": "minimal_template()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "minimal_template()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "tests_test_rt_schema_test_all_errors_are_reported_not_just_the_first",
+      "label": "test_all_errors_are_reported_not_just_the_first()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_all_errors_are_reported_not_just_the_first()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "tests_test_rt_schema_test_duplicate_service_names_are_rejected",
+      "label": "test_duplicate_service_names_are_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_duplicate_service_names_are_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_schema_returns_a_draft_2020_12_schema",
+      "label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_schema_returns_a_draft_2020_12_schema()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_raises_on_an_invalid_file",
+      "label": "test_load_template_raises_on_an_invalid_file()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_raises_on_an_invalid_file()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L84"
+    },
+    {
+      "id": "tests_test_rt_schema_test_load_template_reads_and_validates",
+      "label": "test_load_template_reads_and_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_load_template_reads_and_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L78"
+    },
+    {
+      "id": "tests_test_rt_schema_test_minimal_template_validates",
+      "label": "test_minimal_template_validates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_minimal_template_validates()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "tests_test_rt_schema_test_missing_name_is_rejected",
+      "label": "test_missing_name_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_missing_name_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tests_test_rt_schema_test_repo_source_requires_a_root_directory",
+      "label": "test_repo_source_requires_a_root_directory()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_repo_source_requires_a_root_directory()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tests_test_rt_schema_test_unknown_source_type_is_rejected",
+      "label": "test_unknown_source_type_is_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_unknown_source_type_is_rejected()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tests_test_rt_schema_test_variable_value_must_be_a_string",
+      "label": "test_variable_value_must_be_a_string()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_variable_value_must_be_a_string()",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L54"
+    },
+    {
       "id": "scripts_bump_digest_bump",
       "label": "bump()",
       "_callable": true,
@@ -1796,7 +2037,19 @@
       "file_type": "code",
       "norm_label": "build_parser()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L156"
+      "source_location": "L172"
+    },
+    {
+      "id": "scripts_railway_template_cmd_apply",
+      "label": "cmd_apply()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "code",
+      "norm_label": "cmd_apply()",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L129"
     },
     {
       "id": "scripts_railway_template_cmd_bump",
@@ -1808,7 +2061,7 @@
       "file_type": "code",
       "norm_label": "cmd_bump()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L85"
+      "source_location": "L86"
     },
     {
       "id": "scripts_railway_template_cmd_deploy",
@@ -1820,7 +2073,7 @@
       "file_type": "code",
       "norm_label": "cmd_deploy()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L104"
+      "source_location": "L105"
     },
     {
       "id": "scripts_railway_template_cmd_generate",
@@ -1832,7 +2085,7 @@
       "file_type": "code",
       "norm_label": "cmd_generate()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L128"
+      "source_location": "L144"
     },
     {
       "id": "scripts_railway_template_cmd_introspect",
@@ -1844,7 +2097,7 @@
       "file_type": "code",
       "norm_label": "cmd_introspect()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L74"
+      "source_location": "L75"
     },
     {
       "id": "scripts_railway_template_cmd_lint",
@@ -1856,7 +2109,7 @@
       "file_type": "code",
       "norm_label": "cmd_lint()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L62"
+      "source_location": "L63"
     },
     {
       "id": "scripts_railway_template_cmd_publish",
@@ -1868,7 +2121,7 @@
       "file_type": "code",
       "norm_label": "cmd_publish()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L143"
+      "source_location": "L159"
     },
     {
       "id": "scripts_railway_template_cmd_render",
@@ -1880,7 +2133,7 @@
       "file_type": "code",
       "norm_label": "cmd_render()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L95"
+      "source_location": "L96"
     },
     {
       "id": "scripts_railway_template_cmd_validate",
@@ -1892,7 +2145,7 @@
       "file_type": "code",
       "norm_label": "cmd_validate()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L50"
+      "source_location": "L51"
     },
     {
       "id": "scripts_railway_template_load_checked",
@@ -1904,7 +2157,7 @@
       "file_type": "code",
       "norm_label": "_load_checked()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L36"
+      "source_location": "L37"
     },
     {
       "id": "scripts_railway_template_main",
@@ -1916,7 +2169,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L211"
+      "source_location": "L235"
     },
     {
       "id": "tests_test_rt_api_fake_transport",
@@ -2195,296 +2448,82 @@
       "source_location": "L73"
     },
     {
-      "id": "schema_template_schema_category_minlength",
-      "label": "minLength",
+      "id": "scripts_rt_apply_apply_template",
+      "label": "apply_template()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
+      "community": 9,
+      "community_name": "rt_api.py",
       "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L11"
+      "norm_label": "apply_template()",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L60"
     },
     {
-      "id": "schema_template_schema_category_type",
-      "label": "type",
+      "id": "scripts_rt_apply_create_domain",
+      "label": "_create_domain()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
+      "community": 9,
+      "community_name": "rt_api.py",
       "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L11"
+      "norm_label": "_create_domain()",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L154"
     },
     {
-      "id": "schema_template_schema_defs_variable",
-      "label": "variable",
+      "id": "scripts_rt_apply_create_service",
+      "label": "_create_service()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
+      "community": 9,
+      "community_name": "rt_api.py",
       "file_type": "code",
-      "norm_label": "variable",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L106"
+      "norm_label": "_create_service()",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L88"
     },
     {
-      "id": "schema_template_schema_description_minlength",
-      "label": "minLength",
+      "id": "scripts_rt_apply_create_volumes",
+      "label": "_create_volumes()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
+      "community": 9,
+      "community_name": "rt_api.py",
       "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
+      "norm_label": "_create_volumes()",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L139"
     },
     {
-      "id": "schema_template_schema_description_type",
-      "label": "type",
+      "id": "scripts_rt_apply_set_variables",
+      "label": "_set_variables()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
+      "community": 9,
+      "community_name": "rt_api.py",
       "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
+      "norm_label": "_set_variables()",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L104"
     },
     {
-      "id": "schema_template_schema_isoptional_type",
-      "label": "type",
+      "id": "scripts_rt_apply_update_instance",
+      "label": "_update_instance()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
+      "community": 9,
+      "community_name": "rt_api.py",
       "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
-    },
-    {
-      "id": "schema_template_schema_items_ref",
-      "label": "$ref",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "$ref",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L28"
-    },
-    {
-      "id": "schema_template_schema_links_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "schema_template_schema_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "schema_template_schema_properties_category",
-      "label": "category",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "category",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L11"
-    },
-    {
-      "id": "schema_template_schema_properties_description",
-      "label": "description",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "description",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "schema_template_schema_properties_isoptional",
-      "label": "isOptional",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "isoptional",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L113"
-    },
-    {
-      "id": "schema_template_schema_properties_links",
-      "label": "links",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "links",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L13"
-    },
-    {
-      "id": "schema_template_schema_properties_readme",
-      "label": "readme",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "readme",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "schema_template_schema_properties_services",
-      "label": "services",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "services",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L25"
-    },
-    {
-      "id": "schema_template_schema_properties_value",
-      "label": "value",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "value",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L111"
-    },
-    {
-      "id": "schema_template_schema_readme_minlength",
-      "label": "minLength",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "schema_template_schema_readme_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "schema_template_schema_services_items",
-      "label": "items",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "items",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L28"
-    },
-    {
-      "id": "schema_template_schema_services_minitems",
-      "label": "minItems",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minitems",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L27"
-    },
-    {
-      "id": "schema_template_schema_services_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L26"
-    },
-    {
-      "id": "schema_template_schema_value_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L111"
-    },
-    {
-      "id": "schema_template_schema_variable_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L109"
-    },
-    {
-      "id": "schema_template_schema_variable_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L110"
-    },
-    {
-      "id": "schema_template_schema_variable_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L108"
-    },
-    {
-      "id": "schema_template_schema_variable_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L107"
+      "norm_label": "_update_instance()",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L123"
     },
     {
       "id": "schema_template_schema",
       "label": "template.schema.json",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "template.schema.json",
@@ -2495,7 +2534,7 @@
       "id": "schema_template_schema_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "additionalproperties",
@@ -2503,76 +2542,65 @@
       "source_location": "L7"
     },
     {
-      "id": "schema_template_schema_branch_minlength",
+      "id": "schema_template_schema_category_minlength",
       "label": "minLength",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
-      "source_location": "L103"
+      "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_branch_type",
+      "id": "schema_template_schema_category_type",
       "label": "type",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L103"
+      "source_location": "L11"
     },
     {
-      "id": "schema_template_schema_defs",
-      "label": "$defs",
+      "id": "schema_template_schema_defs_variable",
+      "label": "variable",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
-      "norm_label": "$defs",
+      "norm_label": "variable",
       "source_file": "schema/template.schema.json",
-      "source_location": "L31"
+      "source_location": "L106"
     },
     {
-      "id": "schema_template_schema_defs_imagesource",
-      "label": "imageSource",
+      "id": "schema_template_schema_description_minlength",
+      "label": "minLength",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
-      "norm_label": "imagesource",
+      "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
-      "source_location": "L86"
+      "source_location": "L10"
     },
     {
-      "id": "schema_template_schema_defs_reposource",
-      "label": "repoSource",
+      "id": "schema_template_schema_description_type",
+      "label": "type",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
-      "norm_label": "reposource",
+      "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L95"
-    },
-    {
-      "id": "schema_template_schema_defs_service",
-      "label": "service",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "service",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L32"
+      "source_location": "L10"
     },
     {
       "id": "schema_template_schema_id",
       "label": "$id",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "$id",
@@ -2580,197 +2608,153 @@
       "source_location": "L3"
     },
     {
-      "id": "schema_template_schema_image_minlength",
+      "id": "schema_template_schema_isoptional_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
+    },
+    {
+      "id": "schema_template_schema_items_ref",
+      "label": "$ref",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "$ref",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "schema_template_schema_links_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "schema_template_schema_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "schema_template_schema_properties_category",
+      "label": "category",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "category",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "schema_template_schema_properties_description",
+      "label": "description",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "description",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "schema_template_schema_properties_isoptional",
+      "label": "isOptional",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "isoptional",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L113"
+    },
+    {
+      "id": "schema_template_schema_properties_links",
+      "label": "links",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "links",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "schema_template_schema_properties_readme",
+      "label": "readme",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "readme",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "schema_template_schema_properties_services",
+      "label": "services",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "services",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "schema_template_schema_properties_value",
+      "label": "value",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "value",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L111"
+    },
+    {
+      "id": "schema_template_schema_readme_minlength",
       "label": "minLength",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "minlength",
       "source_file": "schema/template.schema.json",
-      "source_location": "L92"
+      "source_location": "L12"
     },
     {
-      "id": "schema_template_schema_image_type",
+      "id": "schema_template_schema_readme_type",
       "label": "type",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L92"
-    },
-    {
-      "id": "schema_template_schema_imagesource_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L89"
-    },
-    {
-      "id": "schema_template_schema_imagesource_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L90"
-    },
-    {
-      "id": "schema_template_schema_imagesource_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L88"
-    },
-    {
-      "id": "schema_template_schema_imagesource_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L87"
-    },
-    {
-      "id": "schema_template_schema_properties_branch",
-      "label": "branch",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "branch",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L103"
-    },
-    {
-      "id": "schema_template_schema_properties_image",
-      "label": "image",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "image",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L92"
-    },
-    {
-      "id": "schema_template_schema_properties_repo",
-      "label": "repo",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "repo",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L101"
-    },
-    {
-      "id": "schema_template_schema_properties_rootdirectory",
-      "label": "rootDirectory",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "rootdirectory",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L102"
-    },
-    {
-      "id": "schema_template_schema_properties_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L91"
-    },
-    {
-      "id": "schema_template_schema_repo_pattern",
-      "label": "pattern",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L101"
-    },
-    {
-      "id": "schema_template_schema_repo_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L101"
-    },
-    {
-      "id": "schema_template_schema_reposource_additionalproperties",
-      "label": "additionalProperties",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "additionalproperties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L98"
-    },
-    {
-      "id": "schema_template_schema_reposource_properties",
-      "label": "properties",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L99"
-    },
-    {
-      "id": "schema_template_schema_reposource_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L97"
-    },
-    {
-      "id": "schema_template_schema_reposource_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L96"
+      "source_location": "L12"
     },
     {
       "id": "schema_template_schema_required",
       "label": "required",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "required",
@@ -2778,32 +2762,10 @@
       "source_location": "L6"
     },
     {
-      "id": "schema_template_schema_rootdirectory_minlength",
-      "label": "minLength",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "minlength",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L102"
-    },
-    {
-      "id": "schema_template_schema_rootdirectory_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "template.schema.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L102"
-    },
-    {
       "id": "schema_template_schema_schema",
       "label": "$schema",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "$schema",
@@ -2811,43 +2773,43 @@
       "source_location": "L2"
     },
     {
-      "id": "schema_template_schema_service_additionalproperties",
-      "label": "additionalProperties",
+      "id": "schema_template_schema_services_items",
+      "label": "items",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
-      "norm_label": "additionalproperties",
+      "norm_label": "items",
       "source_file": "schema/template.schema.json",
-      "source_location": "L35"
+      "source_location": "L28"
     },
     {
-      "id": "schema_template_schema_service_required",
-      "label": "required",
+      "id": "schema_template_schema_services_minitems",
+      "label": "minItems",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
-      "norm_label": "required",
+      "norm_label": "minitems",
       "source_file": "schema/template.schema.json",
-      "source_location": "L34"
+      "source_location": "L27"
     },
     {
-      "id": "schema_template_schema_service_type",
+      "id": "schema_template_schema_services_type",
       "label": "type",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
-      "source_location": "L33"
+      "source_location": "L26"
     },
     {
       "id": "schema_template_schema_title",
       "label": "title",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "title",
@@ -2858,7 +2820,7 @@
       "id": "schema_template_schema_type",
       "label": "type",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "template.schema.json",
       "file_type": "code",
       "norm_label": "type",
@@ -2866,11 +2828,330 @@
       "source_location": "L5"
     },
     {
+      "id": "schema_template_schema_value_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L111"
+    },
+    {
+      "id": "schema_template_schema_variable_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L109"
+    },
+    {
+      "id": "schema_template_schema_variable_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L110"
+    },
+    {
+      "id": "schema_template_schema_variable_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L108"
+    },
+    {
+      "id": "schema_template_schema_variable_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "template.schema.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L107"
+    },
+    {
+      "id": "schema_template_schema_branch_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L103"
+    },
+    {
+      "id": "schema_template_schema_branch_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L103"
+    },
+    {
+      "id": "schema_template_schema_defs",
+      "label": "$defs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "$defs",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "schema_template_schema_defs_imagesource",
+      "label": "imageSource",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "imagesource",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L86"
+    },
+    {
+      "id": "schema_template_schema_defs_reposource",
+      "label": "repoSource",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "reposource",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L95"
+    },
+    {
+      "id": "schema_template_schema_image_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L92"
+    },
+    {
+      "id": "schema_template_schema_image_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L92"
+    },
+    {
+      "id": "schema_template_schema_imagesource_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L89"
+    },
+    {
+      "id": "schema_template_schema_imagesource_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L90"
+    },
+    {
+      "id": "schema_template_schema_imagesource_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L88"
+    },
+    {
+      "id": "schema_template_schema_imagesource_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L87"
+    },
+    {
+      "id": "schema_template_schema_properties_branch",
+      "label": "branch",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "branch",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L103"
+    },
+    {
+      "id": "schema_template_schema_properties_image",
+      "label": "image",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "image",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L92"
+    },
+    {
+      "id": "schema_template_schema_properties_repo",
+      "label": "repo",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "repo",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L101"
+    },
+    {
+      "id": "schema_template_schema_properties_rootdirectory",
+      "label": "rootDirectory",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "rootdirectory",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L102"
+    },
+    {
+      "id": "schema_template_schema_properties_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L91"
+    },
+    {
+      "id": "schema_template_schema_repo_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L101"
+    },
+    {
+      "id": "schema_template_schema_repo_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L101"
+    },
+    {
+      "id": "schema_template_schema_reposource_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L98"
+    },
+    {
+      "id": "schema_template_schema_reposource_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L99"
+    },
+    {
+      "id": "schema_template_schema_reposource_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L97"
+    },
+    {
+      "id": "schema_template_schema_reposource_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L96"
+    },
+    {
+      "id": "schema_template_schema_rootdirectory_minlength",
+      "label": "minLength",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "minlength",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L102"
+    },
+    {
+      "id": "schema_template_schema_rootdirectory_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "$defs",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L102"
+    },
+    {
       "id": "schema_template_schema_type_const",
       "label": "const",
       "_origin": "ast",
       "community": 1,
-      "community_name": "template.schema.json",
+      "community_name": "$defs",
       "file_type": "code",
       "norm_label": "const",
       "source_file": "schema/template.schema.json",
@@ -2892,7 +3173,7 @@
       "label": "rt_schema.py",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "rt_schema.py",
       "source_file": "scripts/rt_schema.py",
@@ -2903,29 +3184,18 @@
       "label": "Path",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "tests_test_rt_schema",
-      "label": "test_rt_schema.py",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "test_rt_schema.py",
-      "file_type": "code",
-      "norm_label": "test_rt_schema.py",
-      "source_file": "tests/test_rt_schema.py",
-      "source_location": "L1"
-    },
-    {
       "id": "valueerror",
       "label": "ValueError",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "code",
       "norm_label": "valueerror",
       "source_file": "",
@@ -2936,7 +3206,7 @@
       "label": "Load and validate Railway template definitions.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "load and validate railway template definitions.",
       "source_file": "scripts/rt_schema.py",
@@ -2947,7 +3217,7 @@
       "label": "Raised when a template definition does not match the schema.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raised when a template definition does not match the schema.",
       "source_file": "scripts/rt_schema.py",
@@ -2958,7 +3228,7 @@
       "label": "Read the template JSON Schema from disk.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read the template json schema from disk.",
       "source_file": "scripts/rt_schema.py",
@@ -2969,7 +3239,7 @@
       "label": "Raise TemplateValidationError if the template does not match the schema.\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "raise templatevalidationerror if the template does not match the schema....",
       "source_file": "scripts/rt_schema.py",
@@ -2980,7 +3250,7 @@
       "label": "Service names address variable references, so they must be unique. JSON Schema\u2026",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "service names address variable references, so they must be unique. json schema...",
       "source_file": "scripts/rt_schema.py",
@@ -2991,7 +3261,7 @@
       "label": "Read a template definition from disk and validate it.",
       "_origin": "ast",
       "community": 11,
-      "community_name": "test_rt_schema.py",
+      "community_name": "rt_schema.py",
       "file_type": "rationale",
       "norm_label": "read a template definition from disk and validate it.",
       "source_file": "scripts/rt_schema.py",
@@ -3373,136 +3643,48 @@
       "source_location": "L6"
     },
     {
-      "id": "schema_template_schema_deploy_properties",
-      "label": "properties",
+      "id": "tests_test_rt_apply",
+      "label": "test_rt_apply.py",
       "_origin": "ast",
       "community": 16,
-      "community_name": "properties",
+      "community_name": "test_rt_apply.py",
       "file_type": "code",
-      "norm_label": "properties",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L77"
+      "norm_label": "test_rt_apply.py",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L1"
     },
     {
-      "id": "schema_template_schema_healthcheckpath_pattern",
-      "label": "pattern",
+      "id": "tests_test_rt_apply_py_fixture",
+      "label": "fixture",
       "_origin": "ast",
       "community": 16,
-      "community_name": "properties",
+      "community_name": "test_rt_apply.py",
       "file_type": "code",
-      "norm_label": "pattern",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
     },
     {
-      "id": "schema_template_schema_healthcheckpath_type",
-      "label": "type",
+      "id": "tests_test_rt_apply_rationale_19",
+      "label": "Records every mutation and answers with plausible ids.",
       "_origin": "ast",
       "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
+      "community_name": "test_rt_apply.py",
+      "file_type": "rationale",
+      "norm_label": "records every mutation and answers with plausible ids.",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L19"
     },
     {
-      "id": "schema_template_schema_healthchecktimeout_minimum",
-      "label": "minimum",
+      "id": "tests_test_rt_apply_rationale_73",
+      "label": "A variable like ${{db.PASSWORD}} cannot resolve until db exists, so every\u2026",
       "_origin": "ast",
       "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
-      "id": "schema_template_schema_healthchecktimeout_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
-      "id": "schema_template_schema_properties_healthcheckpath",
-      "label": "healthcheckPath",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthcheckpath",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L78"
-    },
-    {
-      "id": "schema_template_schema_properties_healthchecktimeout",
-      "label": "healthcheckTimeout",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "healthchecktimeout",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L79"
-    },
-    {
-      "id": "schema_template_schema_properties_restartpolicymaxretries",
-      "label": "restartPolicyMaxRetries",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicymaxretries",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_properties_restartpolicytype",
-      "label": "restartPolicyType",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "restartpolicytype",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L80"
-    },
-    {
-      "id": "schema_template_schema_restartpolicymaxretries_minimum",
-      "label": "minimum",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "minimum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_restartpolicymaxretries_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L81"
-    },
-    {
-      "id": "schema_template_schema_restartpolicytype_enum",
-      "label": "enum",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "properties",
-      "file_type": "code",
-      "norm_label": "enum",
-      "source_file": "schema/template.schema.json",
-      "source_location": "L80"
+      "community_name": "test_rt_apply.py",
+      "file_type": "rationale",
+      "norm_label": "a variable like ${{db.password}} cannot resolve until db exists, so every...",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L73"
     },
     {
       "id": "docs_railway_template_api",
@@ -3812,6 +3994,17 @@
       "source_location": "L46"
     },
     {
+      "id": "schema_template_schema_defs_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L32"
+    },
+    {
       "id": "schema_template_schema_deploy_additionalproperties",
       "label": "additionalProperties",
       "_origin": "ast",
@@ -3823,6 +4016,17 @@
       "source_location": "L76"
     },
     {
+      "id": "schema_template_schema_deploy_properties",
+      "label": "properties",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "properties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L77"
+    },
+    {
       "id": "schema_template_schema_deploy_type",
       "label": "type",
       "_origin": "ast",
@@ -3832,6 +4036,50 @@
       "norm_label": "type",
       "source_file": "schema/template.schema.json",
       "source_location": "L75"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_pattern",
+      "label": "pattern",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "pattern",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_healthcheckpath_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
+      "id": "schema_template_schema_healthchecktimeout_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
     },
     {
       "id": "schema_template_schema_http_additionalproperties",
@@ -3955,6 +4203,28 @@
       "source_location": "L74"
     },
     {
+      "id": "schema_template_schema_properties_healthcheckpath",
+      "label": "healthcheckPath",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthcheckpath",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L78"
+    },
+    {
+      "id": "schema_template_schema_properties_healthchecktimeout",
+      "label": "healthcheckTimeout",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "healthchecktimeout",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L79"
+    },
+    {
       "id": "schema_template_schema_properties_http",
       "label": "http",
       "_origin": "ast",
@@ -3986,6 +4256,28 @@
       "norm_label": "networking",
       "source_file": "schema/template.schema.json",
       "source_location": "L60"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicymaxretries",
+      "label": "restartPolicyMaxRetries",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicymaxretries",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_properties_restartpolicytype",
+      "label": "restartPolicyType",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "restartpolicytype",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L80"
     },
     {
       "id": "schema_template_schema_properties_source",
@@ -4032,6 +4324,50 @@
       "source_location": "L47"
     },
     {
+      "id": "schema_template_schema_restartpolicymaxretries_minimum",
+      "label": "minimum",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "minimum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_restartpolicymaxretries_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L81"
+    },
+    {
+      "id": "schema_template_schema_restartpolicytype_enum",
+      "label": "enum",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "enum",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L80"
+    },
+    {
+      "id": "schema_template_schema_service_additionalproperties",
+      "label": "additionalProperties",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "additionalproperties",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L35"
+    },
+    {
       "id": "schema_template_schema_service_properties",
       "label": "properties",
       "_origin": "ast",
@@ -4041,6 +4377,28 @@
       "norm_label": "properties",
       "source_file": "schema/template.schema.json",
       "source_location": "L36"
+    },
+    {
+      "id": "schema_template_schema_service_required",
+      "label": "required",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "required",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "schema_template_schema_service_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "properties",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "schema/template.schema.json",
+      "source_location": "L33"
     },
     {
       "id": "schema_template_schema_source_oneof",
@@ -4357,6 +4715,17 @@
       "norm_label": "record graphql calls and answer them, so no test reaches the network.",
       "source_file": "tests/test_railway_template_cli.py",
       "source_location": "L13"
+    },
+    {
+      "id": "tests_test_rt_schema",
+      "label": "test_rt_schema.py",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "test_rt_schema.py",
+      "file_type": "code",
+      "norm_label": "test_rt_schema.py",
+      "source_file": "tests/test_rt_schema.py",
+      "source_location": "L1"
     },
     {
       "id": "scripts_bump_digest",
@@ -4844,7 +5213,7 @@
       "source_location": "L1"
     },
     {
-      "id": "scripts_railway_template_rationale_105",
+      "id": "scripts_railway_template_rationale_106",
       "label": "Deploy the template definition into a project.",
       "_origin": "ast",
       "community": 6,
@@ -4852,10 +5221,21 @@
       "file_type": "rationale",
       "norm_label": "deploy the template definition into a project.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L105"
+      "source_location": "L106"
     },
     {
-      "id": "scripts_railway_template_rationale_129",
+      "id": "scripts_railway_template_rationale_130",
+      "label": "Build the template's services directly in a project. The route to use because\u2026",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "railway_template.py",
+      "file_type": "rationale",
+      "norm_label": "build the template's services directly in a project. the route to use because...",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L130"
+    },
+    {
+      "id": "scripts_railway_template_rationale_145",
       "label": "Turn a deployed project into a stored template. Railway has no mutation that\u2026",
       "_origin": "ast",
       "community": 6,
@@ -4863,10 +5243,10 @@
       "file_type": "rationale",
       "norm_label": "turn a deployed project into a stored template. railway has no mutation that...",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L129"
+      "source_location": "L145"
     },
     {
-      "id": "scripts_railway_template_rationale_144",
+      "id": "scripts_railway_template_rationale_160",
       "label": "Publish a stored template to the marketplace.",
       "_origin": "ast",
       "community": 6,
@@ -4874,7 +5254,7 @@
       "file_type": "rationale",
       "norm_label": "publish a stored template to the marketplace.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L144"
+      "source_location": "L160"
     },
     {
       "id": "scripts_railway_template_rationale_2",
@@ -4888,7 +5268,7 @@
       "source_location": "L2"
     },
     {
-      "id": "scripts_railway_template_rationale_37",
+      "id": "scripts_railway_template_rationale_38",
       "label": "Load a template and refuse it if the linter objects. A definition that fails\u2026",
       "_origin": "ast",
       "community": 6,
@@ -4896,10 +5276,10 @@
       "file_type": "rationale",
       "norm_label": "load a template and refuse it if the linter objects. a definition that fails...",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L37"
+      "source_location": "L38"
     },
     {
-      "id": "scripts_railway_template_rationale_51",
+      "id": "scripts_railway_template_rationale_52",
       "label": "Schema-validate a template definition.",
       "_origin": "ast",
       "community": 6,
@@ -4907,10 +5287,10 @@
       "file_type": "rationale",
       "norm_label": "schema-validate a template definition.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L51"
+      "source_location": "L52"
     },
     {
-      "id": "scripts_railway_template_rationale_63",
+      "id": "scripts_railway_template_rationale_64",
       "label": "Check cross-service references and repository invariants.",
       "_origin": "ast",
       "community": 6,
@@ -4918,10 +5298,10 @@
       "file_type": "rationale",
       "norm_label": "check cross-service references and repository invariants.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L63"
+      "source_location": "L64"
     },
     {
-      "id": "scripts_railway_template_rationale_75",
+      "id": "scripts_railway_template_rationale_76",
       "label": "Print the GraphQL types needed to build template payloads.",
       "_origin": "ast",
       "community": 6,
@@ -4929,10 +5309,10 @@
       "file_type": "rationale",
       "norm_label": "print the graphql types needed to build template payloads.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L75"
+      "source_location": "L76"
     },
     {
-      "id": "scripts_railway_template_rationale_86",
+      "id": "scripts_railway_template_rationale_87",
       "label": "Re-resolve a digest-pinned image and rewrite the template.",
       "_origin": "ast",
       "community": 6,
@@ -4940,10 +5320,10 @@
       "file_type": "rationale",
       "norm_label": "re-resolve a digest-pinned image and rewrite the template.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L86"
+      "source_location": "L87"
     },
     {
-      "id": "scripts_railway_template_rationale_96",
+      "id": "scripts_railway_template_rationale_97",
       "label": "Print the serializedConfig this template would send to Railway.",
       "_origin": "ast",
       "community": 6,
@@ -4951,7 +5331,7 @@
       "file_type": "rationale",
       "norm_label": "print the serializedconfig this template would send to railway.",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L96"
+      "source_location": "L97"
     },
     {
       "id": "docs_superpowers_plans_2026_09_10_aptabase_railway_template",
@@ -5249,6 +5629,17 @@
       "source_location": ""
     },
     {
+      "id": "scripts_rt_apply",
+      "label": "rt_apply.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "code",
+      "norm_label": "rt_apply.py",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L1"
+    },
+    {
       "id": "scripts_rt_api_rationale_1",
       "label": "Minimal Railway GraphQL client. The token comes from the RAILWAY_API_TOKEN\u2026",
       "_origin": "ast",
@@ -5335,6 +5726,28 @@
       "norm_label": "execute a graphql document and return its data object. railway authenticates...",
       "source_file": "scripts/rt_api.py",
       "source_location": "L81"
+    },
+    {
+      "id": "scripts_rt_apply_rationale_1",
+      "label": "Build a template's services directly in a Railway project. Railway's\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "rationale",
+      "norm_label": "build a template's services directly in a railway project. railway's...",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_rt_apply_rationale_67",
+      "label": "Create every service in the template. Returns {service name: id}.",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "rt_api.py",
+      "file_type": "rationale",
+      "norm_label": "create every service in the template. returns {service name: id}.",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L67"
     }
   ],
   "links": [
@@ -5411,6 +5824,18 @@
       "weight": 1.0
     },
     {
+      "source": "scripts_railway_template_cmd_apply",
+      "target": "scripts_railway_template_load_checked",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_railway_template_cmd_deploy",
       "target": "scripts_railway_template_load_checked",
       "relation": "calls",
@@ -5419,7 +5844,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L106",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -5431,7 +5856,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L145",
+      "source_location": "L161",
       "weight": 1.0
     },
     {
@@ -5443,7 +5868,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L97",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -5455,7 +5880,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L212",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -5540,6 +5965,66 @@
       "context": "call",
       "source_file": "scripts/rt_api.py",
       "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_apply_template",
+      "target": "scripts_rt_apply_create_service",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_apply_template",
+      "target": "scripts_rt_apply_set_variables",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_apply_template",
+      "target": "scripts_rt_apply_update_instance",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_apply_template",
+      "target": "scripts_rt_apply_create_volumes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_apply_template",
+      "target": "scripts_rt_apply_create_domain",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -6080,6 +6565,306 @@
       "context": "call",
       "source_file": "tests/test_rt_api.py",
       "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_api",
+      "target": "tests_test_rt_apply_fakeapi",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_private_service_gets_no_domain",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_private_service_gets_no_domain",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_public_service_gets_a_domain_on_its_target_port",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_public_service_gets_a_domain_on_its_target_port",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_repo_source_carries_the_branch_and_root_directory",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_repo_source_carries_the_branch_and_root_directory",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_service_with_nothing_to_update_skips_the_update_call",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_a_service_with_nothing_to_update_skips_the_update_call",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_all_services_exist_before_any_variables_are_set",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_all_services_exist_before_any_variables_are_set",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_an_image_source_is_passed_to_service_create",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_an_image_source_is_passed_to_service_create",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_deploy_settings_are_applied",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_deploy_settings_are_applied",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_every_service_is_created",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_every_service_is_created",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_it_returns_the_created_service_ids_by_name",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_it_returns_the_created_service_ids_by_name",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_services_are_created_without_variables",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_services_are_created_without_variables",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_variables_are_sent_as_plain_name_to_value",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_variables_are_sent_as_plain_name_to_value",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_volumes_are_created_on_the_right_service",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_test_volumes_are_created_on_the_right_service",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L179",
       "weight": 1.0
     },
     {
@@ -6731,6 +7516,18 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_rt_apply_api",
+      "target": "tests_test_rt_apply_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_rt_payload_aptabase_config",
       "target": "tests_test_rt_payload_py_fixture",
       "relation": "references",
@@ -6780,7 +7577,7 @@
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_rt_lint",
+      "target": "scripts_rt_apply",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6792,7 +7589,7 @@
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_rt_payload",
+      "target": "scripts_rt_lint",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6804,7 +7601,7 @@
     },
     {
       "source": "scripts_railway_template",
-      "target": "scripts_rt_schema",
+      "target": "scripts_rt_payload",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6812,6 +7609,18 @@
       "context": "import",
       "source_file": "scripts/railway_template.py",
       "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_rt_schema",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -6824,6 +7633,18 @@
       "context": "import",
       "source_file": "scripts/rt_api.py",
       "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_api",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -6896,6 +7717,18 @@
       "context": "import",
       "source_file": "tests/test_rt_api.py",
       "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "scripts_rt_apply",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -6991,7 +7824,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L156",
+      "source_location": "L172",
       "weight": 1.0
     },
     {
@@ -9049,7 +9882,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L104",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template",
+      "target": "scripts_railway_template_cmd_apply",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -9060,7 +9904,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L128",
+      "source_location": "L144",
       "weight": 1.0
     },
     {
@@ -9071,7 +9915,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L143",
+      "source_location": "L159",
       "weight": 1.0
     },
     {
@@ -9082,7 +9926,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L156",
+      "source_location": "L172",
       "weight": 1.0
     },
     {
@@ -9093,7 +9937,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L211",
+      "source_location": "L235",
       "weight": 1.0
     },
     {
@@ -9104,7 +9948,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L36",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -9115,7 +9959,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -9126,7 +9970,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L62",
+      "source_location": "L63",
       "weight": 1.0
     },
     {
@@ -9137,7 +9981,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L74",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -9148,7 +9992,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -9159,7 +10003,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L95",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -9248,6 +10092,72 @@
       "confidence_score": 1.0,
       "source_file": "scripts/rt_api.py",
       "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_apply_set_variables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_apply_update_instance",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_apply_create_volumes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_apply_create_domain",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_apply_apply_template",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply",
+      "target": "scripts_rt_apply_create_service",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
@@ -10516,6 +11426,182 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_variables_are_sent_as_plain_name_to_value",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_an_image_source_is_passed_to_service_create",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_a_repo_source_carries_the_branch_and_root_directory",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_deploy_settings_are_applied",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_a_service_with_nothing_to_update_skips_the_update_call",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_volumes_are_created_on_the_right_service",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_fakeapi",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_a_public_service_gets_a_domain_on_its_target_port",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_a_private_service_gets_no_domain",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_it_returns_the_created_service_ids_by_name",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_api",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_apply",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_every_service_is_created",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_all_services_exist_before_any_variables_are_set",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_template_with",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply",
+      "target": "tests_test_rt_apply_test_services_are_created_without_variables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_rt_http",
       "target": "tests_test_rt_http_test_ssl_context_has_a_usable_trust_store",
       "relation": "contains",
@@ -11220,6 +12306,50 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_rt_apply_fakeapi",
+      "target": "tests_test_rt_apply_fakeapi_init",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_fakeapi",
+      "target": "tests_test_rt_apply_fakeapi_call",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_fakeapi",
+      "target": "tests_test_rt_apply_fakeapi_named",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_fakeapi",
+      "target": "tests_test_rt_apply_fakeapi_order",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
       "source": "scripts_bump_digest_rationale_1",
       "target": "scripts_bump_digest",
       "relation": "rationale_for",
@@ -11275,36 +12405,47 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_105",
+      "source": "scripts_railway_template_rationale_106",
       "target": "scripts_railway_template_cmd_deploy",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L105",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_129",
+      "source": "scripts_railway_template_rationale_130",
+      "target": "scripts_railway_template_cmd_apply",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_rationale_145",
       "target": "scripts_railway_template_cmd_generate",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L129",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_144",
+      "source": "scripts_railway_template_rationale_160",
       "target": "scripts_railway_template_cmd_publish",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L144",
+      "source_location": "L160",
       "weight": 1.0
     },
     {
@@ -11319,69 +12460,69 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_37",
+      "source": "scripts_railway_template_rationale_38",
       "target": "scripts_railway_template_load_checked",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_51",
+      "source": "scripts_railway_template_rationale_52",
       "target": "scripts_railway_template_cmd_validate",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L51",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_63",
+      "source": "scripts_railway_template_rationale_64",
       "target": "scripts_railway_template_cmd_lint",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L63",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_75",
+      "source": "scripts_railway_template_rationale_76",
       "target": "scripts_railway_template_cmd_introspect",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L75",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_86",
+      "source": "scripts_railway_template_rationale_87",
       "target": "scripts_railway_template_cmd_bump",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L86",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
-      "source": "scripts_railway_template_rationale_96",
+      "source": "scripts_railway_template_rationale_97",
       "target": "scripts_railway_template_cmd_render",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/railway_template.py",
-      "source_location": "L96",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -11470,6 +12611,28 @@
       "confidence_score": 1.0,
       "source_file": "scripts/rt_api.py",
       "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_rationale_1",
+      "target": "scripts_rt_apply",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_rationale_67",
+      "target": "scripts_rt_apply_apply_template",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -11704,6 +12867,28 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_rt_apply_rationale_19",
+      "target": "tests_test_rt_apply_fakeapi",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_rt_apply_rationale_73",
+      "target": "tests_test_rt_apply_test_all_services_exist_before_any_variables_are_set",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_rt_apply.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_rt_http_rationale_13",
       "target": "tests_test_rt_http_test_ssl_context_has_a_usable_trust_store",
       "relation": "rationale_for",
@@ -11756,7 +12941,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L162",
+      "source_location": "L178",
       "weight": 1.0
     },
     {
@@ -11768,7 +12953,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L166",
+      "source_location": "L182",
       "weight": 1.0
     },
     {
@@ -11780,7 +12965,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L171",
+      "source_location": "L187",
       "weight": 1.0
     },
     {
@@ -11792,7 +12977,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L177",
+      "source_location": "L193",
       "weight": 1.0
     },
     {
@@ -11804,7 +12989,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L181",
+      "source_location": "L197",
       "weight": 1.0
     },
     {
@@ -11816,7 +13001,19 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L193",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_railway_template_build_parser",
+      "target": "scripts_railway_template_cmd_apply",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "scripts/railway_template.py",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -11828,7 +13025,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L200",
+      "source_location": "L224",
       "weight": 1.0
     },
     {
@@ -11840,10 +13037,70 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "scripts/railway_template.py",
-      "source_location": "L206",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_create_domain",
+      "target": "scripts_rt_api_graphql",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_create_service",
+      "target": "scripts_rt_api_graphql",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_create_volumes",
+      "target": "scripts_rt_api_graphql",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_set_variables",
+      "target": "scripts_rt_api_graphql",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_rt_apply_update_instance",
+      "target": "scripts_rt_api_graphql",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "scripts/rt_apply.py",
+      "source_location": "L133",
       "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d786205121fdc137229e088b88f103699489c435"
+  "built_at_commit": "e98b6697b3135c8ef91fe1dff1bbbf9a4358a728"
 }

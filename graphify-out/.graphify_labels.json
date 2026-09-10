@@ -1,6 +1,6 @@
 {
-  "0": "properties",
-  "1": "template.schema.json",
+  "0": "template.schema.json",
+  "1": "$defs",
   "2": "properties",
   "3": "bump_digest.py",
   "4": "Aptabase Railway Template — Design",
@@ -10,12 +10,12 @@
   "8": "test_rt_api.py",
   "9": "rt_api.py",
   "10": "test_bump_digest.py",
-  "11": "test_rt_schema.py",
+  "11": "rt_schema.py",
   "12": "test_clickhouse_image.py",
   "13": "properties",
   "14": "test_rt_payload.py",
   "15": "Aptabase",
-  "16": "properties",
+  "16": "test_rt_apply.py",
   "17": "`serializedConfig`",
   "18": "test_rt_lint.py",
   "19": "Railway templates",
@@ -26,5 +26,6 @@
   "24": ".opencode/AGENTS.md",
   "25": "rules/caveman.md",
   "26": "rt_payload.py",
-  "27": "test_railway_template_cli.py"
+  "27": "test_railway_template_cli.py",
+  "28": "test_rt_schema.py"
 }

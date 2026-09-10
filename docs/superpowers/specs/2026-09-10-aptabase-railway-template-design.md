@@ -296,6 +296,39 @@ The workflow is therefore:
 offline operation. Step 1 provisions real, billable infrastructure, so what the original
 plan separated into an ungated "create" and a gated "deploy" is a single gated action.
 
+#### Correction: step 1 does not work either
+
+`templateDeployV2` returns an opaque `HTTP 400 "Problem processing request"` for every
+input, including Railway's own published `postgres` template with no configuration of
+ours involved, while `serviceCreate` and its siblings succeed with the same token in the
+same project. The mutation is not available from the public API.
+
+`scripts/rt_apply.py` replaces step 1: it builds the services with the ordinary service
+mutations, creating every service before writing any variable so that
+`${{postgres.POSTGRES_PASSWORD}}` and its kind have something to resolve against. The
+`deploy` subcommand is kept, unused, for the day the mutation opens up.
+
+#### Correction: `templateGenerate` is lossy
+
+A generated template is not a faithful copy of the project it came from. Two losses,
+both verified on 2026-09-10:
+
+- **Plain literal variable values are dropped.** `defaultValue` survives only for
+  `${{...}}` expressions. `PGDATA`, `POSTGRES_DB`, `POSTGRES_USER`, `CLICKHOUSE_USER`,
+  `PORT`, `REGION` and `ASPNETCORE_HTTP_PORTS` all came back valueless.
+- **`isOptional` is reset to `false` everywhere,** making the nine blank-by-design
+  `SMTP_*` and `OAUTH_*` variables required.
+
+The result is a template with roughly thirteen blank required fields, two of which
+(`POSTGRES_USER`, `POSTGRES_DB`) are hard-coded as `aptabase` inside the connection
+strings — a deployer who types anything else gets an app that cannot reach its database.
+Publishing that would be worse than publishing nothing.
+
+There is no `templateUpdate` mutation, so this cannot be repaired from here. The
+variables have to be fixed in Railway's template editor, using `template.json` as the
+source of truth, before the template is fit to publish. `${{secret(32, "...")}}` does
+survive generation, so a published template will not ship a fixed password.
+
 `SerializedTemplateConfig` is an opaque custom scalar whose shape cannot be introspected.
 It was reverse-engineered from the `serializedConfig` of 37 services across published
 templates, and recorded in `docs/railway-template-api.md`. Notably `serializedConfig` has
@@ -355,20 +388,26 @@ The work is done when all of the following hold:
    `templates/aptabase/template.json`.
 2. `railway_template.py render` emits a `serializedConfig` with all three services, and
    the whole test suite passes.
-3. `railway_template.py deploy` reaches a state where the Aptabase signup page loads over
-   the generated public domain.
+3. `railway_template.py apply` reaches a state where the Aptabase signup page loads over
+   the generated public domain. (`deploy`, the single-call `templateDeployV2` route this
+   spec assumed, is refused from the public API — see the correction below.)
 4. Registering an account produces an activation link retrievable from the `aptabase`
    deploy logs, and completing activation lands on the Aptabase dashboard.
 5. An event sent with an app key appears in the dashboard, proving the ClickHouse
    connection and its migrations work.
 6. `railway_template.py generate` produces a stored template, and `publish` puts it on
-   the marketplace.
+   the marketplace. **Publishing additionally requires hand-correcting the generated
+   template's variables in Railway's template editor** — see the second correction below.
 7. `railway_template.py bump` re-resolves the digest and produces a clean one-line diff.
 8. The repository baseline is satisfied: caveman rule files present, `RTK.md` at the
    repository root, and `graphify-out/graph.json` built.
 
 Criteria 3 through 6 require deploying to a real Railway workspace, which is a billable,
 outward-facing action. It happens only on explicit instruction.
+
+**Status on 2026-09-10:** 1, 2, 3, 4, 5, 7 and 8 hold. Criterion 6 is half-met — a stored
+template exists (`4123115a-b717-4b69-90c9-8de4a1471cbc`, code `Cg5if6`, name "Aptabase")
+but is deliberately left `UNPUBLISHED` because generation damaged its variables.
 
 ## Decisions recorded
 
@@ -379,7 +418,8 @@ outward-facing action. It happens only on explicit instruction.
 | ClickHouse | Custom image over `23.8.4.69-alpine` | Stock image (no memory or system-log tuning) |
 | App image pin | Digest | `:main` (non-reproducible); mirroring with semver tags (needs CI + registry) |
 | GraphQL mutations | Introspect first, then implement | Writing them from guesswork |
-| Template creation | `templateDeployV2` → `templateGenerate` → `templatePublish` | `templateCreate` (does not exist) |
+| Template creation | `rt_apply` service mutations → `templateGenerate` → `templatePublish` | `templateCreate` (does not exist); `templateDeployV2` (refused from the public API) |
+| Publishing the generated template | Blocked on hand-fixing its variables in the Railway editor | Publishing a template with ~13 blank required fields |
 | Health check timeout | `RAILWAY_HEALTHCHECK_TIMEOUT_SEC` variable | A `serializedConfig` field (none exists) |
 | ClickHouse `listen_host` | Declared in our own config | Inherited from upstream's `docker_related_config.xml` |
 | HTTPS trust store | certifi, pinned | The interpreter's own CA bundle (broken on this machine) |

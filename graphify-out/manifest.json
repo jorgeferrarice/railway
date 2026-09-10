@@ -1,145 +1,145 @@
 {
   "schema/template.schema.json": {
-    "mtime": 1789044815.7775488,
-    "seen": 1789045910.407607,
+    "mtime": 1789046383.3771179,
+    "seen": 1789046720.423077,
     "ast_hash": "d82b70cd91e99b7b926c0e2139df0ff2",
     "semantic_hash": ""
   },
   "scripts/bump_digest.py": {
-    "mtime": 1789045639.0473917,
-    "seen": 1789045910.407609,
+    "mtime": 1789046383.3788855,
+    "seen": 1789046720.4230778,
     "ast_hash": "e5d451ca51939f0b988133b55a9eb20a",
     "semantic_hash": ""
   },
   "scripts/railway_template.py": {
-    "mtime": 1789046249.304168,
-    "seen": 1789046282.050687,
-    "ast_hash": "f932f8c865a21fe5cf51bc58e84e2111",
+    "mtime": 1789046695.5882843,
+    "seen": 1789046720.423079,
+    "ast_hash": "18afd8230b08d7206693c8f465a49dbd",
     "semantic_hash": ""
   },
   "scripts/rt_api.py": {
-    "mtime": 1789045723.8872397,
-    "seen": 1789045910.4076102,
+    "mtime": 1789046383.3865833,
+    "seen": 1789046720.423079,
     "ast_hash": "f079bff06d5b5fa0417f7b26c4d4db35",
     "semantic_hash": ""
   },
   "scripts/rt_http.py": {
-    "mtime": 1789045623.5780349,
-    "seen": 1789045910.407611,
+    "mtime": 1789046383.3886259,
+    "seen": 1789046720.423081,
     "ast_hash": "601e4d1c40cd3ad61c6f661f8348c1c2",
     "semantic_hash": ""
   },
   "scripts/rt_lint.py": {
-    "mtime": 1789044866.8054705,
-    "seen": 1789045910.4076118,
+    "mtime": 1789046383.390755,
+    "seen": 1789046720.423081,
     "ast_hash": "3b6555e52aacef42c9bc72c2588b49c2",
     "semantic_hash": ""
   },
   "scripts/rt_schema.py": {
-    "mtime": 1789044823.9801462,
-    "seen": 1789045910.407613,
+    "mtime": 1789046383.3954391,
+    "seen": 1789046720.4230819,
     "ast_hash": "64496a6a493b82495848a966a02c4f23",
     "semantic_hash": ""
   },
   "templates/aptabase/clickhouse/railway.json": {
-    "mtime": 1789044970.8563063,
-    "seen": 1789045910.407618,
+    "mtime": 1789046383.406062,
+    "seen": 1789046720.423083,
     "ast_hash": "dce2b0c84d089df0c3eddd3f5558b8c9",
     "semantic_hash": ""
   },
   "templates/aptabase/template.json": {
-    "mtime": 1789045994.5420437,
-    "seen": 1789046019.762927,
+    "mtime": 1789046383.4107225,
+    "seen": 1789046720.423083,
     "ast_hash": "aa1da70d6fd34f7d9802a49b188fe652",
     "semantic_hash": ""
   },
   "tests/test_aptabase_template.py": {
-    "mtime": 1789045985.725697,
-    "seen": 1789046019.762928,
+    "mtime": 1789046383.4126778,
+    "seen": 1789046720.423084,
     "ast_hash": "00aad2e8fb091871f49ef612dafb4fb5",
     "semantic_hash": ""
   },
   "tests/test_bump_digest.py": {
-    "mtime": 1789045334.5885108,
-    "seen": 1789045910.4076202,
+    "mtime": 1789046383.4148948,
+    "seen": 1789046720.423084,
     "ast_hash": "64c67c267e6bfac2508a2debef654fbf",
     "semantic_hash": ""
   },
   "tests/test_clickhouse_image.py": {
-    "mtime": 1789045243.2621424,
-    "seen": 1789045910.4076211,
+    "mtime": 1789046383.4169812,
+    "seen": 1789046720.423085,
     "ast_hash": "69ce2e6a32103aa68e309553d7587814",
     "semantic_hash": ""
   },
   "tests/test_rt_api.py": {
-    "mtime": 1789045712.927945,
-    "seen": 1789045910.4076211,
+    "mtime": 1789046383.421067,
+    "seen": 1789046720.4230862,
     "ast_hash": "4b433578a1c51936a9b87f74d42a3eab",
     "semantic_hash": ""
   },
   "tests/test_rt_http.py": {
-    "mtime": 1789045613.7617025,
-    "seen": 1789045910.4076219,
+    "mtime": 1789046383.423219,
+    "seen": 1789046720.4230862,
     "ast_hash": "dd1355c531dadff94ca9403c4af859d8",
     "semantic_hash": ""
   },
   "tests/test_rt_lint.py": {
-    "mtime": 1789044848.3292139,
-    "seen": 1789045910.4076219,
+    "mtime": 1789046383.4255846,
+    "seen": 1789046720.4230871,
     "ast_hash": "d15ff910b1c5312f62b5f2fec1fc2422",
     "semantic_hash": ""
   },
   "tests/test_rt_schema.py": {
-    "mtime": 1789044798.5695686,
-    "seen": 1789045910.4076228,
+    "mtime": 1789046383.4296927,
+    "seen": 1789046720.423088,
     "ast_hash": "d12ec75ca16f8f27891b75452e570c56",
     "semantic_hash": ""
   },
   ".clinerules/caveman.md": {
-    "mtime": 1789044750.453068,
-    "seen": 1789045910.4076228,
+    "mtime": 1789046383.3137062,
+    "seen": 1789046720.423088,
     "ast_hash": "cceced69f98870064e4bded7dcffdb62",
     "semantic_hash": ""
   },
   ".github/copilot-instructions.md": {
-    "mtime": 1789044750.453329,
-    "seen": 1789045910.407624,
+    "mtime": 1789046383.318067,
+    "seen": 1789046720.4230888,
     "ast_hash": "77ad6909b1993f41b754d519502524b4",
     "semantic_hash": ""
   },
   ".opencode/AGENTS.md": {
-    "mtime": 1789044750.4535139,
-    "seen": 1789045910.407624,
+    "mtime": 1789046383.3220134,
+    "seen": 1789046720.4230888,
     "ast_hash": "77ad6909b1993f41b754d519502524b4",
     "semantic_hash": ""
   },
   ".windsurf/rules/caveman.md": {
-    "mtime": 1789044750.4528608,
-    "seen": 1789045910.407625,
+    "mtime": 1789046383.3243518,
+    "seen": 1789046720.42309,
     "ast_hash": "daf0c224d4db88cc6901a8403146499f",
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1789044750.4537213,
-    "seen": 1789045910.407625,
+    "mtime": 1789046383.3245144,
+    "seen": 1789046720.42309,
     "ast_hash": "77ad6909b1993f41b754d519502524b4",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1789044709.1635604,
-    "seen": 1789045910.407626,
+    "mtime": 1789046383.3264515,
+    "seen": 1789046720.423091,
     "ast_hash": "ce532f3fbce886c672c30fb177cb5bad",
     "semantic_hash": ""
   },
   "RTK.md": {
-    "mtime": 1789044713.6928997,
-    "seen": 1789045910.407626,
+    "mtime": 1789046383.3268855,
+    "seen": 1789046720.423091,
     "ast_hash": "e5c0084e0dd62f39beb77640ef022d26",
     "semantic_hash": ""
   },
   "docs/railway-template-api.md": {
-    "mtime": 1789045884.064382,
-    "seen": 1789045910.407627,
+    "mtime": 1789046383.3312056,
+    "seen": 1789046720.423092,
     "ast_hash": "e3c6102e384a20f38b248797105d0085",
     "semantic_hash": ""
   },
@@ -150,39 +150,51 @@
     "semantic_hash": ""
   },
   "docs/superpowers/specs/2026-09-10-aptabase-railway-template-design.md": {
-    "mtime": 1789046326.5561202,
-    "seen": 1789046334.144633,
+    "mtime": 1789046383.345276,
+    "seen": 1789046720.423127,
     "ast_hash": "bf2c4a8862f2f010abcd1ff7fab63be5",
     "semantic_hash": ""
   },
   "requirements-dev.txt": {
-    "mtime": 1789045607.9992056,
-    "seen": 1789045910.407628,
+    "mtime": 1789046383.3750203,
+    "seen": 1789046720.4231281,
     "ast_hash": "c96c5eeea70f5a3bb83f09f8d355de7f",
     "semantic_hash": ""
   },
   "templates/aptabase/README.md": {
-    "mtime": 1789045458.5544565,
-    "seen": 1789045910.407628,
+    "mtime": 1789046383.4012678,
+    "seen": 1789046720.423129,
     "ast_hash": "137089e9442238ddcfe1446990da73f5",
     "semantic_hash": ""
   },
   "scripts/rt_payload.py": {
-    "mtime": 1789046161.4975543,
-    "seen": 1789046189.691575,
+    "mtime": 1789046383.3949652,
+    "seen": 1789046720.4230819,
     "ast_hash": "e9aadd909ce2e387b68ee848bfb69f98",
     "semantic_hash": ""
   },
   "tests/test_rt_payload.py": {
-    "mtime": 1789046136.5298874,
-    "seen": 1789046189.691725,
+    "mtime": 1789046383.4276438,
+    "seen": 1789046720.4230871,
     "ast_hash": "08db3ebbef705537ad7725a896baa9ae",
     "semantic_hash": ""
   },
   "tests/test_railway_template_cli.py": {
-    "mtime": 1789046219.1318521,
-    "seen": 1789046282.050865,
+    "mtime": 1789046383.419212,
+    "seen": 1789046720.423085,
     "ast_hash": "00587db79c7b9c12532749b745a0d129",
+    "semantic_hash": ""
+  },
+  "scripts/rt_apply.py": {
+    "mtime": 1789046679.4491239,
+    "seen": 1789046720.42308,
+    "ast_hash": "0190a268214a413e9608a7b2729704be",
+    "semantic_hash": ""
+  },
+  "tests/test_rt_apply.py": {
+    "mtime": 1789046655.7966099,
+    "seen": 1789046720.4230862,
+    "ast_hash": "276c068e6a64177ccb48755968b15631",
     "semantic_hash": ""
   }
 }

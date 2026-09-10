@@ -59,6 +59,57 @@ described:
 Step 1 creates real, billable infrastructure. There is no way to register a template from
 a definition without deploying it first.
 
+## `templateDeployV2` is refused from the public API
+
+Verified on 2026-09-10 by bisection. Every call returns
+`HTTP 400 {"message":"Problem processing request"}`, with no detail, for:
+
+- our own `serializedConfig`, from a full three-service config down to a single
+  service with nothing but a name and an image;
+- `serializedConfig` sent as a JSON object and as a JSON string;
+- Railway's own published `postgres` template by `templateId`, with no config of ours
+  involved at all;
+- every combination of `projectId`, `environmentId` and `workspaceId`, with and without
+  `stageOnly`.
+
+Meanwhile `serviceCreate`, `variableCollectionUpsert`, `volumeCreate`,
+`serviceDomainCreate` and `serviceInstanceUpdate` all succeed with the same token in the
+same project, and `query { me { id } }` resolves. The token is a valid account token; the
+mutation itself is not available.
+
+`scripts/rt_apply.py` therefore builds services with the ordinary service mutations, and
+the template is produced from the finished project with `templateGenerate`.
+
+## What `templateGenerate` drops
+
+**A generated template is not a faithful copy of the project it came from.** Verified on
+2026-09-10 against a project built from `templates/aptabase/template.json`:
+
+1. **Plain literal variable values are discarded.** `defaultValue` survives only when the
+   value is a `${{...}}` expression — a reference like
+   `${{postgres.RAILWAY_PRIVATE_DOMAIN}}` or a function like `${{secret(32, "...")}}`.
+   Literals are emitted as `{"isOptional": false}` with no `defaultValue` at all.
+
+   Lost in our case: `PGDATA`, `POSTGRES_DB`, `POSTGRES_USER`, `CLICKHOUSE_USER`,
+   `PORT`, `REGION`, `ASPNETCORE_HTTP_PORTS`.
+
+2. **`isOptional` is reset to `false` for everything.** The nine blank-by-design `SMTP_*`
+   and `OAUTH_*` variables all come back required.
+
+Together these turn a deployable definition into one with roughly thirteen blank required
+fields, including `POSTGRES_USER` and `POSTGRES_DB` — which the connection strings
+hard-code as `aptabase`, so a deployer who types anything else gets an app that cannot
+reach its database.
+
+There is no `templateUpdate` mutation, so this **cannot be repaired through the API**. The
+variables have to be corrected in Railway's template editor before the template is fit to
+publish.
+
+The good news, since it was the main worry going in: `${{secret(32, "...")}}` survives
+generation intact. Railway keeps the generator expression rather than the value it
+expanded to when the project was built, so a published template does not ship a fixed
+password.
+
 ## `serializedConfig`
 
 `SerializedTemplateConfig` is a **custom scalar** — an opaque JSON blob. Its shape cannot

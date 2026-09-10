@@ -24,8 +24,14 @@ Deploy from the Railway template, or from a checkout of this repository:
 
 ```bash
 export RAILWAY_API_TOKEN=...
-.venv/bin/python scripts/railway_template.py deploy templates/aptabase/template.json --project-id <project id>
+.venv/bin/python scripts/railway_template.py apply templates/aptabase/template.json \
+    --project-id <project id> --environment-id <environment id>
 ```
+
+`apply` builds the services one by one with Railway's ordinary service mutations.
+The `deploy` subcommand, which sends the whole definition as one `templateDeployV2`
+call, is kept for the day Railway opens that mutation up; today it is refused from the
+public API. See [../../docs/railway-template-api.md](../../docs/railway-template-api.md).
 
 The first deploy is slow. Aptabase runs its PostgreSQL and ClickHouse migrations before
 Kestrel starts listening, so `/healthz` stays unreachable until migrations finish. The
@@ -89,12 +95,15 @@ before bumping.
 .venv/bin/python scripts/railway_template.py bump templates/aptabase/template.json --service aptabase --tag main
 ```
 
-Review the one-line diff, commit it, then push the template update to Railway with
-`railway_template.py update`.
+Review the one-line diff and commit it. Railway has no mutation that updates a stored
+template, so a published template picks the new digest up only by being regenerated from
+a project built with it.
 
 ## Storage
 
-`postgres` and `clickhouse` each mount a volume; Railway's default size is 5 GB.
+`postgres` and `clickhouse` each mount a volume. Railway sized both at 50 GB when this
+template was deployed; the default is set by your plan, not by the template, which asks
+only for a mount path.
 
 ClickHouse's high-volume system log tables (`trace_log`, `metric_log`,
 `asynchronous_metric_log`, `session_log`, `text_log`, `crash_log`) are disabled in
@@ -127,3 +136,18 @@ To grow a volume, open the service in Railway, select the volume and increase it
 
 Icon and banner assets are supplied through the Railway template editor. Aptabase's
 trademarks are not vendored into this repository.
+
+### Publishing is not a one-command step
+
+A stored template comes from `templateGenerate`, which reads a deployed project — Railway
+has no mutation that registers a template from a definition. Generation is lossy in two
+ways that matter here:
+
+- variable values survive only when they are `${{...}}` expressions; plain literals such
+  as `PORT`, `REGION`, `POSTGRES_USER` and `POSTGRES_DB` come back with no value;
+- every variable comes back required, so the nine blank-by-design `SMTP_*` and `OAUTH_*`
+  variables would be forced on the deployer.
+
+Both have to be corrected by hand in Railway's template editor before publishing, and
+there is no `templateUpdate` mutation to do it from here. `template.json` remains the
+source of truth for what the corrected values should be.
